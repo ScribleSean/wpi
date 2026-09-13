@@ -11,6 +11,7 @@ My coursework at Worcester Polytechnic Institute, organized by course and assign
 | [CS2303](courses/cs2303/) | C/C++ assignments and labs, including stacks and CSV processing |
 | [CS3733](courses/cs3733/) | Service-request UI, number conversion, and tax-strategy exercises |
 | [CS4241: Webware](courses/cs4241/) | A progression from HTML/CSS to Node, Express, MongoDB, and React |
+| [CS542: Database Management Systems](courses/cs542/) | Index to the standalone What's Cooking team application |
 | [Data visualization](courses/data-visualization/) | An interactive basketball court, one dataset visualized in seven tools, and clearly labeled experiment starter material |
 
 ## Larger projects
