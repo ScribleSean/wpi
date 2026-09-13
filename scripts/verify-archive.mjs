@@ -3,6 +3,7 @@ import {readFileSync,readdirSync,existsSync,statSync} from 'node:fs';
 import {createHash} from 'node:crypto';
 import {fileURLToPath} from 'node:url';
 import path from 'node:path';
+import {execFileSync} from 'node:child_process';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const manifest=JSON.parse(readFileSync(path.join(root,'docs/import-manifest.json')));
 let verified=0;const destinations=new Set();
@@ -12,6 +13,10 @@ for(const source of manifest.sources){
   assert(!destinations.has(file.destination),'Duplicate destination');destinations.add(file.destination);
   const resolved=path.resolve(root,file.destination);assert(resolved.startsWith(root+path.sep));
   const data=readFileSync(resolved);assert.equal(createHash('sha256').update(data).digest('hex'),file.sha256,file.destination);verified++;
+  if(existsSync(path.join(root,'.git'))){
+   const committed=execFileSync('git',['-C',root,'show',`HEAD:${file.destination}`],{maxBuffer:20e6});
+   assert.equal(createHash('sha256').update(committed).digest('hex'),file.sha256,'Committed bytes: '+file.destination);
+  }
  }
 }
 function walk(dir){return readdirSync(dir,{withFileTypes:true}).flatMap(e=>e.name==='.git'?[]:e.isDirectory()?walk(path.join(dir,e.name)):[path.join(dir,e.name)]);}
