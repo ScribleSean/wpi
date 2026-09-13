@@ -1,0 +1,2 @@
+# Preserve imported bytes so provenance checks are identical across platforms.
+* -text
