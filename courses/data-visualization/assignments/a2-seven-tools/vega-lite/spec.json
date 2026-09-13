@@ -1,0 +1,42 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "penguin scatter: flipper vs body mass, color=species, size=bill length",
+  "data": { "url": "../penglings.csv" },
+  "transform": [
+    { "filter": "datum.flipper_length_mm != null && datum.body_mass_g != null && datum.bill_length_mm != null" }
+  ],
+  "mark": {
+    "type": "point",
+    "opacity": 0.8,
+    "filled": true
+  },
+  "encoding": {
+    "x": {
+      "field": "flipper_length_mm",
+      "type": "quantitative",
+      "title": "Flipper Length (mm)",
+      "scale": { "zero": false }
+    },
+    "y": {
+      "field": "body_mass_g",
+      "type": "quantitative",
+      "title": "Body Mass (g)",
+      "scale": { "zero": false }
+    },
+    "color": {
+      "field": "species",
+      "type": "nominal",
+      "scale": {
+        "domain": ["Adelie", "Chinstrap", "Gentoo"],
+        "range": ["#F5A623", "#9B59B6", "#1ABC9C"]
+      }
+    },
+    "size": {
+      "field": "bill_length_mm",
+      "type": "quantitative",
+      "title": "Bill Length (mm)"
+    }
+  },
+  "width": 600,
+  "height": 450
+}

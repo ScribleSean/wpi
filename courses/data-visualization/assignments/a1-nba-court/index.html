@@ -1,0 +1,869 @@
+<!doctype html>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  #container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d2691e;
+    position: relative;
+  }
+  #container svg {
+    width: 100%;
+    height: 100%;
+    max-width: 100vw;
+    max-height: 100vh;
+  }
+  .tooltip {
+    position: fixed;
+    pointer-events: none;
+    padding: 6px 10px;
+    background: rgba(0, 0, 0, 0.85);
+    color: #fff;
+    font: 12px sans-serif;
+    border-radius: 4px;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 0.1s;
+    z-index: 10;
+  }
+  .tooltip.visible {
+    opacity: 1;
+  }
+  .zone-label-locked {
+    position: fixed;
+    top: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 8px 16px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    font: 14px sans-serif;
+    border-radius: 6px;
+    pointer-events: none;
+    z-index: 10;
+    opacity: 0;
+    transition: opacity 0.15s;
+  }
+  .zone-label-locked.visible {
+    opacity: 1;
+  }
+</style>
+<div id="container">
+  <div class="tooltip" id="tooltip"></div>
+  <div class="zone-label-locked" id="zone-label-locked"></div>
+</div>
+<script type="module">
+  import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
+
+  // ai was used to generate dimensions of court to match nba standards
+
+  // overall court
+  const courtLength = 94; // feet (baseline to baseline)
+  const courtWidth = 50; // feet (sideline to sideline)
+
+  // center line & circle
+  const centerLineY = courtLength / 2;
+
+  const centerCircleRadius = 6; // feet
+  const centerCircleLineWidth = 2 / 12; // feet (2 inches)
+
+  // basket placement
+  const basketCenterX = courtWidth / 2;
+  const basketCenterYFromBaseline = 5.25; // feet (63 inches)
+
+  // rim
+  const rimRadius = 0.75; // feet (18 inches diameter)
+  const rimDiameter = 1.5; // feet
+
+  // backboard
+  const backboardYFromBaseline = 4; // feet
+
+  // backboard inner rectangle (shooter's square)
+  const backboardBoxWidth = 2; // feet
+  const backboardBoxHeight = 1.5; // feet
+
+  // lane (the paint)
+  const laneWidth = 16; // feet
+  const laneLength = 19; // feet (baseline to FT line)
+
+  // free throw
+  const freeThrowLineY = 19; // feet from baseline
+  const freeThrowCircleRadius = 6; // feet
+
+  // free throw circle (top & bottom halves)
+  const ftCircleLineWidth = 2 / 12; // feet (2 inches)
+
+  // lane hash marks (defensive & offensive)
+  const laneMarkDistanceFromFt = 7; // feet between marks
+  const laneMarkLength = 1; // feet
+  const laneMarkOffsetX = laneWidth / 2;
+
+  // three-point arc
+  const threePointRadius = 23.75; // feet (23'9")
+  const threePointSideRadius = 22; // feet (corner)
+
+  // corner three
+  const cornerThreeDistance = 22; // feet from basket center
+  const cornerThreeY = 14; // feet from baseline to where arc begins
+
+  // restricted area
+  const restrictedRadius = 4; // feet
+
+  // court boundaries
+  const lineWidth = 2 / 12; // feet (2 inches)
+
+  // coach box (optional but realistic)
+  const coachBoxLength = 28; // feet
+  const coachBoxOffsetY = 28; // feet from baseline
+
+  // Calculate viewBox dimensions (in feet)
+  // Using viewBox allows SVG to scale automatically to fit the container
+  const viewBoxWidth = courtLength;
+  const viewBoxHeight = courtWidth;
+
+  // create svg with viewBox for responsive scaling
+  const svg = d3
+    .select("#container")
+    .append("svg")
+    .attr("viewBox", `0 0 ${viewBoxWidth} ${viewBoxHeight}`)
+    .attr("preserveAspectRatio", "xMidYMid meet")
+    .style("background-color", "#d2691e");
+
+  // court outline
+  svg
+    .append("rect")
+    .attr("width", viewBoxWidth)
+    .attr("height", viewBoxHeight)
+    .attr("fill", "#d2691e")
+    .attr("stroke", "white")
+    .attr("stroke-width", lineWidth);
+
+  // center court circle
+  svg
+    .append("circle")
+    .attr("cx", courtLength / 2)
+    .attr("cy", courtWidth / 2)
+    .attr("r", centerCircleRadius)
+    .attr("fill", "none")
+    .attr("stroke", "white")
+    .attr("stroke-width", centerCircleLineWidth);
+  // center circle inner dot
+  svg
+    .append("circle")
+    .attr("cx", courtLength / 2)
+    .attr("cy", courtWidth / 2)
+    .attr("r", 0.75) // 9 inches
+    .attr("fill", "white");
+
+  // helper function to draw baselines and sidelines
+  function drawCourt() {
+    // baseline (top and bottom)
+    svg
+      .append("line")
+      .attr("x1", 0)
+      .attr("y1", 0)
+      .attr("x2", courtLength)
+      .attr("y2", 0)
+      .attr("stroke", "white")
+      .attr("stroke-width", lineWidth);
+
+    svg
+      .append("line")
+      .attr("x1", 0)
+      .attr("y1", courtWidth)
+      .attr("x2", courtLength)
+      .attr("y2", courtWidth)
+      .attr("stroke", "white")
+      .attr("stroke-width", lineWidth);
+
+    // sidelines
+    svg
+      .append("line")
+      .attr("x1", 0)
+      .attr("y1", 0)
+      .attr("x2", 0)
+      .attr("y2", courtWidth)
+      .attr("stroke", "white")
+      .attr("stroke-width", lineWidth);
+
+    svg
+      .append("line")
+      .attr("x1", courtLength)
+      .attr("y1", 0)
+      .attr("x2", courtLength)
+      .attr("y2", courtWidth)
+      .attr("stroke", "white")
+      .attr("stroke-width", lineWidth);
+
+    // center line
+    svg
+      .append("line")
+      .attr("x1", courtLength / 2)
+      .attr("y1", 0)
+      .attr("x2", courtLength / 2)
+      .attr("y2", courtWidth)
+      .attr("stroke", "white")
+      .attr("stroke-width", lineWidth);
+  }
+
+  drawCourt();
+
+  // create groups for left and right halves with mirroring
+  const leftHalf = svg.append("g").attr("class", "left-half");
+  const rightHalf = svg
+    .append("g")
+    .attr("class", "right-half")
+    .attr("transform", `translate(${courtLength}, 0) scale(-1, 1)`);
+
+  // function to draw a basket
+  function drawBasket(container, baselineX) {
+    const basketX = baselineX + basketCenterYFromBaseline;
+    const basketY = courtWidth / 2;
+
+    // backboard
+    container
+      .append("line")
+      .attr("x1", basketX)
+      .attr("y1", basketY - backboardBoxWidth / 2)
+      .attr("x2", basketX)
+      .attr("y2", basketY + backboardBoxWidth / 2)
+      .attr("stroke", "white")
+      .attr("stroke-width", lineWidth);
+
+    // shooter's square (box above basket)
+    container
+      .append("rect")
+      .attr("x", basketX - backboardBoxHeight)
+      .attr("y", basketY - backboardBoxWidth / 2)
+      .attr("width", backboardBoxHeight)
+      .attr("height", backboardBoxWidth)
+      .attr("fill", "none")
+      .attr("stroke", "white")
+      .attr("stroke-width", lineWidth);
+
+    // rim
+    container
+      .append("circle")
+      .attr("class", "rim")
+      .attr("cx", basketX)
+      .attr("cy", basketY)
+      .attr("r", rimRadius)
+      .attr("fill", "none")
+      .attr("stroke", "red")
+      .attr("stroke-width", 0.15);
+  }
+
+  // function to draw the paint (lane)
+  function drawPaint(container, baselineX) {
+    const laneStartX = baselineX;
+    const laneStartY = courtWidth / 2 - laneWidth / 2;
+
+    // lane rectangle
+    container
+      .append("rect")
+      .attr("x", laneStartX)
+      .attr("y", laneStartY)
+      .attr("width", laneLength)
+      .attr("height", laneWidth)
+      .attr("fill", "none")
+      .attr("stroke", "white")
+      .attr("stroke-width", lineWidth);
+
+    // restricted area (4-foot semicircle)
+    const restrictedCenterX = baselineX + laneLength;
+    const restrictedCenterY = courtWidth / 2;
+
+    container
+      .append("path")
+      .attr(
+        "d",
+        `M ${restrictedCenterX} ${restrictedCenterY - restrictedRadius}
+         A ${restrictedRadius} ${restrictedRadius} 0 0 1 ${restrictedCenterX} ${restrictedCenterY + restrictedRadius}`,
+      )
+      .attr("fill", "none")
+      .attr("stroke", "white")
+      .attr("stroke-width", lineWidth);
+  }
+
+  // function to draw free throw circle
+  function drawFreeThrowCircle(container, baselineX) {
+    const ftCenterX = baselineX + freeThrowLineY;
+    const ftCenterY = courtWidth / 2;
+
+    // free throw line
+    container
+      .append("line")
+      .attr("x1", ftCenterX)
+      .attr("y1", courtWidth / 2 - laneWidth / 2)
+      .attr("x2", ftCenterX)
+      .attr("y2", courtWidth / 2 + laneWidth / 2)
+      .attr("stroke", "white")
+      .attr("stroke-width", lineWidth);
+
+    // free throw circle (full circle, with half dashed)
+    container
+      .append("circle")
+      .attr("cx", ftCenterX)
+      .attr("cy", ftCenterY)
+      .attr("r", freeThrowCircleRadius)
+      .attr("fill", "none")
+      .attr("stroke", "white")
+      .attr("stroke-width", ftCircleLineWidth)
+      .attr("stroke-dasharray", "0.5,0.5");
+  }
+
+  // function to draw three-point line
+  function drawThreePointLine(container, baselineX) {
+    const basketY = courtWidth / 2;
+
+    // three-point arc corners
+    const topCornerX = baselineX + cornerThreeY;
+    const topCornerY = courtWidth / 2 - cornerThreeDistance;
+
+    const bottomCornerX = baselineX + cornerThreeY;
+    const bottomCornerY = courtWidth / 2 + cornerThreeDistance;
+
+    // main arc (from top corner to bottom corner, curving out)
+    container
+      .append("path")
+      .attr(
+        "d",
+        `M ${topCornerX} ${topCornerY}
+         A ${threePointRadius} ${threePointRadius} 0 0 1 ${bottomCornerX} ${bottomCornerY}`,
+      )
+      .attr("fill", "none")
+      .attr("stroke", "white")
+      .attr("stroke-width", lineWidth);
+
+    // top corner line
+    container
+      .append("line")
+      .attr("x1", baselineX)
+      .attr("y1", topCornerY)
+      .attr("x2", topCornerX)
+      .attr("y2", topCornerY)
+      .attr("stroke", "white")
+      .attr("stroke-width", lineWidth);
+
+    // bottom corner line
+    container
+      .append("line")
+      .attr("x1", baselineX)
+      .attr("y1", bottomCornerY)
+      .attr("x2", bottomCornerX)
+      .attr("y2", bottomCornerY)
+      .attr("stroke", "white")
+      .attr("stroke-width", lineWidth);
+  }
+
+  // draw left half court elements
+  drawBasket(leftHalf, 0);
+  drawPaint(leftHalf, 0);
+  drawFreeThrowCircle(leftHalf, 0);
+  drawThreePointLine(leftHalf, 0);
+
+  // draw right half court elements (mirrored)
+  drawBasket(rightHalf, 0);
+  drawPaint(rightHalf, 0);
+  drawFreeThrowCircle(rightHalf, 0);
+  drawThreePointLine(rightHalf, 0);
+
+  // Interactive shooting zones
+  // Zone definitions: [minDistance, maxDistance, label]
+  const zones = [
+    [0, 3, "0-3 ft"],
+    [3, 10, "3-10 ft"],
+    [10, 16, "10-16 ft"],
+    [16, 23.75, "16-3pt"],
+    [23.75, 50, "3pt+"],
+  ];
+
+  // Color schemes for each side
+  const leftColors = [
+    "#1e88e5", // Blue
+    "#42a5f5", // Light Blue
+    "#64b5f6", // Lighter Blue
+    "#90caf9", // Very Light Blue
+    "#bbdefb", // Pale Blue
+  ];
+
+  const rightColors = [
+    "#e65100", // Deep Orange
+    "#f57c00", // Orange
+    "#fb8c00", // Light Orange
+    "#ff9800", // Lighter Orange
+    "#ffb74d", // Pale Orange
+  ];
+
+  // Create groups for interactive zones
+  const leftZonesGroup = svg
+    .append("g")
+    .attr("class", "left-zones")
+    .attr("opacity", 1)
+    .style("pointer-events", "none");
+
+  const rightZonesGroup = svg
+    .append("g")
+    .attr("class", "right-zones")
+    .attr("opacity", 1)
+    .style("pointer-events", "none");
+
+  // Function to create zone paths as annulus (ring) shapes
+  function createZonePath(container, baselineX, minDist, maxDist, color) {
+    const basketX = baselineX + basketCenterYFromBaseline;
+    const basketY = courtWidth / 2;
+
+    const minRadius = minDist;
+    const maxRadius = maxDist;
+
+    const path = container
+      .append("path")
+      .attr("fill", color)
+      .attr("fill-rule", "evenodd")
+      .attr("opacity", 0)
+      .attr("stroke", "none")
+      .attr("shape-rendering", "geometricPrecision");
+
+    // Create annulus (ring) using evenodd fill rule
+    if (maxDist <= 23.75) {
+      // Standard circular annulus
+      // Outer circle (clockwise)
+      let pathData = `M ${basketX} ${basketY - maxRadius}`;
+      pathData += ` A ${maxRadius} ${maxRadius} 0 0 1 ${basketX} ${basketY + maxRadius}`;
+      pathData += ` A ${maxRadius} ${maxRadius} 0 0 1 ${basketX} ${basketY - maxRadius}`;
+      pathData += ` Z`;
+
+      // Inner circle (counter-clockwise) - creates hole with evenodd rule
+      if (minDist > 0) {
+        pathData += ` M ${basketX} ${basketY - minRadius}`;
+        pathData += ` A ${minRadius} ${minRadius} 0 0 0 ${basketX} ${basketY + minRadius}`;
+        pathData += ` A ${minRadius} ${minRadius} 0 0 0 ${basketX} ${basketY - minRadius}`;
+        pathData += ` Z`;
+      }
+
+      path.attr("d", pathData);
+    } else {
+      // For 3pt+ zone, create shape beyond 3pt line
+      const cornerThreeY = 14;
+      const cornerThreeDist = 22;
+      const threePtRadius = 23.75;
+
+      const topCornerX = baselineX + cornerThreeY;
+      const topCornerY = basketY - cornerThreeDist;
+      const bottomCornerY = basketY + cornerThreeDist;
+      const baselineX_px = baselineX;
+
+      // Create path from 3pt line to court edge
+      let pathData = `M ${topCornerX} ${topCornerY}`;
+      // Follow 3pt arc to bottom corner
+      pathData += ` A ${threePtRadius} ${threePtRadius} 0 0 1 ${topCornerX} ${bottomCornerY}`;
+      // Extend to baseline
+      pathData += ` L ${baselineX_px} ${bottomCornerY}`;
+      // Along baseline
+      pathData += ` L ${baselineX_px} ${topCornerY}`;
+      // Back to top corner
+      pathData += ` L ${topCornerX} ${topCornerY}`;
+      // Inner boundary (3pt line) - counter-clockwise
+      pathData += ` M ${topCornerX} ${topCornerY}`;
+      pathData += ` A ${threePtRadius} ${threePtRadius} 0 0 0 ${topCornerX} ${bottomCornerY}`;
+      pathData += ` Z`;
+
+      path.attr("d", pathData);
+    }
+
+    return path;
+  }
+
+  // Function to create 3pt+ zone for one side (from 3pt arc to center line)
+  function createThreePtPlusZone(container, baselineX, color) {
+    const basketY = courtWidth / 2;
+    const cornerThreeY = 14;
+    const cornerThreeDist = 22;
+    const threePtRadius = 23.75;
+    const centerX = courtLength / 2;
+    const baselineX_px = baselineX;
+
+    // 3pt arc corners (where straight segments meet the arc)
+    const topCornerX = baselineX_px + cornerThreeY;
+    const topCornerY = basketY - cornerThreeDist;
+    const bottomCornerX = baselineX_px + cornerThreeY;
+    const bottomCornerY = basketY + cornerThreeDist;
+
+    // Court boundaries
+    const topSidelineY = 0;
+    const bottomSidelineY = courtWidth;
+
+    const path = container
+      .append("path")
+      .attr("fill", color)
+      .attr("fill-rule", "evenodd")
+      .attr("opacity", 0)
+      .attr("stroke", "none")
+      .attr("shape-rendering", "geometricPrecision");
+
+    // Create path for area beyond 3pt line, extending to center line
+    // Outer boundary: rectangle from baseline to center line, full court width
+    let pathData = `M ${baselineX_px} ${topSidelineY}`;
+    // Along top sideline to center line
+    pathData += ` L ${centerX} ${topSidelineY}`;
+    // Along center line to bottom
+    pathData += ` L ${centerX} ${bottomSidelineY}`;
+    // Along bottom sideline back to baseline
+    pathData += ` L ${baselineX_px} ${bottomSidelineY}`;
+    // Back to start
+    pathData += ` Z`;
+
+    // Inner boundary: 3pt line (creates hole with evenodd rule)
+    // Start at baseline top corner (where top straight segment starts)
+    pathData += ` M ${baselineX_px} ${topCornerY}`;
+    // Top straight segment to arc corner
+    pathData += ` L ${topCornerX} ${topCornerY}`;
+    // Follow 3pt arc to bottom corner (clockwise)
+    pathData += ` A ${threePtRadius} ${threePtRadius} 0 0 1 ${bottomCornerX} ${bottomCornerY}`;
+    // Bottom straight segment back to baseline
+    pathData += ` L ${baselineX_px} ${bottomCornerY}`;
+    // Close the inner boundary
+    pathData += ` Z`;
+
+    path.attr("d", pathData);
+    return path;
+  }
+
+  // Store references to individual zone paths
+  const leftZonePaths = [];
+  const rightZonePaths = [];
+
+  // Create zones for left side (excluding 3pt+ zone)
+  zones.slice(0, -1).forEach((zone, i) => {
+    const path = createZonePath(
+      leftZonesGroup,
+      0,
+      zone[0],
+      zone[1],
+      leftColors[i],
+    );
+    leftZonePaths.push(path);
+  });
+
+  // Create zones for right side (excluding 3pt+ zone)
+  zones.slice(0, -1).forEach((zone, i) => {
+    const path = createZonePath(
+      rightZonesGroup,
+      0,
+      zone[0],
+      zone[1],
+      rightColors[i],
+    );
+    rightZonePaths.push(path);
+  });
+
+  // Create special 3pt+ zones for each side
+  // Left side 3pt+ zone (from left 3pt arc to center line)
+  const threePtPlusZoneLeft = createThreePtPlusZone(
+    leftZonesGroup,
+    0,
+    leftColors[leftColors.length - 1],
+  );
+  // Right side 3pt+ zone (from right 3pt arc to center line)
+  // Create in rightZonesGroup which is already mirrored
+  const threePtPlusZoneRight = createThreePtPlusZone(
+    rightZonesGroup,
+    0,
+    rightColors[rightColors.length - 1],
+  );
+
+  // Apply mirror transform to right zones group
+  rightZonesGroup.attr(
+    "transform",
+    `translate(${courtLength}, 0) scale(-1, 1)`,
+  );
+
+  // Helper function to calculate distance from point to basket
+  function distanceToBasket(x, y, basketX, basketY) {
+    const dx = x - basketX;
+    const dy = y - basketY;
+    return Math.sqrt(dx * dx + dy * dy); // Already in feet (viewBox units)
+  }
+
+  // Helper function to determine which zone a distance falls into
+  function getZoneIndex(distance) {
+    for (let i = 0; i < zones.length; i++) {
+      const [minDist, maxDist] = zones[i];
+      if (distance >= minDist && distance < maxDist) {
+        return i;
+      }
+    }
+    return -1; // Outside all zones
+  }
+
+  // Tooltip and locked-zone UI
+  const tooltipEl = document.getElementById("tooltip");
+  const zoneLabelLockedEl = document.getElementById("zone-label-locked");
+
+  // State: locked zone (right-click), current hover zone (for tooltip)
+  let lockedZone = null; // { side: "left"|"right", zoneIndex: number } | null
+  let currentHoverZone = null; // { side, zoneIndex } | null
+
+  function showZoneHighlight(side, zoneIndex, useTransition) {
+    const duration = useTransition ? 150 : 0;
+    leftZonePaths.forEach((path, i) => {
+      path.transition().duration(duration).attr("opacity", 0);
+    });
+    rightZonePaths.forEach((path, i) => {
+      path.transition().duration(duration).attr("opacity", 0);
+    });
+    threePtPlusZoneLeft.transition().duration(duration).attr("opacity", 0);
+    threePtPlusZoneRight.transition().duration(duration).attr("opacity", 0);
+    if (side === "left") {
+      if (zoneIndex === zones.length - 1) {
+        threePtPlusZoneLeft
+          .transition()
+          .duration(duration)
+          .attr("opacity", 0.7);
+      } else if (zoneIndex >= 0) {
+        leftZonePaths[zoneIndex]
+          .transition()
+          .duration(duration)
+          .attr("opacity", 0.7);
+      }
+    } else {
+      if (zoneIndex === zones.length - 1) {
+        threePtPlusZoneRight
+          .transition()
+          .duration(duration)
+          .attr("opacity", 0.7);
+      } else if (zoneIndex >= 0) {
+        rightZonePaths[zoneIndex]
+          .transition()
+          .duration(duration)
+          .attr("opacity", 0.7);
+      }
+    }
+  }
+
+  function hideAllZones(useTransition) {
+    const duration = useTransition ? 150 : 0;
+    leftZonePaths.forEach((path) =>
+      path.transition().duration(duration).attr("opacity", 0),
+    );
+    rightZonePaths.forEach((path) =>
+      path.transition().duration(duration).attr("opacity", 0),
+    );
+    threePtPlusZoneLeft.transition().duration(duration).attr("opacity", 0);
+    threePtPlusZoneRight.transition().duration(duration).attr("opacity", 0);
+  }
+
+  function updateTooltip(event, side, zoneIndex) {
+    if (zoneIndex < 0 || zoneIndex >= zones.length) {
+      tooltipEl.classList.remove("visible");
+      return;
+    }
+    const label = zones[zoneIndex][2];
+    tooltipEl.textContent = label;
+    tooltipEl.style.left = `${event.clientX + 12}px`;
+    tooltipEl.style.top = `${event.clientY + 12}px`;
+    tooltipEl.classList.add("visible");
+  }
+
+  function showLockedLabel() {
+    if (!lockedZone) {
+      zoneLabelLockedEl.classList.remove("visible");
+      return;
+    }
+    const label = zones[lockedZone.zoneIndex][2];
+    zoneLabelLockedEl.textContent = `Locked: ${label}`;
+    zoneLabelLockedEl.classList.add("visible");
+  }
+
+  // Mouse move: update hover zone, show tooltip, respect locked zone
+  svg.on("mousemove", function (event) {
+    const [mouseX, mouseY] = d3.pointer(event, svg.node());
+    const centerX = courtLength / 2;
+    const leftBasketX = basketCenterYFromBaseline;
+    const leftBasketY = courtWidth / 2;
+
+    let side = null;
+    let zoneIndex = -1;
+    if (mouseX < centerX) {
+      const distance = distanceToBasket(
+        mouseX,
+        mouseY,
+        leftBasketX,
+        leftBasketY,
+      );
+      zoneIndex = getZoneIndex(distance);
+      side = "left";
+    } else {
+      const transformedMouseX = courtLength - mouseX;
+      const distance = distanceToBasket(
+        transformedMouseX,
+        mouseY,
+        leftBasketX,
+        leftBasketY,
+      );
+      zoneIndex = getZoneIndex(distance);
+      side = "right";
+    }
+    currentHoverZone = zoneIndex >= 0 ? { side, zoneIndex } : null;
+
+    if (lockedZone) {
+      showZoneHighlight(lockedZone.side, lockedZone.zoneIndex, false);
+      if (currentHoverZone) {
+        updateTooltip(event, currentHoverZone.side, currentHoverZone.zoneIndex);
+      } else {
+        tooltipEl.classList.remove("visible");
+      }
+    } else {
+      if (currentHoverZone) {
+        showZoneHighlight(
+          currentHoverZone.side,
+          currentHoverZone.zoneIndex,
+          true,
+        );
+        updateTooltip(event, currentHoverZone.side, currentHoverZone.zoneIndex);
+      } else {
+        hideAllZones(true);
+        tooltipEl.classList.remove("visible");
+      }
+    }
+  });
+
+  svg.on("mouseleave", function () {
+    currentHoverZone = null;
+    tooltipEl.classList.remove("visible");
+    if (!lockedZone) {
+      hideAllZones(true);
+    }
+  });
+
+  // Right-click: lock or unlock zone
+  svg.on("contextmenu", function (event) {
+    event.preventDefault();
+    if (currentHoverZone) {
+      if (
+        lockedZone &&
+        lockedZone.side === currentHoverZone.side &&
+        lockedZone.zoneIndex === currentHoverZone.zoneIndex
+      ) {
+        lockedZone = null;
+        zoneLabelLockedEl.classList.remove("visible");
+        hideAllZones(true);
+      } else {
+        lockedZone = {
+          side: currentHoverZone.side,
+          zoneIndex: currentHoverZone.zoneIndex,
+        };
+        showZoneHighlight(lockedZone.side, lockedZone.zoneIndex, false);
+        showLockedLabel();
+      }
+    } else {
+      lockedZone = null;
+      zoneLabelLockedEl.classList.remove("visible");
+      hideAllZones(true);
+    }
+  });
+
+  // Left-click: place demo shot dot with distance and zone label
+  const demoShotGroup = svg.append("g").attr("class", "demo-shot");
+  let demoShotPulseTimer = null;
+
+  function demoShotPulse() {
+    const circle = demoShotGroup.select(".demo-shot-circle");
+    if (circle.empty()) return;
+    circle
+      .transition()
+      .duration(600)
+      .attr("stroke-opacity", 0.6)
+      .attr("fill-opacity", 0.6)
+      .transition()
+      .duration(600)
+      .attr("stroke-opacity", 1)
+      .attr("fill-opacity", 1);
+  }
+
+  svg.on("click", function (event) {
+    if (event.button !== 0) return; // only left click
+    const [mouseX, mouseY] = d3.pointer(event, svg.node());
+    const centerX = courtLength / 2;
+    const leftBasketX = basketCenterYFromBaseline;
+    const leftBasketY = courtWidth / 2;
+
+    let distance, zoneIndex, basketX, basketY;
+    if (mouseX < centerX) {
+      basketX = leftBasketX;
+      basketY = leftBasketY;
+      distance = distanceToBasket(mouseX, mouseY, basketX, basketY);
+      zoneIndex = getZoneIndex(distance);
+    } else {
+      const transformedMouseX = courtLength - mouseX;
+      basketX = leftBasketX;
+      basketY = leftBasketY;
+      distance = distanceToBasket(transformedMouseX, mouseY, basketX, basketY);
+      zoneIndex = getZoneIndex(distance);
+    }
+
+    if (demoShotPulseTimer) {
+      demoShotPulseTimer.stop();
+      demoShotPulseTimer = null;
+    }
+    demoShotGroup.selectAll("*").remove();
+
+    const zoneLabel =
+      zoneIndex >= 0 && zoneIndex < zones.length ? zones[zoneIndex][2] : "—";
+    const distStr = distance.toFixed(1);
+
+    const shotCircle = demoShotGroup
+      .append("circle")
+      .attr("class", "demo-shot-circle")
+      .attr("cx", mouseX)
+      .attr("cy", mouseY)
+      .attr("r", 0)
+      .attr("fill", "#333")
+      .attr("stroke", "#fff")
+      .attr("stroke-width", 1.2);
+
+    shotCircle
+      .transition()
+      .duration(100)
+      .attr("r", 10)
+      .transition()
+      .duration(100)
+      .ease(d3.easeQuadOut)
+      .attr("r", 4);
+
+    demoShotGroup
+      .append("text")
+      .attr("x", mouseX)
+      .attr("y", mouseY - 5.2)
+      .attr("text-anchor", "middle")
+      .attr("fill", "#fff")
+      .attr("font-size", 1.2)
+      .attr("font-family", "sans-serif")
+      .text(`${distStr} ft – ${zoneLabel}`);
+
+    demoShotPulse();
+    demoShotPulseTimer = d3.interval(demoShotPulse, 2000);
+  });
+
+  // Rim pulse animation
+  function rimPulse() {
+    svg.selectAll(".rim").each(function () {
+      d3.select(this)
+        .transition()
+        .duration(800)
+        .attr("stroke-opacity", 0.5)
+        .transition()
+        .duration(800)
+        .attr("stroke-opacity", 1);
+    });
+  }
+  rimPulse();
+  d3.interval(rimPulse, 1600);
+</script>

@@ -1,0 +1,3 @@
+altair>=5.0.0
+pandas>=1.3.0
+vl-convert-python  # required for chart.save("*.png")

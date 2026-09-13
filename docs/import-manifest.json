@@ -1,0 +1,2953 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-09-13",
+  "method": "Sanitized default-branch snapshots. Original commit histories remain in source repositories.",
+  "sources": [
+    {
+      "repository": "ScribleSean/CS1101",
+      "revision": "7b494cb6fbbcd0de70cd493304fecb5cf770d2d2",
+      "destination": "courses/cs1101",
+      "files": [
+        {
+          "source": "kratman-a-arackal-s-hw1.rkt",
+          "destination": "courses/cs1101/assignments/hw1/kratman-a-arackal-s-hw1.rkt",
+          "sourceBlob": "470fd4c5f9d440385ab686ce65724bedb7b05430",
+          "sha256": "47efbe1575019403dc7b75bde7752ddd464aecc98e18f20543ecc74b585f2e69"
+        },
+        {
+          "source": "kratman-a-arackal-s-hw2.rkt",
+          "destination": "courses/cs1101/assignments/hw2/kratman-a-arackal-s-hw2.rkt",
+          "sourceBlob": "a191da0fd8dce5e5dd6b9b6156557f32c14055aa",
+          "sha256": "4a29e4be50d3c71703a177ebfe766a7937f19b6c30747f95ac966da42b55f032"
+        },
+        {
+          "source": "kratman-a-arackal-s-hw3.rkt",
+          "destination": "courses/cs1101/assignments/hw3/kratman-a-arackal-s-hw3.rkt",
+          "sourceBlob": "2fc7b4b776b5e71b28538cc9493abe0d1c844602",
+          "sha256": "49d9b1d0995fd5716d6cc5ad20bed7fb9199675a4fe918e4714a3dfadbb72385"
+        },
+        {
+          "source": "kratman-a-arackal-s-hw4.rkt",
+          "destination": "courses/cs1101/assignments/hw4/kratman-a-arackal-s-hw4.rkt",
+          "sourceBlob": "774ba71aa2c02bed0de5753a6039b630de926689",
+          "sha256": "e927d79fc051fe88062d8a0de0b72b4d95400bb198e025fd9ce0599732880ea1"
+        },
+        {
+          "source": "kratman-a-arackal-s-hw5.rkt",
+          "destination": "courses/cs1101/assignments/hw5/kratman-a-arackal-s-hw5.rkt",
+          "sourceBlob": "0f57d005e145e50800547134472dee88d17d1d48",
+          "sha256": "2ee3b06aa6835d67197215865ec9e36c3b129954b2d9de7defe9922a3ea8f2a2"
+        },
+        {
+          "source": "kratman-a-arackal-s-hw6.rkt",
+          "destination": "courses/cs1101/assignments/hw6/kratman-a-arackal-s-hw6.rkt",
+          "sourceBlob": "058fd8ebb61b8f561550f28f0299a7fe5778c3fe",
+          "sha256": "670569fc778ccd17ceb1c5da120987b2ed6a5240e6883d1b29bb8a3cdbd0a9e7"
+        }
+      ],
+      "omitted": [
+        {
+          "path": "README.md",
+          "reason": "Replaced by archive documentation; original remains at source revision"
+        },
+        {
+          "path": "kratman-a-arackal-s-hw1.bak",
+          "reason": "Generated file, editor state, or backup"
+        },
+        {
+          "path": "kratman-a-arackal-s-hw2.bak",
+          "reason": "Generated file, editor state, or backup"
+        },
+        {
+          "path": "kratman-a-arackal-s-hw3.bak",
+          "reason": "Generated file, editor state, or backup"
+        },
+        {
+          "path": "kratman-a-arackal-s-hw4.bak",
+          "reason": "Generated file, editor state, or backup"
+        },
+        {
+          "path": "kratman-a-arackal-s-hw5.bak",
+          "reason": "Generated file, editor state, or backup"
+        },
+        {
+          "path": "kratman-a-arackal-s-hw6.bak",
+          "reason": "Generated file, editor state, or backup"
+        }
+      ]
+    },
+    {
+      "repository": "ScribleSean/CS2102",
+      "revision": "0a61849085d771f9713af578615575a02bdbc930",
+      "destination": "courses/cs2102",
+      "files": [
+        {
+          "source": "Homework 1/BooksRead.java",
+          "destination": "courses/cs2102/assignments/hw1/BooksRead.java",
+          "sourceBlob": "0a05c016ca3554e1822f05b24f3ef140a0eaa655",
+          "sha256": "365b559ad7f40a11fb344be991de97d5ac5e01f548aceb31de62b6cd6e67460a"
+        },
+        {
+          "source": "Homework 1/ChallengeResult.java",
+          "destination": "courses/cs2102/assignments/hw1/ChallengeResult.java",
+          "sourceBlob": "ad37be233111e2fdfed0797d4f784b0868ee5a25",
+          "sha256": "e1aff873c35f85a776388e3fbf7bb534433cfdb335ce6c5761751b94ff019cfb"
+        },
+        {
+          "source": "Homework 1/CompileCheck.java",
+          "destination": "courses/cs2102/assignments/hw1/CompileCheck.java",
+          "sourceBlob": "0d5183ab8deba71fb16699b279528522edf309b5",
+          "sha256": "1fe409a7719d1258ea5e362523079ab09293947ed699b069d72386b80a25b500"
+        },
+        {
+          "source": "Homework 1/Examples.java",
+          "destination": "courses/cs2102/assignments/hw1/Examples.java",
+          "sourceBlob": "de15cfbc789c419f81b57af8839f2b3cc7e7e73b",
+          "sha256": "2a4211de62f7797e1c081024e453fce951f29b2cfbffe5a04bb5b1612cc06d7a"
+        },
+        {
+          "source": "Homework 1/IChallenge.java",
+          "destination": "courses/cs2102/assignments/hw1/IChallenge.java",
+          "sourceBlob": "4ef05d4f4b074608e50a1bb54dcf1da5a62c7b88",
+          "sha256": "a8ea023ece0f4838755406905a52a0a5c6a3ff47e19c906f1f230b3202c9c809"
+        },
+        {
+          "source": "Homework 1/Literarian.java",
+          "destination": "courses/cs2102/assignments/hw1/Literarian.java",
+          "sourceBlob": "3297c711a92017c99c6eb7ee6da6dc2871588700",
+          "sha256": "04a8553afec417cb3da4a272942e3672214520396147f5e75b9f82e2e8f08dc0"
+        },
+        {
+          "source": "Homework 1/ReadingResult.java",
+          "destination": "courses/cs2102/assignments/hw1/ReadingResult.java",
+          "sourceBlob": "a8fb2c3e016f6f36781ebe15751665ea2495c681",
+          "sha256": "fbc435b21c941bd192af6afe30620fa4f020fd08ee95daf8e2c56fe065f3fb42"
+        },
+        {
+          "source": "Homework 1/WritingResult.java",
+          "destination": "courses/cs2102/assignments/hw1/WritingResult.java",
+          "sourceBlob": "8dca60a83df7fe4c517b8d4abaded23ec7dcfd93",
+          "sha256": "0b94bdc56583c6fb4689eb36280a29d00e95d85c6b92be8400e340ab99feb103"
+        },
+        {
+          "source": "Homework 2/BooksRead.java",
+          "destination": "courses/cs2102/assignments/hw2/BooksRead.java",
+          "sourceBlob": "f19207a27c9e1bf23af6fa95ef0bca09d572dcf6",
+          "sha256": "a958bee6785a73b7733b5f4eb52634fc10f38ddff09448bae71cd51f19ee507d"
+        },
+        {
+          "source": "Homework 2/ChallengeResult.java",
+          "destination": "courses/cs2102/assignments/hw2/ChallengeResult.java",
+          "sourceBlob": "afdff9019ef70ca91d2c9604fb627c6b03d70584",
+          "sha256": "1fcd16b3a2daa67351f45819b642035915d9f2bf0cb1c5326275bddba1ddfe32"
+        },
+        {
+          "source": "Homework 2/CompileCheck.java",
+          "destination": "courses/cs2102/assignments/hw2/CompileCheck.java",
+          "sourceBlob": "85f5e143bd8f5f3f3b74ec7f0e16b8e18455471d",
+          "sha256": "065e488ee47c11e024a62bd42c6627874e847533e411d5d7844a222a07b4accc"
+        },
+        {
+          "source": "Homework 2/Examples.java",
+          "destination": "courses/cs2102/assignments/hw2/Examples.java",
+          "sourceBlob": "9079f430e07dcb59a22ed464b819ba4a71b07a0f",
+          "sha256": "1f215a9b4bd3b58be67a71e48bcb3a90d0686c893e29c6ad26d6955385df9a78"
+        },
+        {
+          "source": "Homework 2/IChallenge.java",
+          "destination": "courses/cs2102/assignments/hw2/IChallenge.java",
+          "sourceBlob": "72f822c3919da3c900833dcc59701ff5a8aced37",
+          "sha256": "e968c7eea31969a93146330a1029a493a5000f6286ee89f2ea3214030ca96e2a"
+        },
+        {
+          "source": "Homework 2/LitJam.java",
+          "destination": "courses/cs2102/assignments/hw2/LitJam.java",
+          "sourceBlob": "a069fcd6f6b5e9e2bd519a7c2271aa3faa73d228",
+          "sha256": "143bc93a67119c43f9632f74f17d963a6495509c468ac83ea9a7eb6d923872cc"
+        },
+        {
+          "source": "Homework 2/Literarian.java",
+          "destination": "courses/cs2102/assignments/hw2/Literarian.java",
+          "sourceBlob": "54fa8f946f71ffecb6c49edcd8024772c3cd62bd",
+          "sha256": "e1dd61072027b7be83be908c6217d6bcfb60d32743de209f4d99c4b112d30610"
+        },
+        {
+          "source": "Homework 2/PoemResult.java",
+          "destination": "courses/cs2102/assignments/hw2/PoemResult.java",
+          "sourceBlob": "5bfbac83f4fcb5ae41a6dd8642298ce03d4aa2c9",
+          "sha256": "2d93f9acc8d8574abbc6bf1b75a7d2665809b165433cb7da6ae4b6251206948e"
+        },
+        {
+          "source": "Homework 2/ReadingResult.java",
+          "destination": "courses/cs2102/assignments/hw2/ReadingResult.java",
+          "sourceBlob": "a583cfb1ab141a3f934941a02b111902ea3c5d6d",
+          "sha256": "1ac534dd407c8645c1b04ef9e24f05a091fb288f789ffa30d703bfbf7905fc49"
+        },
+        {
+          "source": "Homework 2/SharePoemWrite.java",
+          "destination": "courses/cs2102/assignments/hw2/SharePoemWrite.java",
+          "sourceBlob": "d96614b86c477135cf26cf9f897c3da5a82d4313",
+          "sha256": "5b0198671ab296fec6171adffffd24948059996c53d84cee8049a95b1fd0aaa4"
+        },
+        {
+          "source": "Homework 2/WritingResult.java",
+          "destination": "courses/cs2102/assignments/hw2/WritingResult.java",
+          "sourceBlob": "71901fabc26555768f1a2adde6dfc0fa9974ae65",
+          "sha256": "004cabd9d1f974c7978dfad8bc6346402019ff7f5fafb9df2d2c0acf9c334a34"
+        },
+        {
+          "source": "Homework 3/MaxInchReport.java",
+          "destination": "courses/cs2102/assignments/hw3/MaxInchReport.java",
+          "sourceBlob": "4132057bdd4f694769870d5c2e9d889c610783e9",
+          "sha256": "3962d0a03a998254e700bc7a4e06adf754e44a16425d76783514501d55ee7528"
+        },
+        {
+          "source": "Homework 3/Movie.java",
+          "destination": "courses/cs2102/assignments/hw3/Movie.java",
+          "sourceBlob": "b93c878ec87b6b7866da0cd81ff6477f66919a4b",
+          "sha256": "b68c8e082e274dcfeea98eeef09fd9618637adb62076449b62a2f67b718baac0"
+        },
+        {
+          "source": "Homework 3/MovieExamples.java",
+          "destination": "courses/cs2102/assignments/hw3/MovieExamples.java",
+          "sourceBlob": "8d5b15d2b4c377df78976ccd604d4ebb6466a06b",
+          "sha256": "b45d39d403f2eda3289290378281186865e4823a700511050f7924f6d3f10330"
+        },
+        {
+          "source": "Homework 3/MovieManager1.java",
+          "destination": "courses/cs2102/assignments/hw3/MovieManager1.java",
+          "sourceBlob": "3ae18c07688bec6903405ca357dad2c8e03dd8ef",
+          "sha256": "c5ca85fa6a357916ac9f9aac891c32da5235cebcc909da9aa6f9dac6202cd897"
+        },
+        {
+          "source": "Homework 3/MovieManager2.java",
+          "destination": "courses/cs2102/assignments/hw3/MovieManager2.java",
+          "sourceBlob": "9725a17799e7f6063255a6d245916fc8cfadfa12",
+          "sha256": "4d6646dfb631a9abf4a8b5b5c7b6c446a2ad0e083dc806250314f19769970fca"
+        },
+        {
+          "source": "Homework 3/Programme.java",
+          "destination": "courses/cs2102/assignments/hw3/Programme.java",
+          "sourceBlob": "9cff00d0499e3bf220075930c9070f4e1231da62",
+          "sha256": "4fe63544b6116c1bfa2ba21956f8710afe9f00c7ee44e21e9a365044c69b79b9"
+        },
+        {
+          "source": "Homework 3/Snowfall1.java",
+          "destination": "courses/cs2102/assignments/hw3/Snowfall1.java",
+          "sourceBlob": "ef5c70fb0b548a6eebaa1a41f5b77f77d4c68b0c",
+          "sha256": "cc12eae36e80b915505d5245535e78436bff7d898dcf4b7affee0d598489ce5a"
+        },
+        {
+          "source": "Homework 3/Snowfall2.java",
+          "destination": "courses/cs2102/assignments/hw3/Snowfall2.java",
+          "sourceBlob": "3cc8dffc5b6ab16e7aefefad3d255c19e10be37b",
+          "sha256": "76eaae93d0b6cf1410fd199c202d7ec97881054bc8178afd09dd99fcc206c28b"
+        },
+        {
+          "source": "Homework 3/SnowfallExamples.java",
+          "destination": "courses/cs2102/assignments/hw3/SnowfallExamples.java",
+          "sourceBlob": "ed3bdaf8cac72595d1860cd756c4c0679971482d",
+          "sha256": "62e8703444df147aebab33d8963f268791762ef5a945ff0f84ca7ba1fab9be3f"
+        },
+        {
+          "source": "Homework 4/DataBT.java",
+          "destination": "courses/cs2102/assignments/hw4/DataBT.java",
+          "sourceBlob": "f12cf0c9f1327045ef6ac6163374bae30f257a69",
+          "sha256": "675b814988257ee5e8e5479516fbe4e2d9fa4e077ebea2ebcd427fa876f72452"
+        },
+        {
+          "source": "Homework 4/DataHeap.java",
+          "destination": "courses/cs2102/assignments/hw4/DataHeap.java",
+          "sourceBlob": "dccfce6c22bb6212fc3117d8606b2f5e2365f51d",
+          "sha256": "e5c2caf0fdb8765d5b38a515fd281ba65f93f6da59eb9c3e07f26b543468da17"
+        },
+        {
+          "source": "Homework 4/Examples.java",
+          "destination": "courses/cs2102/assignments/hw4/Examples.java",
+          "sourceBlob": "17eea931c8769efe71cb98c6074941c2bbc2c456",
+          "sha256": "67b1e7f11665e7c6773aa81f57ad515719283697b3841d058095c502f35ec282"
+        },
+        {
+          "source": "Homework 4/HeapChecker.java",
+          "destination": "courses/cs2102/assignments/hw4/HeapChecker.java",
+          "sourceBlob": "55326ed32b92bce4e829efe6896bd79080173ecc",
+          "sha256": "22da98d8836fa00f5cc69426fe2485cc7ae56ef1d5ed4dc8c316e6f5921164a9"
+        },
+        {
+          "source": "Homework 4/IBinTree.java",
+          "destination": "courses/cs2102/assignments/hw4/IBinTree.java",
+          "sourceBlob": "c924ef9c1077a7a001218ebfd9319c61da571db5",
+          "sha256": "fbfc293ccec5602b91f1a82873df510720c689516d57d1d483b31a0486310181"
+        },
+        {
+          "source": "Homework 4/IHeap.java",
+          "destination": "courses/cs2102/assignments/hw4/IHeap.java",
+          "sourceBlob": "0d73da43fe7d2fd0d7896af571a1c62d3b4b93f4",
+          "sha256": "646ae394f47578b3131225bbd05d0fa2f2776e02facfe894207c0dfad3ffd5a1"
+        },
+        {
+          "source": "Homework 4/MtBT.java",
+          "destination": "courses/cs2102/assignments/hw4/MtBT.java",
+          "sourceBlob": "1caaf2b9f69654254e2dd44565100fdaf3572315",
+          "sha256": "a7c9eeb35021077a23cbf8e7299c0fa92511acafad804dafae971bbcf0bbf1a3"
+        },
+        {
+          "source": "Homework 4/MtHeap.java",
+          "destination": "courses/cs2102/assignments/hw4/MtHeap.java",
+          "sourceBlob": "d926361d1da7d126bf21b6dde86f879ab8b50c2f",
+          "sha256": "173d21312a03e06f2bc09927b66334a6967ef993001832a84d0d8fab52416b1c"
+        },
+        {
+          "source": "Homework 5/Examples.java",
+          "destination": "courses/cs2102/assignments/hw5/Examples.java",
+          "sourceBlob": "14ddb3a46adadaffd59607b077a726ff2d4474eb",
+          "sha256": "31a39a995c611673c24b9d2c3432fcba82a6117f7baf577881ac8f94b7bc0336"
+        },
+        {
+          "source": "Homework 5/ExtraCredit.java",
+          "destination": "courses/cs2102/assignments/hw5/ExtraCredit.java",
+          "sourceBlob": "87fc62079304bb7a164f7437ce171cf77466f1a8",
+          "sha256": "decf3b4f9c19ee218969f5234e8948e4477de4be90222467fc2f9a6278293afb"
+        },
+        {
+          "source": "Homework 5/IMusicRatings.java",
+          "destination": "courses/cs2102/assignments/hw5/IMusicRatings.java",
+          "sourceBlob": "63d33ba96f6329182a1bfff90f2767a34717494f",
+          "sha256": "a315b0b3370578a88c725e367a9a09c6197f29a718197dda1202f7a5d7a8edd4"
+        },
+        {
+          "source": "Homework 5/RadioStation.java",
+          "destination": "courses/cs2102/assignments/hw5/RadioStation.java",
+          "sourceBlob": "c3a1ebe5e86e3fee0ac40d04075959f1cc12eaf1",
+          "sha256": "ee723ff6ec7fcb179f348c43fe2717ef0cda2c52790a6de48dcaa1213d2989a0"
+        },
+        {
+          "source": "Homework 5/RatingHelperFunctions.java",
+          "destination": "courses/cs2102/assignments/hw5/RatingHelperFunctions.java",
+          "sourceBlob": "861968a2115edead274b441c84a53720d4267a82",
+          "sha256": "5d3202814067de89c801cc6204fe4db1d05c0b43bb5d3a11d623edfe97e5ef4f"
+        },
+        {
+          "source": "Homework 5/Survey.java",
+          "destination": "courses/cs2102/assignments/hw5/Survey.java",
+          "sourceBlob": "5fbc3f704f584fb4414956bf0b91c2ad2ba33ed1",
+          "sha256": "47063c8b04b0f15a056787ac03f0e7b1c85d09bb233f58076cbce49669bb8525"
+        },
+        {
+          "source": "Homework 5/TodaysRatings.java",
+          "destination": "courses/cs2102/assignments/hw5/TodaysRatings.java",
+          "sourceBlob": "7ad60cee983d0b710e1a3daac5e43a85de9f9b56",
+          "sha256": "36c5ac3c4645cb67ee9f77a530892bdc5131ef37767ac267ec385d29bd31e336"
+        },
+        {
+          "source": "Homework 5/TodaysRatingsManager.java",
+          "destination": "courses/cs2102/assignments/hw5/TodaysRatingsManager.java",
+          "sourceBlob": "3c91683a74c6fc095a1779bdd850c51a326980a3",
+          "sha256": "b69c7847dfa7e5f9d4f75962ca9e55d9992a6e3952341e45e05ce49250a93546"
+        },
+        {
+          "source": "Homework 6/CandidateChosenMoreThanOnceException.java",
+          "destination": "courses/cs2102/assignments/hw6/CandidateChosenMoreThanOnceException.java",
+          "sourceBlob": "bd651d28b17b0bf396e10e86e611cc170b84ce3d",
+          "sha256": "53bf6863e78955155cf2f4cd31bf67d1f7c8828111f94916e525b1260747f06e"
+        },
+        {
+          "source": "Homework 6/CandidateNotFoundException.java",
+          "destination": "courses/cs2102/assignments/hw6/CandidateNotFoundException.java",
+          "sourceBlob": "4c96efa00d2536cc4289f865b69b38a6ee7729f2",
+          "sha256": "edd7209982960e1c9007e636f9b52f86a372a67d7a20ad169aecef4adb4e9e7e"
+        },
+        {
+          "source": "Homework 6/CompileCheck.java",
+          "destination": "courses/cs2102/assignments/hw6/CompileCheck.java",
+          "sourceBlob": "346cfb47f6e538d367da9053499e450d16040fcc",
+          "sha256": "affb3b1cf1e36db5fb2c32dde7403e30f2a1af48a18ba378a3faa19f77137655"
+        },
+        {
+          "source": "Homework 6/Examples.java",
+          "destination": "courses/cs2102/assignments/hw6/Examples.java",
+          "sourceBlob": "663255260242353cb75a324af43149a8b0c4e5f5",
+          "sha256": "d1275f8ba52ef4d5bccb3b1a5551d78d34f451601c8469010ea75a0f88afc710"
+        },
+        {
+          "source": "Homework 6/Main.java",
+          "destination": "courses/cs2102/assignments/hw6/Main.java",
+          "sourceBlob": "5ee1f1442d4a075e50b8a33a0b6362ec4fd72371",
+          "sha256": "f4cf76afdc2b91d8f77ee1a146aabea6f0e0a0f175c40c8c087ed87b6401ff67"
+        },
+        {
+          "source": "Homework 6/PollingDevice.java",
+          "destination": "courses/cs2102/assignments/hw6/PollingDevice.java",
+          "sourceBlob": "6062b46df20cca083ab8287cf24886a303e85bd1",
+          "sha256": "25e2bfa0210d2e0be714e4c59e5ee538e2b62a0395504e68975473752b261d8e"
+        },
+        {
+          "source": "Homework 6/RedundantCandidateException.java",
+          "destination": "courses/cs2102/assignments/hw6/RedundantCandidateException.java",
+          "sourceBlob": "025d7d3779cf5cb539051f0a237a23126646e054",
+          "sha256": "a03dff4d2f6fa1d0dfa771ffa5a8e6dea6be79834a6edf16031105285fab1a89"
+        },
+        {
+          "source": "Homework 6/VotingData.java",
+          "destination": "courses/cs2102/assignments/hw6/VotingData.java",
+          "sourceBlob": "a3d1f95ef22313ec16e069e7c1e25d493035b17d",
+          "sha256": "c34f05526e1ae0ee8fe6135c56b6d09ec0850d28d5c1fdcd9d8d2d7c5354843f"
+        }
+      ],
+      "omitted": [
+        {
+          "path": ".idea/.name",
+          "reason": "Generated file, editor state, or backup"
+        },
+        {
+          "path": ".idea/misc.xml",
+          "reason": "Generated file, editor state, or backup"
+        },
+        {
+          "path": ".idea/modules.xml",
+          "reason": "Generated file, editor state, or backup"
+        },
+        {
+          "path": ".idea/vcs.xml",
+          "reason": "Generated file, editor state, or backup"
+        },
+        {
+          "path": ".idea/workspace.xml",
+          "reason": "Generated file, editor state, or backup"
+        },
+        {
+          "path": "CS2102.iml",
+          "reason": "Generated file, editor state, or backup"
+        },
+        {
+          "path": "Homework 2/.idea/.gitignore",
+          "reason": "Generated file, editor state, or backup"
+        },
+        {
+          "path": "Homework 2/.idea/misc.xml",
+          "reason": "Generated file, editor state, or backup"
+        },
+        {
+          "path": "Homework 2/.idea/modules.xml",
+          "reason": "Generated file, editor state, or backup"
+        },
+        {
+          "path": "Homework 2/.idea/vcs.xml",
+          "reason": "Generated file, editor state, or backup"
+        },
+        {
+          "path": "Homework 2/Homework 2.iml",
+          "reason": "Generated file, editor state, or backup"
+        },
+        {
+          "path": "Homework 3/.idea/misc.xml",
+          "reason": "Generated file, editor state, or backup"
+        },
+        {
+          "path": "Homework 3/.idea/modules.xml",
+          "reason": "Generated file, editor state, or backup"
+        },
+        {
+          "path": "Homework 3/.idea/vcs.xml",
+          "reason": "Generated file, editor state, or backup"
+        },
+        {
+          "path": "Homework 3/.idea/workspace.xml",
+          "reason": "Generated file, editor state, or backup"
+        },
+        {
+          "path": "Homework 3/Homework 3.iml",
+          "reason": "Generated file, editor state, or backup"
+        },
+        {
+          "path": "Homework 3/out/production/Homework 3/.idea/misc.xml",
+          "reason": "Generated file, editor state, or backup"
+        },
+        {
+          "path": "Homework 3/out/production/Homework 3/.idea/modules.xml",
+          "reason": "Generated file, editor state, or backup"
+        },
+        {
+          "path": "Homework 3/out/production/Homework 3/.idea/vcs.xml",
+          "reason": "Generated file, editor state, or backup"
+        },
+        {
+          "path": "Homework 3/out/production/Homework 3/.idea/workspace.xml",
+          "reason": "Generated file, editor state, or backup"
+        },
+        {
+          "path": "Homework 3/out/production/Homework 3/Homework 3.iml",
+          "reason": "Generated file, editor state, or backup"
+        },
+        {
+          "path": "Homework 3/out/production/Homework 3/MaxInchReport.class",
+          "reason": "Generated file, editor state, or backup"
+        },
+        {
+          "path": "Homework 3/out/production/Homework 3/Movie.class",
+          "reason": "Generated file, editor state, or backup"
+        },
+        {
+          "path": "Homework 3/out/production/Homework 3/MovieExamples.class",
+          "reason": "Generated file, editor state, or backup"
+        },
+        {
+          "path": "Homework 3/out/production/Homework 3/MovieManager1.class",
+          "reason": "Generated file, editor state, or backup"
+        },
+        {
+          "path": "Homework 3/out/production/Homework 3/MovieManager2.class",
+          "reason": "Generated file, editor state, or backup"
+        },
+        {
+          "path": "Homework 3/out/production/Homework 3/Programme.class",
+          "reason": "Generated file, editor state, or backup"
+        },
+        {
+          "path": "Homework 3/out/production/Homework 3/Snowfall1.class",
+          "reason": "Generated file, editor state, or backup"
+        },
+        {
+          "path": "Homework 3/out/production/Homework 3/Snowfall2.class",
+          "reason": "Generated file, editor state, or backup"
+        },
+        {
+          "path": "Homework 3/out/production/Homework 3/SnowfallExamples.class",
+          "reason": "Generated file, editor state, or backup"
+        },
+        {
+          "path": "README.md",
+          "reason": "Replaced by archive documentation; original remains at source revision"
+        }
+      ]
+    },
+    {
+      "repository": "ScribleSean/CS2303",
+      "revision": "fc23c41de22249c79448b7138d0499971204f829",
+      "destination": "courses/cs2303",
+      "files": [
+        {
+          "source": "Assignment 1/Homework 1/calcGrades.c",
+          "destination": "courses/cs2303/assignments/a1/homework/calcGrades.c",
+          "sourceBlob": "27f0cdc8c7443501c0dd012f295a225a8fb1076b",
+          "sha256": "e790bc96f2db0a7874a007be16d3f259f6c41d22abe0adbb86f3c8b247d13a0f"
+        },
+        {
+          "source": "Assignment 1/Homework 1/calcGrades.h",
+          "destination": "courses/cs2303/assignments/a1/homework/calcGrades.h",
+          "sourceBlob": "80bc121739712eed1f3d3b95421b90c3532fa6bf",
+          "sha256": "66b9672ae383bdf375c3f29528bf36776354abf6bfee427d5f67bbc91bf03879"
+        },
+        {
+          "source": "Assignment 1/Homework 1/grades.c",
+          "destination": "courses/cs2303/assignments/a1/homework/grades.c",
+          "sourceBlob": "79203a20b8cf3a6e9df6ab8e9a2cc2fb2583aa09",
+          "sha256": "39154702d3f1923d7afa14c79f6dae61196dd196f248fbda25ba19f3acd2ae2c"
+        },
+        {
+          "source": "Assignment 1/Homework 1/leap.c",
+          "destination": "courses/cs2303/assignments/a1/homework/leap.c",
+          "sourceBlob": "6bae30cc6b6e066042a3214374b3b86945778966",
+          "sha256": "ca38b2820a1c0baeabad6533863b5685adddcca7a32900b87706b2ab90313bb6"
+        },
+        {
+          "source": "Assignment 1/Homework 1/makefile",
+          "destination": "courses/cs2303/assignments/a1/homework/makefile",
+          "sourceBlob": "c704f709a0741f40dda4ac0772856a81086f8e8d",
+          "sha256": "e957f9abd892ffa57255f7be5275358a04102dc671aeb5f426fbb13190040d7f"
+        },
+        {
+          "source": "Assignment 1/Homework 1/num.c",
+          "destination": "courses/cs2303/assignments/a1/homework/num.c",
+          "sourceBlob": "cd1cff67cbb0c60a0b20d3b0f923d42064367ae1",
+          "sha256": "3dfa2dcce0621518c59294e05515fc66be837ccce2c0f50704d823e4b6cc0221"
+        },
+        {
+          "source": "Assignment 1/Homework 1/readme.txt",
+          "destination": "courses/cs2303/assignments/a1/homework/readme.txt",
+          "sourceBlob": "76fd702ae45847e3902c3c8aff1e200624a78024",
+          "sha256": "4076810bfd350c0d75a6302367f189586424b954760370faba83168096fc8e6c"
+        },
+        {
+          "source": "Assignment 1/Lab 1/lab1.c",
+          "destination": "courses/cs2303/assignments/a1/lab/lab1.c",
+          "sourceBlob": "7e3a9ad3e4cf4ac54db0c007ee64942332e58065",
+          "sha256": "4fa30413693d0dc739257fbe70fd875d89cce675dd0a8e3b78b8d20e7d1e32c8"
+        },
+        {
+          "source": "Assignment 2/Homework 2/Doxyfile",
+          "destination": "courses/cs2303/assignments/a2/homework/Doxyfile",
+          "sourceBlob": "080a40bc7615ade55b2a063b48b38cbe92aaf7e4",
+          "sha256": "6d4feef24d5162de8c7c3c43d0ba4822ce214864d6a2c7c533dea9bc06218ee2"
+        },
+        {
+          "source": "Assignment 2/Homework 2/array_sort.c",
+          "destination": "courses/cs2303/assignments/a2/homework/array_sort.c",
+          "sourceBlob": "c4df351bdfad735871cdfee73d3bde1f232b7c2c",
+          "sha256": "6edefc24b572f06216ce7c2448b166eefa54665498b640e895b4663357b7dd85"
+        },
+        {
+          "source": "Assignment 2/Homework 2/array_sort.h",
+          "destination": "courses/cs2303/assignments/a2/homework/array_sort.h",
+          "sourceBlob": "98ab4a391713ea012af9181c90cd6dd338395ab6",
+          "sha256": "aab1c8e426af0e5bad5e71455b1e1726344cec7cf3484e24165f2890d11defc7"
+        },
+        {
+          "source": "Assignment 2/Homework 2/at.c",
+          "destination": "courses/cs2303/assignments/a2/homework/at.c",
+          "sourceBlob": "cbe2cf70ac2b5f44d9bfd9169fc71d275f0a78c1",
+          "sha256": "22e8a31970d9e8b33f4782df7a5f4bb7936ad34b4ecf46dc85aefa39ad5e6e14"
+        },
+        {
+          "source": "Assignment 2/Homework 2/at2.c",
+          "destination": "courses/cs2303/assignments/a2/homework/at2.c",
+          "sourceBlob": "39c2a5f85c99f01e8346d88e08c8fd8e47d14289",
+          "sha256": "56f220e2d1f88cf1a52679f2244d52342d2986b6ee902faf8e0ecdad8db4c160"
+        },
+        {
+          "source": "Assignment 2/Homework 2/at3.c",
+          "destination": "courses/cs2303/assignments/a2/homework/at3.c",
+          "sourceBlob": "1b8b0625029af4de363db3da37a3997d7bf75243",
+          "sha256": "21b74d1d67962e1e999b7183759433de293dbfa50f6465a248a8de3788156367"
+        },
+        {
+          "source": "Assignment 2/Homework 2/makefile",
+          "destination": "courses/cs2303/assignments/a2/homework/makefile",
+          "sourceBlob": "23849e4d0de7c508838b99e7295e553427a86db1",
+          "sha256": "167ecdc3f65a4545528f09892bc42124ee2f12f7a76a8028057d869135594565"
+        },
+        {
+          "source": "Assignment 2/Homework 2/print_arrays.c",
+          "destination": "courses/cs2303/assignments/a2/homework/print_arrays.c",
+          "sourceBlob": "b4831d3d569b6be5397917605423825f73e5ef0d",
+          "sha256": "48cbf6853b22b5cb1101752b103e70517a3fba18d2a59d707c34755f7962a32e"
+        },
+        {
+          "source": "Assignment 2/Homework 2/print_arrays.h",
+          "destination": "courses/cs2303/assignments/a2/homework/print_arrays.h",
+          "sourceBlob": "600541c58ba97af13b1f1d53196d0b2522895ec9",
+          "sha256": "922a3d2afbf61d7c93a0f95d1b2a05f5b9b9c9940ad8a199f7ae68ad07d3de56"
+        },
+        {
+          "source": "Assignment 2/Lab 2/Doxyfile",
+          "destination": "courses/cs2303/assignments/a2/lab/Doxyfile",
+          "sourceBlob": "c3431b2a86e9d75bde53e17fef436bf3a56cddc8",
+          "sha256": "16160362e814e8241b84679f21bc6002a145e101576450c61c32693f2453ae88"
+        },
+        {
+          "source": "Assignment 2/Lab 2/at.c",
+          "destination": "courses/cs2303/assignments/a2/lab/at.c",
+          "sourceBlob": "670a27e4f74b4ac29489388c5200c9d7a35db9b7",
+          "sha256": "ca3c05ff0dd3f6c0b5a315782bb43d7bd566e341cbfac0cf20653cbe9dc08b34"
+        },
+        {
+          "source": "Assignment 2/Lab 2/makefile",
+          "destination": "courses/cs2303/assignments/a2/lab/makefile",
+          "sourceBlob": "1425eb9e6f0c61b42dfaad02e927f7e99bfb54ea",
+          "sha256": "c79c23665d021a30ed96d08cb05b7a1ae0462a0d4bc0ab9d88540183f1c31b9f"
+        },
+        {
+          "source": "Assignment 2/Lab 2/print_arrays.c",
+          "destination": "courses/cs2303/assignments/a2/lab/print_arrays.c",
+          "sourceBlob": "e77eac005513f7c2e8b16a22153e6e09a6a65738",
+          "sha256": "c21c43baed774db2f8be71ef394a150f3ea18d0fbe63f2baac6c35d239aab03d"
+        },
+        {
+          "source": "Assignment 2/Lab 2/print_arrays.h",
+          "destination": "courses/cs2303/assignments/a2/lab/print_arrays.h",
+          "sourceBlob": "23a7e8f593ea58c535d38bcb4f31724be9760a14",
+          "sha256": "fa8f597452ec9d5de0342dcfd4066d1e48525fae999d548a7170f4731cf92828"
+        },
+        {
+          "source": "Assignment 3/Homework 3/Doxyfile",
+          "destination": "courses/cs2303/assignments/a3/homework/Doxyfile",
+          "sourceBlob": "858826ab6c8607fb04da48eb2cb1df39508e9fa1",
+          "sha256": "c2dcebd33195c77a2ba762579243333e9dafa5c7a615620afb3272d4cd6fe2ed"
+        },
+        {
+          "source": "Assignment 3/Homework 3/ctest.c",
+          "destination": "courses/cs2303/assignments/a3/homework/ctest.c",
+          "sourceBlob": "99fca49a6aa59b1fa68961fe98b6ee19fab4195f",
+          "sha256": "0640d35cf0859bbe15ddc29feba449b85c22a3bfeeb73614ea917a87e6017b81"
+        },
+        {
+          "source": "Assignment 3/Homework 3/makefile",
+          "destination": "courses/cs2303/assignments/a3/homework/makefile",
+          "sourceBlob": "6be69427bcc0ee5d7009236951f20784eb32f94e",
+          "sha256": "6a8f9a21fefdafa9275705fde45f744e699af9b87df430c94dc506c1a7768b8d"
+        },
+        {
+          "source": "Assignment 3/Homework 3/mystring.c",
+          "destination": "courses/cs2303/assignments/a3/homework/mystring.c",
+          "sourceBlob": "4005ad9f6d00c3ba8b63830594662aa4898b850c",
+          "sha256": "b5eb778b67a17312e6c8cd15dbfb7e07fa28f182aeb33523a67ae23e7846d361"
+        },
+        {
+          "source": "Assignment 3/Homework 3/mystring.h",
+          "destination": "courses/cs2303/assignments/a3/homework/mystring.h",
+          "sourceBlob": "ef114529ca0375d57a3223e7b7dc3066b48a414e",
+          "sha256": "8d4dccd8fc38e0c08d92629a5af13a3b1de81186c74906405cbcb87e7b2525d4"
+        },
+        {
+          "source": "Assignment 3/Homework 3/readme.txt",
+          "destination": "courses/cs2303/assignments/a3/homework/readme.txt",
+          "sourceBlob": "fc04668158c8f7908c9428235d7372101c0322e5",
+          "sha256": "0bd2f69c395a54382fabffdcaf5ff93c94c4aae1534c585699e9cdd1871b0ca5"
+        },
+        {
+          "source": "Assignment 3/Homework 3/structure.c",
+          "destination": "courses/cs2303/assignments/a3/homework/structure.c",
+          "sourceBlob": "9802b091992d984b7cb1c1b227ad174623f95853",
+          "sha256": "6c5710bb41e95ac40936492ce9c934872d5ab197961fe9d66f30f2f4e6dfe1ee"
+        },
+        {
+          "source": "Assignment 3/Homework 3/structure.h",
+          "destination": "courses/cs2303/assignments/a3/homework/structure.h",
+          "sourceBlob": "4ba03e2fc912f17cd414ef51dcdf546f44eaa528",
+          "sha256": "3dfe6de63bfa08c20cd1a3c37ed15f644b9c902af6800ed1c009cee9dc2c216f"
+        },
+        {
+          "source": "Assignment 3/Lab 3/Doxyfile",
+          "destination": "courses/cs2303/assignments/a3/lab/Doxyfile",
+          "sourceBlob": "0d679a1790b2c3f7d39be7ac2b6690d7e7316a29",
+          "sha256": "c915b063cef86ebe9f805d0f052cd3b975a6ad03b33b1cf8b1e0db263e6d23d2"
+        },
+        {
+          "source": "Assignment 3/Lab 3/ctest.c",
+          "destination": "courses/cs2303/assignments/a3/lab/ctest.c",
+          "sourceBlob": "01705def72c1bd911e81aacb4224839fc3db42e3",
+          "sha256": "07b6c10fc4dae70612824fe5ebfd4e073b53d06b05ac3b186387c52df5aa9c68"
+        },
+        {
+          "source": "Assignment 3/Lab 3/makefile",
+          "destination": "courses/cs2303/assignments/a3/lab/makefile",
+          "sourceBlob": "a32dff7e752907700bc66c5bef793836ad242551",
+          "sha256": "8a3fb6e14246f1479902c4fdb3798f3bdcc5e3cc140aad665a9b9a118f74fb3f"
+        },
+        {
+          "source": "Assignment 3/Lab 3/mystring.c",
+          "destination": "courses/cs2303/assignments/a3/lab/mystring.c",
+          "sourceBlob": "ff36304205d51d9d407cfa7ed92c452e3131a869",
+          "sha256": "9fef5e2a311a32d3d94392d8c778cb8392aac1c00b01f80ae0ee6274fc7bdd78"
+        },
+        {
+          "source": "Assignment 3/Lab 3/mystring.c~",
+          "destination": "courses/cs2303/assignments/a3/lab/mystring.c~",
+          "sourceBlob": "a09247cc29b9f3bbbbd6c24be991608b15fa537c",
+          "sha256": "0fc0492c818e180097631923a854fc6eea0689a463866848451e6ce1b3fbc57c"
+        },
+        {
+          "source": "Assignment 3/Lab 3/mystring.h",
+          "destination": "courses/cs2303/assignments/a3/lab/mystring.h",
+          "sourceBlob": "bf0cfd5ed439f1873d135a0308f78c1051797af4",
+          "sha256": "c09327851b4534a602f4f838eaec720dba4f8e716dedaf29327fa915b42eb2af"
+        },
+        {
+          "source": "Assignment 4/Homework 4/Doxyfile",
+          "destination": "courses/cs2303/assignments/a4/homework/Doxyfile",
+          "sourceBlob": "a5533a682d2ae35930ee9abb428ed1489c42295c",
+          "sha256": "19d2ac2aabfaa1c5bf60daffcc0befd3cdcb9eb0306ff5efa0aff3946e9910f7"
+        },
+        {
+          "source": "Assignment 4/Homework 4/makefile",
+          "destination": "courses/cs2303/assignments/a4/homework/makefile",
+          "sourceBlob": "229df684cab8b771fea1ce063378d87676bd5c02",
+          "sha256": "39bf0787030d5f1cfe2fc23c8256d890839d4b4bb31a68f1013e8206fdd820df"
+        },
+        {
+          "source": "Assignment 4/Homework 4/readme.txt",
+          "destination": "courses/cs2303/assignments/a4/homework/readme.txt",
+          "sourceBlob": "d746f6615aa65153b201dec36850e5816fd7b6e1",
+          "sha256": "539d88066cfc92ca3954d6e3c40f0117400b85424fdc854114239be93b14ca59"
+        },
+        {
+          "source": "Assignment 4/Homework 4/sort.c",
+          "destination": "courses/cs2303/assignments/a4/homework/sort.c",
+          "sourceBlob": "f0f9e86886987ee302e8730c325edfd1f781225a",
+          "sha256": "c57946e64591bf85ddea09324df440c2a97856c54bab641177baf067938180d0"
+        },
+        {
+          "source": "Assignment 4/Homework 4/sort.h",
+          "destination": "courses/cs2303/assignments/a4/homework/sort.h",
+          "sourceBlob": "785bf56d3a785e504a2f79325c8741ac65c5d047",
+          "sha256": "e256d510e18c4f35be377d0b9b4d0bf2778ff90e120db2f11112243cee0518a2"
+        },
+        {
+          "source": "Assignment 4/Homework 4/sorttest.c",
+          "destination": "courses/cs2303/assignments/a4/homework/sorttest.c",
+          "sourceBlob": "44b736d95635333f792dc956660ed1c7510b5ad8",
+          "sha256": "7bed8a690c1be07ace65a9ceb34ff0e2e65af370c3928b67e26e9ecff40a8b42"
+        },
+        {
+          "source": "Assignment 4/Homework 4/sorttest2.c",
+          "destination": "courses/cs2303/assignments/a4/homework/sorttest2.c",
+          "sourceBlob": "2cd175dd79c5f269d14d9c7d24c25cab02d9252e",
+          "sha256": "0b511a83e415bc74e772f8628a3c98fbc9a84f957428b75043b9c44da5fbcc31"
+        },
+        {
+          "source": "Assignment 4/Homework 4/timesort.c",
+          "destination": "courses/cs2303/assignments/a4/homework/timesort.c",
+          "sourceBlob": "18af62eff943341f4ab76c5f1a6d6089f49f722d",
+          "sha256": "fcbf1b5765e7ed4a739ee10e9306c3575d89a24583ca289915102893c887cfcf"
+        },
+        {
+          "source": "Assignment 4/Lab 4/Doxyfile",
+          "destination": "courses/cs2303/assignments/a4/lab/Doxyfile",
+          "sourceBlob": "b6ae4049ccea35dff5bbf8b3e99fa967b1e0e065",
+          "sha256": "f22d410d2973cf1b32ac48dcc618ba6465f582f02ad68550c95b4cb11f1b720e"
+        },
+        {
+          "source": "Assignment 4/Lab 4/dtest.c",
+          "destination": "courses/cs2303/assignments/a4/lab/dtest.c",
+          "sourceBlob": "d4764fef02873b268a7032c9709d7ca4a1a390c0",
+          "sha256": "cfe22e56b94c79c99ebb8c920554bd7dbaff6bc84390cbf0ef9c34f4fed245d7"
+        },
+        {
+          "source": "Assignment 4/Lab 4/makefile",
+          "destination": "courses/cs2303/assignments/a4/lab/makefile",
+          "sourceBlob": "d342b1a1a2fca626143a4aab6cac788394265301",
+          "sha256": "ad9d3df58456068c9525e3da5d09efd9119561c5c9eee8a582a730b234895e8c"
+        },
+        {
+          "source": "Assignment 4/Lab 4/readme.txt",
+          "destination": "courses/cs2303/assignments/a4/lab/readme.txt",
+          "sourceBlob": "7550157088a66fbd10e108f180328adcff75d582",
+          "sha256": "bc89b4be8513bf90e4abf12aba04d8ae7dc58e8a92f28ba45a33da1f2864333b"
+        },
+        {
+          "source": "Assignment 5/Homework 5/Doxyfile",
+          "destination": "courses/cs2303/assignments/a5/homework/Doxyfile",
+          "sourceBlob": "e8bd8fbc8846d3de55b84a73e0fdce6cb5db7791",
+          "sha256": "eac54a47e9b3e5d67a7f152ff5756d910c30b74c99ac85f7497efc8936aaa445"
+        },
+        {
+          "source": "Assignment 5/Homework 5/input.txt",
+          "destination": "courses/cs2303/assignments/a5/homework/input.txt",
+          "sourceBlob": "c9c5c7f8debc90b96469a43e6cc097af31162290",
+          "sha256": "86a2791fa5b56709196388ed3019756931cfc7f5a03680f9c0138b9ce903089e"
+        },
+        {
+          "source": "Assignment 5/Homework 5/makefile",
+          "destination": "courses/cs2303/assignments/a5/homework/makefile",
+          "sourceBlob": "46eae8f149c008348ff20d3ee968d7cf6b86ac6b",
+          "sha256": "251eaa040a8d3e841f41704e3fae6ae8e33ab66cd7c80a24d5106317d94bc6f1"
+        },
+        {
+          "source": "Assignment 5/Homework 5/readme.txt",
+          "destination": "courses/cs2303/assignments/a5/homework/readme.txt",
+          "sourceBlob": "f6106c200be76fec64e867961ff0b07165f12b29",
+          "sha256": "d62739b5671dddbd26e4ad93e22f138d4896d2e35b68da173b3c71335cf1c5b1"
+        },
+        {
+          "source": "Assignment 5/Homework 5/stack.c",
+          "destination": "courses/cs2303/assignments/a5/homework/stack.c",
+          "sourceBlob": "050746f3abcd94154fd7410cbe636baf20854fb1",
+          "sha256": "ad877bab1ee21b78ff8a455eaff03ec6b5ca5522c37eaaa896a57ae9dbaa9d08"
+        },
+        {
+          "source": "Assignment 5/Homework 5/stack.h",
+          "destination": "courses/cs2303/assignments/a5/homework/stack.h",
+          "sourceBlob": "88b1a18796db4804e7adedf4abd2c0c0d65202cc",
+          "sha256": "fee838f45120ead8ab148e30de7a6894eb314662b9edea321772ede752c46087"
+        },
+        {
+          "source": "Assignment 5/Homework 5/stacktest.c",
+          "destination": "courses/cs2303/assignments/a5/homework/stacktest.c",
+          "sourceBlob": "9169f2c8a150a26884e3954deb1e251c6cfeef5f",
+          "sha256": "e4c4417902cd34613c73b8d826c11a08034839afcad2cbefc9f79dea762fb6a8"
+        },
+        {
+          "source": "Assignment 5/Homework 5/stacktest2.c",
+          "destination": "courses/cs2303/assignments/a5/homework/stacktest2.c",
+          "sourceBlob": "96cdd90dad501de732f712b0910208ca487e890d",
+          "sha256": "b9d4700a25897239463ac193f790ee286a8a55aaea53ce4e4ddfafd8a11279ff"
+        },
+        {
+          "source": "Assignment 5/Lab 5/Doxyfile",
+          "destination": "courses/cs2303/assignments/a5/lab/Doxyfile",
+          "sourceBlob": "4480b7b84171c3c151472e3ac7876d5caa6d2937",
+          "sha256": "0dc87379aa2cdce5b31a15e9cf47ac5985f9afdd0248c8ffc91068ae4dc1800e"
+        },
+        {
+          "source": "Assignment 5/Lab 5/makefile",
+          "destination": "courses/cs2303/assignments/a5/lab/makefile",
+          "sourceBlob": "4dd725ba27afc5aa15cc9cadc78ddd8f2db8cd41",
+          "sha256": "25604ff50d244621801904bdebbf5d952ee9b87ce35a325c6c955dd42f1ab219"
+        },
+        {
+          "source": "Assignment 5/Lab 5/readme.txt",
+          "destination": "courses/cs2303/assignments/a5/lab/readme.txt",
+          "sourceBlob": "af538fa289c3bdec7687512891417e7e34250aeb",
+          "sha256": "35bb714484ca75535248fd33dd15637b5f33d55b6e68830c438b882ba74782cb"
+        },
+        {
+          "source": "Assignment 5/Lab 5/stack.c",
+          "destination": "courses/cs2303/assignments/a5/lab/stack.c",
+          "sourceBlob": "521cecb864d2b95da2245dae5a80f78e4832bec1",
+          "sha256": "64a4203e2302789568bd0aec4d1ecc350441858b195c196ff505ab8dda3b2abd"
+        },
+        {
+          "source": "Assignment 5/Lab 5/stack.h",
+          "destination": "courses/cs2303/assignments/a5/lab/stack.h",
+          "sourceBlob": "191394ae96725ccd033fe8878a7c99f71383cb66",
+          "sha256": "41d2a8fd1cbd0dcb8b2ce157239415c8e0ac2142e2b70980e40c45065e594915"
+        },
+        {
+          "source": "Assignment 5/Lab 5/stacktest.c",
+          "destination": "courses/cs2303/assignments/a5/lab/stacktest.c",
+          "sourceBlob": "1be9e6c2ed07aaf182a50bb039eff399f1cec203",
+          "sha256": "59a2cdfce68321530ef417dc29fa91589939258ae09c72c426db4402f938eb4b"
+        },
+        {
+          "source": "Assignment 6/Homework 6/Doxyfile",
+          "destination": "courses/cs2303/assignments/a6/homework/Doxyfile",
+          "sourceBlob": "76992b0d57dad8bc0cd3752b3db0f2b8e6caa5a5",
+          "sha256": "74d45c242ef61560b56b0f7b9c5e8c2ebec726e399237128abd51fd7c312c4ff"
+        },
+        {
+          "source": "Assignment 6/Homework 6/fed2cs2303.c",
+          "destination": "courses/cs2303/assignments/a6/homework/fed2cs2303.c",
+          "sourceBlob": "ffc163f15075746cf1b374811e500e3e129839c5",
+          "sha256": "921d01eb878927446a944cbd6bdf32973f2996dbf4364fc7dc7b483e73168a74"
+        },
+        {
+          "source": "Assignment 6/Homework 6/free-zipcode-database.csv",
+          "destination": "courses/cs2303/assignments/a6/homework/free-zipcode-database.csv",
+          "sourceBlob": "02a686cc386b7106b57879b5bb5cc45c73e6b339",
+          "sha256": "a3223463354f47b70c0a9591023ec029f3a3d3304cb9de2ea31cfe1f81fe2582"
+        },
+        {
+          "source": "Assignment 6/Homework 6/makefile",
+          "destination": "courses/cs2303/assignments/a6/homework/makefile",
+          "sourceBlob": "172f4111b7c9ea422d7f0f21d65dfe3d82b13e88",
+          "sha256": "e9865a33d61cb0a631fb0460bc4e3c5b9d08330c3655095d8289e6de3e9b65da"
+        },
+        {
+          "source": "Assignment 6/Homework 6/readme.txt",
+          "destination": "courses/cs2303/assignments/a6/homework/readme.txt",
+          "sourceBlob": "e6a3ee34a9f6348e674faf42e38c09ccbc6c7e93",
+          "sha256": "46dd124eb7ccf122f38f2160065a7c03d5cb1e13c023475d43cb414e9cd96b11"
+        },
+        {
+          "source": "Assignment 6/Homework 6/your_output.csv",
+          "destination": "courses/cs2303/assignments/a6/homework/your_output.csv",
+          "sourceBlob": "1cfd007b4ffb461c0e47843f8becda2c314dcb45",
+          "sha256": "d326722ae4e3c62c9c3244267cc3a21883854cb707f5fa53ba923910596941b4"
+        },
+        {
+          "source": "Assignment 6/Homework 6/zipcode.c",
+          "destination": "courses/cs2303/assignments/a6/homework/zipcode.c",
+          "sourceBlob": "68508d16ca46efd6d62ebc43519cd335fbaac969",
+          "sha256": "30df516e1f20b77a9403d0df85bc8b42eb0cea0c8d56db105dcfb658ecf61b73"
+        },
+        {
+          "source": "Assignment 6/Homework 6/zipfed.cpp",
+          "destination": "courses/cs2303/assignments/a6/homework/zipfed.cpp",
+          "sourceBlob": "2443e81c1ccad3c9255c21724f9da5108f3fffc7",
+          "sha256": "1a7d488e6c9208a65763f92f660217dae63cc60bf74c88a497756e70a0635926"
+        },
+        {
+          "source": "Assignment 6/Homework 6/zipfed.hpp",
+          "destination": "courses/cs2303/assignments/a6/homework/zipfed.hpp",
+          "sourceBlob": "53a4ffaaa71bdbeddea723d10bbabebbe344a8d2",
+          "sha256": "2ab5ec031673572f8f13a54e408e6b01e7eacfbbd8268394653bdbdf1105abb3"
+        },
+        {
+          "source": "Assignment 6/Lab 6/Doxyfile",
+          "destination": "courses/cs2303/assignments/a6/lab/Doxyfile",
+          "sourceBlob": "7b5df994daa822398363aab3bcda3d13f69a1704",
+          "sha256": "c0bb01fd44e0a20943b6f9c1537a4769c4fd2aec05e6f79fc0d93659c524932d"
+        },
+        {
+          "source": "Assignment 6/Lab 6/fed2cs2303.c",
+          "destination": "courses/cs2303/assignments/a6/lab/fed2cs2303.c",
+          "sourceBlob": "61a79f896a1ae30a21f476d70edbc79e7653a0ad",
+          "sha256": "f0b415706779c338f393f51a8165fe032c7fa94ca60666b54762fa7330a52677"
+        },
+        {
+          "source": "Assignment 6/Lab 6/free-zipcode-database.csv",
+          "destination": "courses/cs2303/assignments/a6/lab/free-zipcode-database.csv",
+          "sourceBlob": "02a686cc386b7106b57879b5bb5cc45c73e6b339",
+          "sha256": "a3223463354f47b70c0a9591023ec029f3a3d3304cb9de2ea31cfe1f81fe2582"
+        },
+        {
+          "source": "Assignment 6/Lab 6/makefile",
+          "destination": "courses/cs2303/assignments/a6/lab/makefile",
+          "sourceBlob": "47a34a559d34f1b0343fd363d361736c469cfb1f",
+          "sha256": "2793347ae4aefe44c86c08cbe2a1a50e4f96183c377d04464628780cfc396e3e"
+        },
+        {
+          "source": "Assignment 6/Lab 6/your_output.csv",
+          "destination": "courses/cs2303/assignments/a6/lab/your_output.csv",
+          "sourceBlob": "1cfd007b4ffb461c0e47843f8becda2c314dcb45",
+          "sha256": "d326722ae4e3c62c9c3244267cc3a21883854cb707f5fa53ba923910596941b4"
+        },
+        {
+          "source": "Assignment 6/Lab 6/zipcode.c",
+          "destination": "courses/cs2303/assignments/a6/lab/zipcode.c",
+          "sourceBlob": "4f5edaf231751dc25c0c10561c4fde0a1073cdb6",
+          "sha256": "c6432d683a76d92c7246592ecbd74bba4eded081b5e03f8fb0bc5f6ae63dddef"
+        },
+        {
+          "source": "Assignment 6/Lab 6/zipfed.cpp",
+          "destination": "courses/cs2303/assignments/a6/lab/zipfed.cpp",
+          "sourceBlob": "e79a6a57011578b635f5d00fc054aeeed46853e7",
+          "sha256": "4d00111caf621d50a4ba4e7813f943eb6ae6fd09f889d32ed41a0f1040c6fcd2"
+        },
+        {
+          "source": "Assignment 6/Lab 6/zipfed.hpp",
+          "destination": "courses/cs2303/assignments/a6/lab/zipfed.hpp",
+          "sourceBlob": "098716cb505a9a42632079801f0c1956b8e735ca",
+          "sha256": "783a102d8df47b4c01ea74399af75f4e9e72f0fb0dcc719f873ded1431a9af1f"
+        }
+      ],
+      "omitted": [
+        {
+          "path": "Assignment 1/Homework 1/calcGrades.o",
+          "reason": "Generated file, editor state, or backup"
+        },
+        {
+          "path": "Assignment 2/Homework 2/html/array__sort_8c.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Homework 2/html/array__sort_8h.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Homework 2/html/array__sort_8h_source.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Homework 2/html/at2_8c.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Homework 2/html/at3_8c.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Homework 2/html/at_8c.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Homework 2/html/bc_s.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Homework 2/html/bdwn.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Homework 2/html/closed.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Homework 2/html/doc.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Homework 2/html/doxygen.css",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Homework 2/html/doxygen.svg",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Homework 2/html/dynsections.js",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Homework 2/html/files.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Homework 2/html/folderclosed.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Homework 2/html/folderopen.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Homework 2/html/globals.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Homework 2/html/globals_defs.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Homework 2/html/globals_func.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Homework 2/html/index.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Homework 2/html/jquery.js",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Homework 2/html/menu.js",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Homework 2/html/menudata.js",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Homework 2/html/nav_f.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Homework 2/html/nav_g.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Homework 2/html/nav_h.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Homework 2/html/open.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Homework 2/html/print__arrays_8c.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Homework 2/html/print__arrays_8h.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Homework 2/html/print__arrays_8h_source.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Homework 2/html/splitbar.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Homework 2/html/sync_off.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Homework 2/html/sync_on.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Homework 2/html/tab_a.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Homework 2/html/tab_b.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Homework 2/html/tab_h.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Homework 2/html/tab_s.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Homework 2/html/tabs.css",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Lab 2/html/at_8c.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Lab 2/html/bc_s.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Lab 2/html/bdwn.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Lab 2/html/closed.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Lab 2/html/doc.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Lab 2/html/doxygen.css",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Lab 2/html/doxygen.svg",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Lab 2/html/dynsections.js",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Lab 2/html/files.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Lab 2/html/folderclosed.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Lab 2/html/folderopen.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Lab 2/html/globals.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Lab 2/html/globals_defs.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Lab 2/html/globals_func.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Lab 2/html/index.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Lab 2/html/jquery.js",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Lab 2/html/menu.js",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Lab 2/html/menudata.js",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Lab 2/html/nav_f.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Lab 2/html/nav_g.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Lab 2/html/nav_h.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Lab 2/html/open.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Lab 2/html/print__arrays_8c.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Lab 2/html/print__arrays_8h.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Lab 2/html/print__arrays_8h_source.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Lab 2/html/splitbar.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Lab 2/html/sync_off.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Lab 2/html/sync_on.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Lab 2/html/tab_a.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Lab 2/html/tab_b.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Lab 2/html/tab_h.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Lab 2/html/tab_s.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 2/Lab 2/html/tabs.css",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 3/Homework 3/html/annotated.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 3/Homework 3/html/bc_s.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 3/Homework 3/html/bdwn.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 3/Homework 3/html/classes.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 3/Homework 3/html/closed.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 3/Homework 3/html/ctest_8c.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 3/Homework 3/html/doc.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 3/Homework 3/html/doxygen.css",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 3/Homework 3/html/doxygen.svg",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 3/Homework 3/html/dynsections.js",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 3/Homework 3/html/files.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 3/Homework 3/html/folderclosed.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 3/Homework 3/html/folderopen.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 3/Homework 3/html/functions.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 3/Homework 3/html/functions_vars.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 3/Homework 3/html/globals.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 3/Homework 3/html/globals_func.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 3/Homework 3/html/globals_vars.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 3/Homework 3/html/index.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 3/Homework 3/html/jquery.js",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 3/Homework 3/html/menu.js",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 3/Homework 3/html/menudata.js",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 3/Homework 3/html/mystring_8c.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 3/Homework 3/html/mystring_8h.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 3/Homework 3/html/mystring_8h_source.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 3/Homework 3/html/nav_f.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 3/Homework 3/html/nav_g.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 3/Homework 3/html/nav_h.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 3/Homework 3/html/open.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 3/Homework 3/html/splitbar.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 3/Homework 3/html/structPerson.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 3/Homework 3/html/structure_8c.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 3/Homework 3/html/structure_8h.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 3/Homework 3/html/structure_8h_source.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 3/Homework 3/html/sync_off.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 3/Homework 3/html/sync_on.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 3/Homework 3/html/tab_a.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 3/Homework 3/html/tab_b.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 3/Homework 3/html/tab_h.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 3/Homework 3/html/tab_s.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 3/Homework 3/html/tabs.css",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 3/Lab 3/ctest",
+          "reason": "Compiled executable"
+        },
+        {
+          "path": "Assignment 3/Lab 3/ctest.o",
+          "reason": "Generated file, editor state, or backup"
+        },
+        {
+          "path": "Assignment 3/Lab 3/mystring.o",
+          "reason": "Generated file, editor state, or backup"
+        },
+        {
+          "path": "Assignment 4/Homework 4/html/bc_s.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 4/Homework 4/html/bdwn.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 4/Homework 4/html/closed.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 4/Homework 4/html/doc.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 4/Homework 4/html/doxygen.css",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 4/Homework 4/html/doxygen.svg",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 4/Homework 4/html/dynsections.js",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 4/Homework 4/html/files.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 4/Homework 4/html/folderclosed.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 4/Homework 4/html/folderopen.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 4/Homework 4/html/globals.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 4/Homework 4/html/globals_func.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 4/Homework 4/html/index.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 4/Homework 4/html/jquery.js",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 4/Homework 4/html/menu.js",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 4/Homework 4/html/menudata.js",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 4/Homework 4/html/nav_f.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 4/Homework 4/html/nav_g.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 4/Homework 4/html/nav_h.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 4/Homework 4/html/open.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 4/Homework 4/html/sort_8c.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 4/Homework 4/html/sort_8h.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 4/Homework 4/html/sort_8h_source.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 4/Homework 4/html/sorttest2_8c.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 4/Homework 4/html/sorttest_8c.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 4/Homework 4/html/splitbar.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 4/Homework 4/html/sync_off.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 4/Homework 4/html/sync_on.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 4/Homework 4/html/tab_a.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 4/Homework 4/html/tab_b.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 4/Homework 4/html/tab_h.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 4/Homework 4/html/tab_s.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 4/Homework 4/html/tabs.css",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 4/Homework 4/html/timesort_8c.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 4/Lab 4/dtest",
+          "reason": "Compiled executable"
+        },
+        {
+          "path": "Assignment 4/Lab 4/dtest.o",
+          "reason": "Generated file, editor state, or backup"
+        },
+        {
+          "path": "Assignment 5/Homework 5/html/annotated.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Homework 5/html/bc_s.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Homework 5/html/bdwn.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Homework 5/html/classes.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Homework 5/html/closed.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Homework 5/html/doc.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Homework 5/html/doxygen.css",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Homework 5/html/doxygen.svg",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Homework 5/html/dynsections.js",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Homework 5/html/files.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Homework 5/html/folderclosed.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Homework 5/html/folderopen.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Homework 5/html/functions.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Homework 5/html/functions_vars.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Homework 5/html/globals.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Homework 5/html/globals_defs.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Homework 5/html/globals_func.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Homework 5/html/globals_type.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Homework 5/html/index.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Homework 5/html/jquery.js",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Homework 5/html/menu.js",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Homework 5/html/menudata.js",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Homework 5/html/nav_f.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Homework 5/html/nav_g.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Homework 5/html/nav_h.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Homework 5/html/open.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Homework 5/html/splitbar.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Homework 5/html/stack_8c.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Homework 5/html/stack_8h.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Homework 5/html/stack_8h_source.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Homework 5/html/stacktest2_8c.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Homework 5/html/stacktest_8c.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Homework 5/html/structstack.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Homework 5/html/sync_off.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Homework 5/html/sync_on.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Homework 5/html/tab_a.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Homework 5/html/tab_b.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Homework 5/html/tab_h.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Homework 5/html/tab_s.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Homework 5/html/tabs.css",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Lab 5/html/annotated.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Lab 5/html/bc_s.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Lab 5/html/bdwn.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Lab 5/html/classes.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Lab 5/html/closed.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Lab 5/html/doc.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Lab 5/html/doxygen.css",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Lab 5/html/doxygen.svg",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Lab 5/html/dynsections.js",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Lab 5/html/files.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Lab 5/html/folderclosed.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Lab 5/html/folderopen.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Lab 5/html/functions.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Lab 5/html/functions_vars.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Lab 5/html/globals.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Lab 5/html/globals_defs.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Lab 5/html/globals_func.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Lab 5/html/globals_type.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Lab 5/html/index.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Lab 5/html/jquery.js",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Lab 5/html/menu.js",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Lab 5/html/menudata.js",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Lab 5/html/nav_f.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Lab 5/html/nav_g.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Lab 5/html/nav_h.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Lab 5/html/open.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Lab 5/html/splitbar.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Lab 5/html/stack_8c.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Lab 5/html/stack_8h.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Lab 5/html/stack_8h_source.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Lab 5/html/stacktest_8c.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Lab 5/html/structstack.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Lab 5/html/sync_off.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Lab 5/html/sync_on.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Lab 5/html/tab_a.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Lab 5/html/tab_b.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Lab 5/html/tab_h.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Lab 5/html/tab_s.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Lab 5/html/tabs.css",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 5/Lab 5/stack.o",
+          "reason": "Generated file, editor state, or backup"
+        },
+        {
+          "path": "Assignment 5/Lab 5/stacktest",
+          "reason": "Compiled executable"
+        },
+        {
+          "path": "Assignment 5/Lab 5/stacktest.o",
+          "reason": "Generated file, editor state, or backup"
+        },
+        {
+          "path": "Assignment 5/Lab 5/stacktest_dbg",
+          "reason": "Compiled executable"
+        },
+        {
+          "path": "Assignment 5/Lab 5/stacktest_dbg.o",
+          "reason": "Generated file, editor state, or backup"
+        },
+        {
+          "path": "Assignment 6/Homework 6/html/annotated.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 6/Homework 6/html/bc_s.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 6/Homework 6/html/bdwn.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 6/Homework 6/html/classZipfed.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 6/Homework 6/html/classes.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 6/Homework 6/html/closed.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 6/Homework 6/html/doc.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 6/Homework 6/html/doxygen.css",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 6/Homework 6/html/doxygen.svg",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 6/Homework 6/html/dynsections.js",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 6/Homework 6/html/fed2cs2303_8c.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 6/Homework 6/html/files.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 6/Homework 6/html/folderclosed.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 6/Homework 6/html/folderopen.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 6/Homework 6/html/functions.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 6/Homework 6/html/functions_func.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 6/Homework 6/html/functions_vars.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 6/Homework 6/html/globals.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 6/Homework 6/html/globals_defs.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 6/Homework 6/html/globals_enum.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 6/Homework 6/html/globals_eval.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 6/Homework 6/html/globals_func.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 6/Homework 6/html/index.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 6/Homework 6/html/jquery.js",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 6/Homework 6/html/menu.js",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 6/Homework 6/html/menudata.js",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 6/Homework 6/html/nav_f.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 6/Homework 6/html/nav_g.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 6/Homework 6/html/nav_h.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 6/Homework 6/html/open.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 6/Homework 6/html/splitbar.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 6/Homework 6/html/sync_off.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 6/Homework 6/html/sync_on.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 6/Homework 6/html/tab_a.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 6/Homework 6/html/tab_b.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 6/Homework 6/html/tab_h.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 6/Homework 6/html/tab_s.png",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 6/Homework 6/html/tabs.css",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 6/Homework 6/html/zipcode_8c.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 6/Homework 6/html/zipfed_8cpp.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 6/Homework 6/html/zipfed_8hpp.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 6/Homework 6/html/zipfed_8hpp_source.html",
+          "reason": "Generated Doxygen output; configuration retained"
+        },
+        {
+          "path": "Assignment 6/Lab 6/fed2cs2303",
+          "reason": "Compiled executable"
+        },
+        {
+          "path": "Assignment 6/Lab 6/fed2cs2303.o",
+          "reason": "Generated file, editor state, or backup"
+        },
+        {
+          "path": "Assignment 6/Lab 6/zipfed.o",
+          "reason": "Generated file, editor state, or backup"
+        },
+        {
+          "path": "README.md",
+          "reason": "Replaced by archive documentation; original remains at source revision"
+        }
+      ]
+    },
+    {
+      "repository": "ScribleSean/Webware-Computational-Technology-for-Network-Information-Systems",
+      "revision": "d98078fdb4327bf5ac01796f25d4b2f9ea8df88e",
+      "destination": "courses/cs4241",
+      "files": [],
+      "omitted": [
+        {
+          "path": ".gitmodules",
+          "reason": "Replaced nested repositories with ordinary folders and project links"
+        },
+        {
+          "path": "README.md",
+          "reason": "Replaced by archive documentation; original remains at source revision"
+        },
+        {
+          "path": "a1",
+          "reason": "Git link or symlink: represented in course index, not followed"
+        },
+        {
+          "path": "a2",
+          "reason": "Git link or symlink: represented in course index, not followed"
+        },
+        {
+          "path": "a3",
+          "reason": "Git link or symlink: represented in course index, not followed"
+        },
+        {
+          "path": "a4",
+          "reason": "Git link or symlink: represented in course index, not followed"
+        },
+        {
+          "path": "final-project",
+          "reason": "Git link or symlink: represented in course index, not followed"
+        }
+      ]
+    },
+    {
+      "repository": "ScribleSean/a1-SeanArackal",
+      "revision": "b2cd6390f1d83ad50f70cfa7a1ddcc643da5db7b",
+      "destination": "courses/cs4241/assignments/a1",
+      "files": [
+        {
+          "source": "README.md",
+          "destination": "courses/cs4241/assignments/a1/README.md",
+          "sourceBlob": "9d1d9cfca1c17e1e768422b88a0cb710727f5072",
+          "sha256": "8d2a1f4b1b913472ba2e519051a00617f9f9e43b08d880cd0cfc74729f026777"
+        },
+        {
+          "source": "index.html",
+          "destination": "courses/cs4241/assignments/a1/index.html",
+          "sourceBlob": "130368ef502a68593c1188f85db7441317e9b52d",
+          "sha256": "ecbb81cf4f41489eabbf1d0d58c1b8a374cd112d065c2266a9353ce7c8e9d27a"
+        },
+        {
+          "source": "package.json",
+          "destination": "courses/cs4241/assignments/a1/package.json",
+          "sourceBlob": "05042e1ccbe2c37631981ac5ab24043f8640eece",
+          "sha256": "37a0d8f2dea5c2ed598a6b4cb7ac2b08c279b63b8a80a567e9a861e4b01d15fd"
+        },
+        {
+          "source": "server.js",
+          "destination": "courses/cs4241/assignments/a1/server.js",
+          "sourceBlob": "d621fa1bb174ae06fcfc493a4b1eba34d0af95f2",
+          "sha256": "86632264dc6687f1e6bfc5098d9223803994f53825f61098f95334fbe3fd2e0b"
+        },
+        {
+          "source": "style.css",
+          "destination": "courses/cs4241/assignments/a1/style.css",
+          "sourceBlob": "78085162166e4574fd9738ff588509cbf276b317",
+          "sha256": "665be09d7dfeca17d7ad2f19b46ac6cb8b38c9b887de018331a65c8b71ad9ee0"
+        }
+      ],
+      "omitted": []
+    },
+    {
+      "repository": "ScribleSean/a2-SeanArackal",
+      "revision": "56a84824821c3d599567964ddc793298f56fd6cd",
+      "destination": "courses/cs4241/assignments/a2",
+      "files": [
+        {
+          "source": "README.md",
+          "destination": "courses/cs4241/assignments/a2/README.md",
+          "sourceBlob": "1e68fa7be0f33e718f914181c09f22d68bf1f84c",
+          "sha256": "a61d063125df3ce292b2e093764ecead610883e64bdc570ca12fb318f8a3bd14",
+          "changes": [
+            "Omitted individual user-testing notes"
+          ]
+        },
+        {
+          "source": "package.json",
+          "destination": "courses/cs4241/assignments/a2/package.json",
+          "sourceBlob": "988f135f7bc2c1fe7cfc625692cf0b5e9333bbec",
+          "sha256": "93737df530810eb745649662de95a97d2ddc2cb828230d26352fa6c8b59406fb"
+        },
+        {
+          "source": "public/css/main.css",
+          "destination": "courses/cs4241/assignments/a2/public/css/main.css",
+          "sourceBlob": "44ab3b96176bbb607d7fc82d53fa736768b3ad12",
+          "sha256": "3cdd4cd2399fdaad586757a47475c23e307bd5931d8e6bda47e205a6f9fa85fb"
+        },
+        {
+          "source": "public/index.html",
+          "destination": "courses/cs4241/assignments/a2/public/index.html",
+          "sourceBlob": "36d108bf93ba82284e5b7a9b57f905ae6de7edcb",
+          "sha256": "00ee60901961f076053ec2ff7beda5e43c66c7cd1e61874885b61a2f8b9cee52"
+        },
+        {
+          "source": "public/js/main.js",
+          "destination": "courses/cs4241/assignments/a2/public/js/main.js",
+          "sourceBlob": "4539fcc45d50e09000d46e89166eec91632baa8c",
+          "sha256": "403299f81332ea6bb44f91f2af6799751971700f56b7d7ec6e926a2b6c0a0b73"
+        },
+        {
+          "source": "server.improved.js",
+          "destination": "courses/cs4241/assignments/a2/server.improved.js",
+          "sourceBlob": "cfad9a0d33f79c22781e5bb45ded4dc005f1632a",
+          "sha256": "1f67696f593905e50fb99ffc3697a3279b6d0994607fafe3fb4b926fa53fdfdb"
+        }
+      ],
+      "omitted": []
+    },
+    {
+      "repository": "ScribleSean/a3-SeanArackal",
+      "revision": "79fa2eabc5eef33f66cb643df2b6a38b9156e287",
+      "destination": "courses/cs4241/assignments/a3",
+      "files": [
+        {
+          "source": "images/image.png",
+          "destination": "courses/cs4241/assignments/a3/images/image.png",
+          "sourceBlob": "91a9f710d0cf04aed8e5e6b37f0b682c5326fa7c",
+          "sha256": "4188c30c2c162b068423eff630b5f8727429e7dec555d0bc1de5bfdeb7cf869b"
+        },
+        {
+          "source": "package.json",
+          "destination": "courses/cs4241/assignments/a3/package.json",
+          "sourceBlob": "3a3baec46b8006c47d49063c393e656687051811",
+          "sha256": "844ccd4b25bdac87191d2e88d791a333e444acfe0f5a6f29241c25fd33bec910"
+        },
+        {
+          "source": "server.js",
+          "destination": "courses/cs4241/assignments/a3/server.js",
+          "sourceBlob": "16749911425c5053d159229366fac349467fb9e8",
+          "sha256": "90903b50a2df3f0f1417a84b2f71d6677d2b469cbef3d08f0674650bfa0aa0c1",
+          "changes": [
+            "Database connection moved to MONGODB_URI; password logging removed where present"
+          ]
+        },
+        {
+          "source": "views/content.html",
+          "destination": "courses/cs4241/assignments/a3/views/content.html",
+          "sourceBlob": "db628b1d1ff07ec79ea335ab492b846a9afae676",
+          "sha256": "ec329d63b4e47e86e07ebcf234652eb3e57dd15e22497e26d15a12e1e6000e3b"
+        },
+        {
+          "source": "views/index.html",
+          "destination": "courses/cs4241/assignments/a3/views/index.html",
+          "sourceBlob": "e72519df3da26eac94c810739c493414db2b84a0",
+          "sha256": "183395e68d8513d39565d4bc64c028d3bfdb5eb6854ce977245f1851518ca510"
+        },
+        {
+          "source": "views/loginfail.html",
+          "destination": "courses/cs4241/assignments/a3/views/loginfail.html",
+          "sourceBlob": "de88ff351ac34e58ade9326e106ab8fb9ab6e766",
+          "sha256": "ceb8cc5ec8531cae55aae815e5c8f23c98d21258100938d2ad5678e16c6e1ba9"
+        },
+        {
+          "source": "views/main.js",
+          "destination": "courses/cs4241/assignments/a3/views/main.js",
+          "sourceBlob": "5e9c31359f51992a7432dc0a65edba1340ff87ae",
+          "sha256": "6b61a4af6df162f02840eba3ccbf9de9312638838c0f6b8450734eff89df784b"
+        },
+        {
+          "source": "views/other.js",
+          "destination": "courses/cs4241/assignments/a3/views/other.js",
+          "sourceBlob": "c9fe8fb19084893a5301095301fd9a705bdd5a8a",
+          "sha256": "09577f05da0e1ea7fa5911f4944d6e35852408fae734aa9e3faf28cea831444d"
+        },
+        {
+          "source": "views/signup.html",
+          "destination": "courses/cs4241/assignments/a3/views/signup.html",
+          "sourceBlob": "c523ca5f2254f3def6723b321db91113118612f7",
+          "sha256": "64b905804a1fa32d0c07c729c3fe4334b51c54c0142bbd3f394e3a1945e7dd8c"
+        },
+        {
+          "source": "views/signupfail.html",
+          "destination": "courses/cs4241/assignments/a3/views/signupfail.html",
+          "sourceBlob": "9b61366e7f0c2bd6d5006da38aae546d70dd62b6",
+          "sha256": "ca21699cf1d66133d56d6ae489a8c00658da58f2a2a7900e9b1315c838b165c9"
+        }
+      ],
+      "omitted": [
+        {
+          "path": ".env",
+          "reason": "Local environment configuration"
+        },
+        {
+          "path": "README.md",
+          "reason": "Replaced by archive documentation; original remains at source revision"
+        }
+      ]
+    },
+    {
+      "repository": "ScribleSean/a4-sean-arackal",
+      "revision": "6a9d89c660ee0581c2bce123f6d00927c611b694",
+      "destination": "courses/cs4241/assignments/a4",
+      "files": [
+        {
+          "source": ".gitignore",
+          "destination": "courses/cs4241/assignments/a4/.gitignore",
+          "sourceBlob": "dd38b46d55f6f69f8c93e11395f0cd65ee5d6457",
+          "sha256": "02e0e20ef062f5fb7ea372a4cace6e8018403377f83928a8dabe352f59102414"
+        },
+        {
+          "source": "index.html",
+          "destination": "courses/cs4241/assignments/a4/index.html",
+          "sourceBlob": "f006177f38bb81835a8e7936cce091d7dfaa7900",
+          "sha256": "4fe8f578e88dc55e772e291ee39aab8e042665655b50f3e5232a00fa50e8cb28"
+        },
+        {
+          "source": "other.js",
+          "destination": "courses/cs4241/assignments/a4/other.js",
+          "sourceBlob": "c9fe8fb19084893a5301095301fd9a705bdd5a8a",
+          "sha256": "09577f05da0e1ea7fa5911f4944d6e35852408fae734aa9e3faf28cea831444d"
+        },
+        {
+          "source": "package-lock.json",
+          "destination": "courses/cs4241/assignments/a4/package-lock.json",
+          "sourceBlob": "ba37b0104325a34932c45670f06130f3dbb7969f",
+          "sha256": "493afecf1d77914bc91646728c0e91e5b3c66301fb4f60b929670a0995447127"
+        },
+        {
+          "source": "package.json",
+          "destination": "courses/cs4241/assignments/a4/package.json",
+          "sourceBlob": "4f0e0a29144e8d71d37d23d30215f36da344a41f",
+          "sha256": "c9cdf9ad7fc7f07222b083ac733b0f031f9fe4a5b69f7574649566572a33fc74"
+        },
+        {
+          "source": "server.js",
+          "destination": "courses/cs4241/assignments/a4/server.js",
+          "sourceBlob": "b4a46a97f45abde1e3c88e0b2b0b1b682b66f266",
+          "sha256": "8e9f02aafbf50b2ea664908f4827b77f00c6958fcb5aa7cd485d86be3567232a",
+          "changes": [
+            "Database connection moved to MONGODB_URI; password logging removed where present"
+          ]
+        },
+        {
+          "source": "src/App.jsx",
+          "destination": "courses/cs4241/assignments/a4/src/App.jsx",
+          "sourceBlob": "63891ad4caf625fe7909e4243902badb54ef150d",
+          "sha256": "894c93b88e3d9ac3ce0451ac744890a906b5a3102117cc01c739051c991aef9f"
+        },
+        {
+          "source": "src/index.jsx",
+          "destination": "courses/cs4241/assignments/a4/src/index.jsx",
+          "sourceBlob": "98e0ff2655ae3d59de64c33805cc420813b642d5",
+          "sha256": "97dd209d23cd1a13b1624c05a0636a8652350caf7f815e927c474a3072d4c5cb"
+        },
+        {
+          "source": "vite.config.js",
+          "destination": "courses/cs4241/assignments/a4/vite.config.js",
+          "sourceBlob": "d366e8c8d7caf02d1818ec2c3bae47fabadcff93",
+          "sha256": "9245c4576e583e4678dde5ec1efcb39045c5bb43585cc7b062d21099ff51cb9e"
+        }
+      ],
+      "omitted": [
+        {
+          "path": ".env",
+          "reason": "Local environment configuration"
+        },
+        {
+          "path": "README.md",
+          "reason": "Replaced by archive documentation; original remains at source revision"
+        }
+      ]
+    },
+    {
+      "repository": "ScribleSean/cs-3733-ass-3",
+      "revision": "f892bbe69d2933312ac371d44d03bd11c8e7e141",
+      "destination": "courses/cs3733/assignments/a3",
+      "files": [
+        {
+          "source": ".eslintrc.cjs",
+          "destination": "courses/cs3733/assignments/a3/.eslintrc.cjs",
+          "sourceBlob": "d6c953795300e4256c76542d6bb0fe06f08b5ad6",
+          "sha256": "48fbb93fc59962f7f52881f89adcc7254a2e164afa8c01cd7628f299f0b485ec"
+        },
+        {
+          "source": ".gitignore",
+          "destination": "courses/cs3733/assignments/a3/.gitignore",
+          "sourceBlob": "a547bf36d8d11a4f89c59c144f24795749086dd1",
+          "sha256": "fe718e7babb14f3cbad2d97f08889b9ce5215ed3fe0e43b2b8cfbfb3b9b844e8"
+        },
+        {
+          "source": "README.md",
+          "destination": "courses/cs3733/assignments/a3/README.md",
+          "sourceBlob": "0d6babeddbdbc9d9ac5bd4d57004229d22dbd864",
+          "sha256": "add84326da01da147f94d10b8332085e793ac017b31982a6725cd23e3e854687"
+        },
+        {
+          "source": "index.html",
+          "destination": "courses/cs3733/assignments/a3/index.html",
+          "sourceBlob": "2dc86eb3248e237442726fde1de91cc8945166a5",
+          "sha256": "884f11bdfe2deeaf284e2f3b688c4fc88533944b20bcb770c1e922c746c47a53"
+        },
+        {
+          "source": "package-lock.json",
+          "destination": "courses/cs3733/assignments/a3/package-lock.json",
+          "sourceBlob": "6b13de436cf68c843ecddd8bf05c053c97d8c96b",
+          "sha256": "a5f601651125bbc547c2e3298bc664f147337d41756f38262238aac8dc6dbbcc"
+        },
+        {
+          "source": "package.json",
+          "destination": "courses/cs3733/assignments/a3/package.json",
+          "sourceBlob": "d6a32fa504152121bf1cca50ffab6a7edd6a9c6d",
+          "sha256": "32e381b8fa2c63b6507eb88399e3cb02fa1be90606e6cd83cf3baf200910680d"
+        },
+        {
+          "source": "public/vite.svg",
+          "destination": "courses/cs3733/assignments/a3/public/vite.svg",
+          "sourceBlob": "e7b8dfb1b2a60bd50538bec9f876511b9cac21e3",
+          "sha256": "4a748afd443918bb16591c834c401dae33e87861ab5dbad0811c3a3b4a9214fb"
+        },
+        {
+          "source": "src/App.css",
+          "destination": "courses/cs3733/assignments/a3/src/App.css",
+          "sourceBlob": "b9d355df2a5956b526c004531b7b0ffe412461e0",
+          "sha256": "a0715e0a09edbd0fbde65816a75e0fa0fc8b314c5260c0768c19bf3aac22621a"
+        },
+        {
+          "source": "src/App.tsx",
+          "destination": "courses/cs3733/assignments/a3/src/App.tsx",
+          "sourceBlob": "aab111d8402d3e2752af6a689e328d56a1073073",
+          "sha256": "cb77a425e7b8028c06a45c6fbecadd85d9a72b2318abe55fdb5cb6985706d18b"
+        },
+        {
+          "source": "src/assets/react.svg",
+          "destination": "courses/cs3733/assignments/a3/src/assets/react.svg",
+          "sourceBlob": "6c87de9bb3358469122cc991d5cf578927246184",
+          "sha256": "35ef61ed53b323ae94a16a8ec659b3d0af3880698791133f23b084085ab1c2e5"
+        },
+        {
+          "source": "src/frontend/fakeNavBar.css",
+          "destination": "courses/cs3733/assignments/a3/src/frontend/fakeNavBar.css",
+          "sourceBlob": "26aad5e83c72660b4fc7eec3f91a03ec19c7660a",
+          "sha256": "ea9d260f613adc949c1fe733a75f88beb24e711d387446905bdcbb246d065509"
+        },
+        {
+          "source": "src/frontend/fakeNavBar.tsx",
+          "destination": "courses/cs3733/assignments/a3/src/frontend/fakeNavBar.tsx",
+          "sourceBlob": "8c826f83691486f64110a76cf2ab49aaa1ecb09e",
+          "sha256": "6e45d62a30a14a74bef4a561ef7e2bbab86402741754be55ef3f9ccd9831446c"
+        },
+        {
+          "source": "src/frontend/sanitationForm.css",
+          "destination": "courses/cs3733/assignments/a3/src/frontend/sanitationForm.css",
+          "sourceBlob": "5eee599dfd4d94cda078b9b349450673386304a6",
+          "sha256": "6ddf37ce116bcb5246e32f3ac8cc134ec466a5d3b2c8b8ae5cd4eb8870ea9d78"
+        },
+        {
+          "source": "src/frontend/sanitationForm.tsx",
+          "destination": "courses/cs3733/assignments/a3/src/frontend/sanitationForm.tsx",
+          "sourceBlob": "df5015e185275b63e3bc8b62a3f001abb3c19890",
+          "sha256": "02621ffbab2e5d675edc29434623d9c0017f63896c67da172cedbbcd7aaf0ece"
+        },
+        {
+          "source": "src/index.css",
+          "destination": "courses/cs3733/assignments/a3/src/index.css",
+          "sourceBlob": "6119ad9a8faaa5073a454f67b50fb98a25972fd2",
+          "sha256": "a7938196d3e52b21ea3e2af74bd60b2012ad662ed8eb905b86f9842e5f94bdc4"
+        },
+        {
+          "source": "src/main.tsx",
+          "destination": "courses/cs3733/assignments/a3/src/main.tsx",
+          "sourceBlob": "e63eef4a8f1ae386c0e29e792585a2009c878a0c",
+          "sha256": "a7a696d17b1d52d0a774e0b1a8f46456e69f54e94f4beb2dc41e9dbee4f71601"
+        },
+        {
+          "source": "src/types/form.ts",
+          "destination": "courses/cs3733/assignments/a3/src/types/form.ts",
+          "sourceBlob": "1c4d556abf63fbf29c26f9b710a0fc12803ca0e0",
+          "sha256": "be4cc2ff52720ee6e74607883ee5b1213e3f26925951de216f1a311a50c69c1d"
+        },
+        {
+          "source": "src/vite-env.d.ts",
+          "destination": "courses/cs3733/assignments/a3/src/vite-env.d.ts",
+          "sourceBlob": "11f02fe2a0061d6e6e1f271b21da95423b448b32",
+          "sha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5"
+        },
+        {
+          "source": "tsconfig.json",
+          "destination": "courses/cs3733/assignments/a3/tsconfig.json",
+          "sourceBlob": "a7fc6fbf23de2a53e36754bc4a2c306d0291d7b2",
+          "sha256": "980d6cbe977ddfb52d3ab1bdd3fba30f8c1db9371b3b14aa4557d32bb00ce54b"
+        },
+        {
+          "source": "tsconfig.node.json",
+          "destination": "courses/cs3733/assignments/a3/tsconfig.node.json",
+          "sourceBlob": "97ede7ee6f2d37bd2d76e60c0b6a447bee718b05",
+          "sha256": "bb9fd8592a9e364641441219f10d84daae9ba2ca5cc85db798efad6913bb8257"
+        },
+        {
+          "source": "vite.config.ts",
+          "destination": "courses/cs3733/assignments/a3/vite.config.ts",
+          "sourceBlob": "5a33944a9b41b59a9cf06ee4bb5586c77510f06b",
+          "sha256": "2d8b8a9c0291a6635f5efef200ae0fae8bfd0f5d57b3e456125e71aea661be6a"
+        }
+      ],
+      "omitted": []
+    },
+    {
+      "repository": "ScribleSean/cs-3733-ass-4",
+      "revision": "507f9a930dfad55070e2e2f010db6f75d877837e",
+      "destination": "courses/cs3733/assignments/a4",
+      "files": [
+        {
+          "source": ".gitignore",
+          "destination": "courses/cs3733/assignments/a4/.gitignore",
+          "sourceBlob": "a547bf36d8d11a4f89c59c144f24795749086dd1",
+          "sha256": "fe718e7babb14f3cbad2d97f08889b9ce5215ed3fe0e43b2b8cfbfb3b9b844e8"
+        },
+        {
+          "source": "index.html",
+          "destination": "courses/cs3733/assignments/a4/index.html",
+          "sourceBlob": "acf34e9391be7beb7c0290ab50e236e48c1259cf",
+          "sha256": "980875c125559b0067ab0a1dccd382870ade512a779392ec073b0e39db382b60"
+        },
+        {
+          "source": "package-lock.json",
+          "destination": "courses/cs3733/assignments/a4/package-lock.json",
+          "sourceBlob": "c339ec22a9888768d2018815c6ef7e92456186a4",
+          "sha256": "2fc2c3172b2ee02fe15f11f2a3ef6d110b210dd6c83a9c0ae7eaf4a1b0e1c4b3"
+        },
+        {
+          "source": "package.json",
+          "destination": "courses/cs3733/assignments/a4/package.json",
+          "sourceBlob": "0495c16e4036906b6618754485fa833d2ff063ad",
+          "sha256": "7f105f606af856cfaa47a296a90b4eba60edf55815af7c892bf1893fd26f331b"
+        },
+        {
+          "source": "src/BumblorArabicConverter.test.ts",
+          "destination": "courses/cs3733/assignments/a4/src/BumblorArabicConverter.test.ts",
+          "sourceBlob": "5968ec75faecacfb4ba8c65ebf17907841cd1ec6",
+          "sha256": "5fa1b5ffb7e2bee0541ae7c41612cac2846982a420f9098abe5eb1bc290c048b"
+        },
+        {
+          "source": "src/BumblorArabicConverter.ts",
+          "destination": "courses/cs3733/assignments/a4/src/BumblorArabicConverter.ts",
+          "sourceBlob": "8af56d2a6772dc331ee00449add0845a29d8a2ac",
+          "sha256": "e831988bd9e266196307b6aded4e52834bf2a19f19e477091a1ccf15c3e873fd"
+        },
+        {
+          "source": "src/counter.ts",
+          "destination": "courses/cs3733/assignments/a4/src/counter.ts",
+          "sourceBlob": "09e5afd2d8ad2b43f4c8073eef5ad57688caef7b",
+          "sha256": "7580ce935ad5fd8f5598ee53533fbddbd5d34e5aaf6cfbb7f81f3ef1969bf4e3"
+        },
+        {
+          "source": "src/main.ts",
+          "destination": "courses/cs3733/assignments/a4/src/main.ts",
+          "sourceBlob": "791547b0d382f563cda5025c966da22db8f3fe32",
+          "sha256": "bba1cb9dd91cc574a8a82432cfe711643cc8c14c7757e2adc717dc047e2359fe"
+        },
+        {
+          "source": "src/style.css",
+          "destination": "courses/cs3733/assignments/a4/src/style.css",
+          "sourceBlob": "f9c7350248205709ece1fad0c45ff348d98701f1",
+          "sha256": "a03d61e0d37c5ed99021c30a0aa001e65f18a158f42783b3223aacc39096b1ae"
+        },
+        {
+          "source": "src/typescript.svg",
+          "destination": "courses/cs3733/assignments/a4/src/typescript.svg",
+          "sourceBlob": "d91c910cc30bf4af39bb51adecdc71dd03d3832e",
+          "sha256": "f6ead1af17acc3f55ad857f3bc936df8754281e2932c1b472dbb9b36ab873f1c"
+        },
+        {
+          "source": "src/vite-env.d.ts",
+          "destination": "courses/cs3733/assignments/a4/src/vite-env.d.ts",
+          "sourceBlob": "11f02fe2a0061d6e6e1f271b21da95423b448b32",
+          "sha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5"
+        },
+        {
+          "source": "tsconfig.json",
+          "destination": "courses/cs3733/assignments/a4/tsconfig.json",
+          "sourceBlob": "75abdef26594460f62f904bf54b54377573c9209",
+          "sha256": "eacc61733333e59fe271157d746cf12c89e57177fa74855799c058841f9c06c1"
+        }
+      ],
+      "omitted": []
+    },
+    {
+      "repository": "ScribleSean/cs-3733-ass-5",
+      "revision": "3109efdd1d7face17dd17e6efa318b565b55bc6c",
+      "destination": "courses/cs3733/assignments/a5",
+      "files": [
+        {
+          "source": ".eslintrc.cjs",
+          "destination": "courses/cs3733/assignments/a5/.eslintrc.cjs",
+          "sourceBlob": "d6c953795300e4256c76542d6bb0fe06f08b5ad6",
+          "sha256": "48fbb93fc59962f7f52881f89adcc7254a2e164afa8c01cd7628f299f0b485ec"
+        },
+        {
+          "source": ".gitignore",
+          "destination": "courses/cs3733/assignments/a5/.gitignore",
+          "sourceBlob": "a547bf36d8d11a4f89c59c144f24795749086dd1",
+          "sha256": "fe718e7babb14f3cbad2d97f08889b9ce5215ed3fe0e43b2b8cfbfb3b9b844e8"
+        },
+        {
+          "source": "README.md",
+          "destination": "courses/cs3733/assignments/a5/README.md",
+          "sourceBlob": "0d6babeddbdbc9d9ac5bd4d57004229d22dbd864",
+          "sha256": "add84326da01da147f94d10b8332085e793ac017b31982a6725cd23e3e854687"
+        },
+        {
+          "source": "index.html",
+          "destination": "courses/cs3733/assignments/a5/index.html",
+          "sourceBlob": "e4b78eae12304a075fa19675c4047061d6ab920d",
+          "sha256": "db908a36f7f8ea1b2697b54f5d792edeb9a525ff5b8df5785470641abe531753"
+        },
+        {
+          "source": "package-lock.json",
+          "destination": "courses/cs3733/assignments/a5/package-lock.json",
+          "sourceBlob": "01fa9b9c939343340a45573db719a2021bb77064",
+          "sha256": "472f726a9297fe83a391f27a32c51414bfd47667e122034b044c1608709e83b3"
+        },
+        {
+          "source": "package.json",
+          "destination": "courses/cs3733/assignments/a5/package.json",
+          "sourceBlob": "24828a6aa0b79e4e6a15f5556f41f01ca968473d",
+          "sha256": "8bddacc0a3a1b1fb189f2b5309022af5ec2aaa66193f1a083649b5abad4f6074"
+        },
+        {
+          "source": "public/vite.svg",
+          "destination": "courses/cs3733/assignments/a5/public/vite.svg",
+          "sourceBlob": "e7b8dfb1b2a60bd50538bec9f876511b9cac21e3",
+          "sha256": "4a748afd443918bb16591c834c401dae33e87861ab5dbad0811c3a3b4a9214fb"
+        },
+        {
+          "source": "src/App.css",
+          "destination": "courses/cs3733/assignments/a5/src/App.css",
+          "sourceBlob": "4f1f7f9fe8fd63f74e0bb0bdb1bcecb2db2995b7",
+          "sha256": "eefda8f8623ced1b74bfdb6b1d1bfe0844d3732ce21d6db5aa0aa53ffa4cdc12"
+        },
+        {
+          "source": "src/App.tsx",
+          "destination": "courses/cs3733/assignments/a5/src/App.tsx",
+          "sourceBlob": "df43a40f067ffd749d71f00f2967fc47a2e6630e",
+          "sha256": "9d4d178d0b05dc5db616d941ab12fed78509ee19f6d1dd0ad32b19763060314c"
+        },
+        {
+          "source": "src/TaxStatusFP.ts",
+          "destination": "courses/cs3733/assignments/a5/src/TaxStatusFP.ts",
+          "sourceBlob": "ac1f235c9cd8d89c3336bf833c60b505460c354e",
+          "sha256": "826a581dade129796f2d174baa2f26c356d86f4195cfe12ee2cf1dae10135696"
+        },
+        {
+          "source": "src/TaxStatusOO.ts",
+          "destination": "courses/cs3733/assignments/a5/src/TaxStatusOO.ts",
+          "sourceBlob": "a6c9fe3d3caf0e0d66ba9a36af51973ef1b5dc05",
+          "sha256": "cfc1b293a4efee061853764f00c7666a42f9626ff4d58b4f5ca2c64d6bb3e1ee"
+        },
+        {
+          "source": "src/assets/react.svg",
+          "destination": "courses/cs3733/assignments/a5/src/assets/react.svg",
+          "sourceBlob": "6c87de9bb3358469122cc991d5cf578927246184",
+          "sha256": "35ef61ed53b323ae94a16a8ec659b3d0af3880698791133f23b084085ab1c2e5"
+        },
+        {
+          "source": "src/index.css",
+          "destination": "courses/cs3733/assignments/a5/src/index.css",
+          "sourceBlob": "6119ad9a8faaa5073a454f67b50fb98a25972fd2",
+          "sha256": "a7938196d3e52b21ea3e2af74bd60b2012ad662ed8eb905b86f9842e5f94bdc4"
+        },
+        {
+          "source": "src/main.tsx",
+          "destination": "courses/cs3733/assignments/a5/src/main.tsx",
+          "sourceBlob": "3d7150da80e43e3650342aa4758fa8b74e95d6d6",
+          "sha256": "abe0edc1f91f5d414bbfb8f335f8871b4bf4edf07a861ab225e368a8319cdb6b"
+        },
+        {
+          "source": "src/vite-env.d.ts",
+          "destination": "courses/cs3733/assignments/a5/src/vite-env.d.ts",
+          "sourceBlob": "11f02fe2a0061d6e6e1f271b21da95423b448b32",
+          "sha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5"
+        },
+        {
+          "source": "tsconfig.json",
+          "destination": "courses/cs3733/assignments/a5/tsconfig.json",
+          "sourceBlob": "a7fc6fbf23de2a53e36754bc4a2c306d0291d7b2",
+          "sha256": "980d6cbe977ddfb52d3ab1bdd3fba30f8c1db9371b3b14aa4557d32bb00ce54b"
+        },
+        {
+          "source": "tsconfig.node.json",
+          "destination": "courses/cs3733/assignments/a5/tsconfig.node.json",
+          "sourceBlob": "97ede7ee6f2d37bd2d76e60c0b6a447bee718b05",
+          "sha256": "bb9fd8592a9e364641441219f10d84daae9ba2ca5cc85db798efad6913bb8257"
+        },
+        {
+          "source": "vite.config.ts",
+          "destination": "courses/cs3733/assignments/a5/vite.config.ts",
+          "sourceBlob": "5a33944a9b41b59a9cf06ee4bb5586c77510f06b",
+          "sha256": "2d8b8a9c0291a6635f5efef200ae0fae8bfd0f5d57b3e456125e71aea661be6a"
+        }
+      ],
+      "omitted": []
+    },
+    {
+      "repository": "ScribleSean/a1-ghd3",
+      "revision": "62f7957e4135719727359817102dcd4fea10c41a",
+      "destination": "courses/data-visualization/assignments/a1-nba-court",
+      "files": [
+        {
+          "source": "README.md",
+          "destination": "courses/data-visualization/assignments/a1-nba-court/README.md",
+          "sourceBlob": "1059fcf6d3478c1f02cfc667d9ab7816069ae33c",
+          "sha256": "0816b71a55615265496cb38a3a72f102dbe4ed2d0835ec2e2931d0b30b231610"
+        },
+        {
+          "source": "index.html",
+          "destination": "courses/data-visualization/assignments/a1-nba-court/index.html",
+          "sourceBlob": "ab2a6aecf5ee5eca837f981ccac384205fa0fc05",
+          "sha256": "b27f31480e46b43bbaf8ab6af1c7e8accbf89960b331d395af0d953850627fc8"
+        }
+      ],
+      "omitted": [
+        {
+          "path": "NBA_2024_Shots.csv",
+          "reason": "Large dataset or recording not referenced by the court implementation; retained in source repository"
+        },
+        {
+          "path": "Screen Recording 2026-01-29 at 12.40.40 PM.mov",
+          "reason": "Large dataset or recording not referenced by the court implementation; retained in source repository"
+        }
+      ]
+    },
+    {
+      "repository": "ScribleSean/a2-DataVis-7Ways",
+      "revision": "51283da2a3cb81093f3e5ac4a0a1f33c32aab5ba",
+      "destination": "courses/data-visualization/assignments/a2-seven-tools",
+      "files": [
+        {
+          "source": "README.md",
+          "destination": "courses/data-visualization/assignments/a2-seven-tools/README.md",
+          "sourceBlob": "400a50909f5a1469af337f9fe56adf67fda1785a",
+          "sha256": "9e96ac95d8dd6bac0234350bcae82a174cc2cd5263a064cd5a965f06eb5df9ab"
+        },
+        {
+          "source": "altair/altair.png",
+          "destination": "courses/data-visualization/assignments/a2-seven-tools/altair/altair.png",
+          "sourceBlob": "f10e86bcfe9b2a14c097ea40c86efc09d5abb4d0",
+          "sha256": "17284bc275d863b410cfa5cfc374253d75663648bb3100c426754aca1fa62bc4"
+        },
+        {
+          "source": "altair/penguin_scatter.py",
+          "destination": "courses/data-visualization/assignments/a2-seven-tools/altair/penguin_scatter.py",
+          "sourceBlob": "6ca86950071210723fa4234fc6a54154100eaa1d",
+          "sha256": "59d2e5184c9e5e3aa4507b7399e2830433f9f32b58c961e9fc317d2fb5775951"
+        },
+        {
+          "source": "altair/requirements.txt",
+          "destination": "courses/data-visualization/assignments/a2-seven-tools/altair/requirements.txt",
+          "sourceBlob": "50485aedbcb7016a660122845ed909ebf74bdf97",
+          "sha256": "ce61536d41f57215e6f371bb34c1bd4cfd28a79cfcf42e43bab37c4954384fef"
+        },
+        {
+          "source": "d3/d3.png",
+          "destination": "courses/data-visualization/assignments/a2-seven-tools/d3/d3.png",
+          "sourceBlob": "f0f2565ef29a94419110b2333b64e3968b947cfd",
+          "sha256": "12a5b88ed11f7f5cd9c41cbc1281bcc69f87df6fc4c1875473bb263acdbbe5bc"
+        },
+        {
+          "source": "d3/index.html",
+          "destination": "courses/data-visualization/assignments/a2-seven-tools/d3/index.html",
+          "sourceBlob": "5e9d32c35042a71783286c3bd5bdc4dcd022158b",
+          "sha256": "fec03649a9b07bd7c321600a6b970e83b6f168477ba537d0a4c0ec8a30022947"
+        },
+        {
+          "source": "datawrapper/datawrapper.png",
+          "destination": "courses/data-visualization/assignments/a2-seven-tools/datawrapper/datawrapper.png",
+          "sourceBlob": "d93f66c416b67b1fc144e05182e43f8fdd507016",
+          "sha256": "dc347c296b8d46a8be61cbd021f0dcea93a68c0cfe6978a72f9167794ff9ab13"
+        },
+        {
+          "source": "flourish/flourish.png",
+          "destination": "courses/data-visualization/assignments/a2-seven-tools/flourish/flourish.png",
+          "sourceBlob": "f2cc8d31aa437644ab065fa0a59158bc5946e6b6",
+          "sha256": "486d0f688ef648d6508c606a93e797392d25bb0cdeef7acab16f474356efd477"
+        },
+        {
+          "source": "img/altair.png",
+          "destination": "courses/data-visualization/assignments/a2-seven-tools/img/altair.png",
+          "sourceBlob": "f10e86bcfe9b2a14c097ea40c86efc09d5abb4d0",
+          "sha256": "17284bc275d863b410cfa5cfc374253d75663648bb3100c426754aca1fa62bc4"
+        },
+        {
+          "source": "img/d3.png",
+          "destination": "courses/data-visualization/assignments/a2-seven-tools/img/d3.png",
+          "sourceBlob": "f0f2565ef29a94419110b2333b64e3968b947cfd",
+          "sha256": "12a5b88ed11f7f5cd9c41cbc1281bcc69f87df6fc4c1875473bb263acdbbe5bc"
+        },
+        {
+          "source": "img/datawrapper.png",
+          "destination": "courses/data-visualization/assignments/a2-seven-tools/img/datawrapper.png",
+          "sourceBlob": "d93f66c416b67b1fc144e05182e43f8fdd507016",
+          "sha256": "dc347c296b8d46a8be61cbd021f0dcea93a68c0cfe6978a72f9167794ff9ab13"
+        },
+        {
+          "source": "img/flourish.png",
+          "destination": "courses/data-visualization/assignments/a2-seven-tools/img/flourish.png",
+          "sourceBlob": "f2cc8d31aa437644ab065fa0a59158bc5946e6b6",
+          "sha256": "486d0f688ef648d6508c606a93e797392d25bb0cdeef7acab16f474356efd477"
+        },
+        {
+          "source": "img/ggplot2.png",
+          "destination": "courses/data-visualization/assignments/a2-seven-tools/img/ggplot2.png",
+          "sourceBlob": "bb84d0928e71f0d85241a8365b9dd20e043ffb15",
+          "sha256": "bbf26c64eba14740be320e811646ab27f66342560d0cf73970c7fd7c3a7c0f74"
+        },
+        {
+          "source": "img/p5js.png",
+          "destination": "courses/data-visualization/assignments/a2-seven-tools/img/p5js.png",
+          "sourceBlob": "9c415d087dcc372db535ab4641f94343590677dc",
+          "sha256": "0c5666641531aaf61fbcf2f0519156c957fdcc3923ee5e94e93b3dc2e00dca0b"
+        },
+        {
+          "source": "img/vega-lite.png",
+          "destination": "courses/data-visualization/assignments/a2-seven-tools/img/vega-lite.png",
+          "sourceBlob": "76c3ee96a67f627064ae63bd59e37f0919d6ce94",
+          "sha256": "5577ab93bf24e3d5c9a2474eb03d1db05ee9aa74760c79291100df338ce209db"
+        },
+        {
+          "source": "p5js/index.html",
+          "destination": "courses/data-visualization/assignments/a2-seven-tools/p5js/index.html",
+          "sourceBlob": "3f194dc0c7f41e16354fa66ef494a7a6689b60f3",
+          "sha256": "b0ae581011b8c1b077385b08c08af86364904d28fa29b184387f01c5cfeaad7c"
+        },
+        {
+          "source": "p5js/p5js.png",
+          "destination": "courses/data-visualization/assignments/a2-seven-tools/p5js/p5js.png",
+          "sourceBlob": "9c415d087dcc372db535ab4641f94343590677dc",
+          "sha256": "0c5666641531aaf61fbcf2f0519156c957fdcc3923ee5e94e93b3dc2e00dca0b"
+        },
+        {
+          "source": "penglings.csv",
+          "destination": "courses/data-visualization/assignments/a2-seven-tools/penglings.csv",
+          "sourceBlob": "b059723d56e6003db66577d8c79fe27542bbb3e2",
+          "sha256": "bf3738eebc06177e1977438551f87d5e7ead6ddf3c7f3152fcef0ee2152241a1"
+        },
+        {
+          "source": "r-ggplot2/penguin_scatter.R",
+          "destination": "courses/data-visualization/assignments/a2-seven-tools/r-ggplot2/penguin_scatter.R",
+          "sourceBlob": "c8bfc15e8eda96d9004df715ab4b1c6f836cc1e1",
+          "sha256": "571e65af8a5189dd22f00f718a033414769fbe2cd56a45223ae901d51b1911dd"
+        },
+        {
+          "source": "vega-lite/index.html",
+          "destination": "courses/data-visualization/assignments/a2-seven-tools/vega-lite/index.html",
+          "sourceBlob": "5fd52a764fabc88d0cc8be86d4861bc94d16345f",
+          "sha256": "4c0fc75d96c2195d31857b553f17e6f5700a2cb2ac9fc3a576a87ada31d5ac30"
+        },
+        {
+          "source": "vega-lite/spec.json",
+          "destination": "courses/data-visualization/assignments/a2-seven-tools/vega-lite/spec.json",
+          "sourceBlob": "e0ca643dc1a2c48c05be7c956a109a0b33a3cb8e",
+          "sha256": "4b023ecd84e4a0b2b8250022006a68a15d0a963d356436330b65e431202c5301"
+        },
+        {
+          "source": "vega-lite/vega-lite.png",
+          "destination": "courses/data-visualization/assignments/a2-seven-tools/vega-lite/vega-lite.png",
+          "sourceBlob": "76c3ee96a67f627064ae63bd59e37f0919d6ce94",
+          "sha256": "5577ab93bf24e3d5c9a2474eb03d1db05ee9aa74760c79291100df338ce209db"
+        }
+      ],
+      "omitted": [
+        {
+          "path": ".DS_Store",
+          "reason": "Generated file, editor state, or backup"
+        }
+      ]
+    },
+    {
+      "repository": "ScribleSean/a3-experiment",
+      "revision": "e90a9c0dbf18bd354b2ce4497e31c7a66a07ffc1",
+      "destination": "courses/data-visualization/assignments/a3-starter",
+      "files": [
+        {
+          "source": "README.md",
+          "destination": "courses/data-visualization/assignments/a3-starter/ASSIGNMENT-PROMPT.md",
+          "sourceBlob": "669eb14e1a05e82d21dc239b08fe549b1dd7eb7a",
+          "sha256": "e86db3c854d820cce7c4cee5ccdf7604a965bb5078efe48108e1696bccbf9cd2"
+        },
+        {
+          "source": "img/cleveland-bar.png",
+          "destination": "courses/data-visualization/assignments/a3-starter/img/cleveland-bar.png",
+          "sourceBlob": "eb2742cf017eb882b6ed2c3b1107afedd256afbe",
+          "sha256": "47eb398896b42550041dd84dc21c899d8ede9d331ada442f5ebf51fbda8b4196"
+        },
+        {
+          "source": "img/cleveland-equation.png",
+          "destination": "courses/data-visualization/assignments/a3-starter/img/cleveland-equation.png",
+          "sourceBlob": "89fb4acb294edf54107d188b80a266b2a71eafcf",
+          "sha256": "3f698560381f06555b6ad0659a695a12c29be5c944ef120e0b43641862091462"
+        },
+        {
+          "source": "img/cleveland-results.png",
+          "destination": "courses/data-visualization/assignments/a3-starter/img/cleveland-results.png",
+          "sourceBlob": "cfa3c1cb403e01fa4f7b41546342dd11edda558c",
+          "sha256": "4ec3fe720fdbdf6d9146dc27bb62338164be8a45924e044676e4cddd06b275f8"
+        },
+        {
+          "source": "img/cleveland-table.png",
+          "destination": "courses/data-visualization/assignments/a3-starter/img/cleveland-table.png",
+          "sourceBlob": "f1c946151a6963a22a9d85706205f3669d77109b",
+          "sha256": "579f7f97a0bf4109ea6a5755e94809fb95c3a78b3176cd16ff64e206640da2b2"
+        }
+      ],
+      "omitted": []
+    }
+  ]
+}

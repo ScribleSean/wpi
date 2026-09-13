@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Penguins – p5.js</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.min.js"></script>
+    <style>
+      body {
+        margin: 0;
+        font-family: sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <script type="text/csv" id="penglings-csv">
+      species,flipper_length_mm,body_mass_g,bill_length_mm
+      Adelie,181,3750,39.1
+      Adelie,186,3800,39.5
+      Adelie,195,3250,40.3
+      Adelie,193,3450,36.7
+      Adelie,190,3650,39.3
+      Adelie,181,3625,38.9
+      Adelie,195,4675,39.2
+      Adelie,193,3475,34.1
+      Adelie,190,4250,42
+      Adelie,186,3300,37.8
+      Adelie,180,3700,37.8
+      Adelie,182,3200,41.1
+      Adelie,191,3800,38.6
+      Adelie,198,4400,34.6
+      Adelie,185,3700,36.6
+      Adelie,195,3450,38.7
+      Adelie,197,4500,42.5
+      Adelie,184,3325,34.4
+      Adelie,194,4200,46
+      Adelie,174,3400,37.8
+      Adelie,180,3600,37.7
+      Adelie,189,3800,35.9
+      Adelie,185,3950,38.2
+      Adelie,180,3800,38.8
+      Adelie,187,3800,35.3
+      Adelie,183,3550,40.6
+      Adelie,187,3200,40.5
+      Adelie,172,3150,37.9
+      Adelie,180,3950,40.5
+      Adelie,178,3250,39.5
+      Adelie,178,3900,37.2
+      Adelie,188,3300,39.5
+      Adelie,184,3900,40.9
+      Adelie,195,3325,36.4
+      Adelie,196,4150,39.2
+      Adelie,190,3950,38.8
+      Adelie,180,3550,42.2
+      Adelie,181,3300,37.6
+      Adelie,184,4650,39.8
+      Adelie,182,3150,41.1
+      Adelie,186,3100,36
+      Adelie,196,4400,44.1
+      Adelie,185,3000,37
+      Adelie,190,4600,39.6
+      Adelie,182,3425,41.1
+      Adelie,190,3450,36
+      Adelie,191,4150,42.3
+      Gentoo,211,4500,46.1
+      Gentoo,230,5700,50
+      Gentoo,210,4450,48.7
+      Gentoo,218,5700,50
+      Gentoo,215,5400,47.6
+      Gentoo,210,4550,46.5
+      Gentoo,211,4800,45.4
+      Gentoo,219,5200,46.7
+      Gentoo,209,4400,43.3
+      Gentoo,215,5150,46.8
+      Gentoo,214,4650,40.9
+      Gentoo,216,5550,49
+      Gentoo,214,4650,45.5
+      Gentoo,213,5850,48.4
+      Gentoo,210,4200,45.8
+      Gentoo,217,5850,49.3
+      Gentoo,210,4150,42
+      Gentoo,221,6300,49.2
+      Gentoo,209,4800,46.2
+      Gentoo,222,5350,48.7
+      Gentoo,218,5700,50.2
+      Gentoo,215,5000,45.1
+      Gentoo,213,4400,46.5
+      Gentoo,215,5050,46.3
+      Gentoo,215,5000,42.9
+      Gentoo,215,5100,46.1
+      Gentoo,216,4100,44.5
+      Gentoo,215,5650,47.8
+      Gentoo,210,4600,48.2
+      Gentoo,220,5550,50
+      Gentoo,222,5250,47.3
+      Gentoo,209,4700,42.8
+      Gentoo,207,5050,45.1
+      Gentoo,230,6050,59.6
+      Chinstrap,192,3500,46.5
+      Chinstrap,196,3900,50
+      Chinstrap,193,3650,51.3
+      Chinstrap,188,3525,45.4
+      Chinstrap,197,3725,52.7
+      Chinstrap,198,3950,45.2
+      Chinstrap,178,3250,46.1
+      Chinstrap,197,3750,51.3
+      Chinstrap,195,4150,46
+      Chinstrap,198,3700,51.3
+      Chinstrap,193,3800,46.6
+      Chinstrap,194,3775,51.7
+      Chinstrap,185,3700,47
+      Chinstrap,201,4050,52
+      Chinstrap,190,3575,45.9
+      Chinstrap,201,4050,50.5
+      Chinstrap,197,3300,50.3
+      Chinstrap,181,3700,58
+      Chinstrap,190,3450,46.4
+      Chinstrap,195,4400,49.2
+      Chinstrap,181,3600,42.4
+      Chinstrap,191,3400,48.5
+      Chinstrap,187,2900,43.2
+      Chinstrap,193,3800,50.6
+      Chinstrap,195,3300,46.7
+      Chinstrap,197,4150,52
+      Chinstrap,200,3400,50.5
+      Chinstrap,200,3800,49.5
+      Chinstrap,191,3700,46.4
+      Chinstrap,200,4550,52.8
+      Chinstrap,187,3200,40.9
+      Chinstrap,201,4300,54.2
+      Chinstrap,187,3350,42.5
+      Chinstrap,203,4100,51
+      Chinstrap,195,3600,49.7
+      Chinstrap,199,3900,47.5
+      Chinstrap,195,3850,47.6
+      Chinstrap,210,4800,52
+      Chinstrap,192,2700,46.9
+      Chinstrap,205,4500,53.5
+      Chinstrap,210,3950,49
+      Chinstrap,187,3650,46.2
+      Chinstrap,196,3550,50.9
+      Chinstrap,196,3500,45.5
+      Chinstrap,196,3675,50.9
+      Chinstrap,201,4450,50.8
+      Chinstrap,190,3400,50.1
+      Chinstrap,212,4300,49
+      Chinstrap,187,3250,51.5
+      Chinstrap,198,3675,49.8
+      Chinstrap,199,3325,48.1
+      Chinstrap,201,3950,51.4
+      Chinstrap,193,3600,45.7
+      Chinstrap,203,4050,50.7
+      Chinstrap,187,3350,42.5
+      Chinstrap,197,3450,52.2
+      Chinstrap,191,3250,45.2
+      Chinstrap,203,4050,49.3
+      Chinstrap,202,3800,50.2
+      Chinstrap,194,3525,45.6
+      Chinstrap,206,3950,51.9
+      Chinstrap,189,3650,46.8
+      Chinstrap,195,3650,45.7
+      Chinstrap,207,4000,55.8
+      Chinstrap,202,3400,43.5
+      Chinstrap,193,3775,49.6
+      Chinstrap,210,4100,50.8
+      Chinstrap,198,3775,50.2
+    </script>
+    <script>
+      const speciesColors = {
+        Adelie: [245, 166, 35],
+        Chinstrap: [155, 89, 182],
+        Gentoo: [26, 188, 156],
+      };
+      let data = [];
+      let xMin, xMax, yMin, yMax, sizeMin, sizeMax;
+
+      function parseCSV(csvText) {
+        const lines = csvText.trim().split("\n");
+        const headers = lines[0].split(",");
+        const rows = [];
+        for (let i = 1; i < lines.length; i++) {
+          const vals = lines[i].split(",");
+          const row = {};
+          headers.forEach((h, j) => {
+            row[h.trim()] = vals[j] ? vals[j].trim() : "";
+          });
+          rows.push(row);
+        }
+        return rows;
+      }
+
+      function setup() {
+        createCanvas(700, 500);
+        noLoop();
+
+        const csvEl = document.getElementById("penglings-csv");
+        const csvText = csvEl ? csvEl.textContent : "";
+        const rows = parseCSV(csvText);
+        for (const r of rows) {
+          const fl = parseFloat(r.flipper_length_mm);
+          const bm = parseFloat(r.body_mass_g);
+          const bl = parseFloat(r.bill_length_mm);
+          const sp = r.species;
+          if (!isNaN(fl) && !isNaN(bm) && !isNaN(bl) && sp) {
+            data.push({
+              flipper_length_mm: fl,
+              body_mass_g: bm,
+              bill_length_mm: bl,
+              species: sp,
+            });
+          }
+        }
+        if (data.length === 0) return;
+        const fls = data.map((d) => d.flipper_length_mm);
+        const bms = data.map((d) => d.body_mass_g);
+        const bls = data.map((d) => d.bill_length_mm);
+        xMin = Math.floor(Math.min(...fls) / 10) * 10;
+        xMax = Math.ceil(Math.max(...fls) / 10) * 10;
+        yMin = Math.floor(Math.min(...bms) / 500) * 500;
+        yMax = Math.ceil(Math.max(...bms) / 500) * 500;
+        sizeMin = Math.min(...bls);
+        sizeMax = Math.max(...bls);
+      }
+
+      function draw() {
+        background(255);
+        if (data.length === 0) {
+          fill(100);
+          textAlign(CENTER, CENTER);
+          text("No data loaded", width / 2, height / 2);
+          return;
+        }
+        const margin = { left: 70, right: 80, top: 40, bottom: 50 };
+        const w = width - margin.left - margin.right;
+        const h = height - margin.top - margin.bottom;
+        // plot coords (inside translated area)
+        const xPlot = (v) => ((v - xMin) / (xMax - xMin)) * w;
+        const yPlot = (v) => (1 - (v - yMin) / (yMax - yMin)) * h;
+        // canvas coords for axis labels
+        const xScale = (v) => margin.left + ((v - xMin) / (xMax - xMin)) * w;
+        const yScale = (v) => margin.top + (1 - (v - yMin) / (yMax - yMin)) * h;
+        const rScale = (v) => 2 + ((v - sizeMin) / (sizeMax - sizeMin)) * 8;
+
+        push();
+        translate(margin.left, margin.top);
+
+        // grid
+        stroke(200);
+        strokeWeight(1);
+        for (let x = xMin; x <= xMax; x += 10) {
+          line(xPlot(x), 0, xPlot(x), h);
+        }
+        for (let y = yMin; y <= yMax; y += 500) {
+          line(0, yPlot(y), w, yPlot(y));
+        }
+
+        noStroke();
+        data.forEach((d) => {
+          const c = speciesColors[d.species] || [128, 128, 128];
+          fill(c[0], c[1], c[2], 255 * 0.8);
+          circle(
+            xPlot(d.flipper_length_mm),
+            yPlot(d.body_mass_g),
+            2 * rScale(d.bill_length_mm),
+          );
+        });
+
+        pop();
+
+        // axis labels and ticks
+        textAlign(CENTER);
+        textSize(12);
+        fill(0);
+        text("Flipper Length (mm)", width / 2, height - 10);
+        push();
+        translate(18, height / 2);
+        rotate(-HALF_PI);
+        text("Body Mass (g)", 0, 0);
+        pop();
+
+        for (let x = xMin; x <= xMax; x += 10) {
+          text(x, xScale(x), height - margin.bottom + 22);
+        }
+        for (let y = yMin; y <= yMax; y += 500) {
+          text(y, margin.left - 12, yScale(y) + 4);
+        }
+      }
+    </script>
+  </body>
+</html>
