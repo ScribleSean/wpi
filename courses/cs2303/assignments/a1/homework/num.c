@@ -3,7 +3,7 @@
 
 
 /* Very simple program to demo reading a number from the command line.
- * Created by Sean Arackal, sarackal
+ * Created by ScribleSean
  * 
  * Usage:
  *   ./num some_number

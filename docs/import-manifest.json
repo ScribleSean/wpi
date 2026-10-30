@@ -561,7 +561,10 @@
           "source": "Assignment 1/Homework 1/calcGrades.c",
           "destination": "courses/cs2303/assignments/a1/homework/calcGrades.c",
           "sourceBlob": "27f0cdc8c7443501c0dd012f295a225a8fb1076b",
-          "sha256": "e790bc96f2db0a7874a007be16d3f259f6c41d22abe0adbb86f3c8b247d13a0f"
+          "sha256": "f380f750b5d26bc0188a020489f55bf9f147e148a7e5a351ae99c3c2034d3330",
+          "changes": [
+            "Author name and email replaced with the ScribleSean handle"
+          ]
         },
         {
           "source": "Assignment 1/Homework 1/calcGrades.h",
@@ -573,13 +576,19 @@
           "source": "Assignment 1/Homework 1/grades.c",
           "destination": "courses/cs2303/assignments/a1/homework/grades.c",
           "sourceBlob": "79203a20b8cf3a6e9df6ab8e9a2cc2fb2583aa09",
-          "sha256": "39154702d3f1923d7afa14c79f6dae61196dd196f248fbda25ba19f3acd2ae2c"
+          "sha256": "fef594f37edc3623f23b535848c4645e1737ef5950c2ada62565bf887cc3c46c",
+          "changes": [
+            "Author name and email replaced with the ScribleSean handle"
+          ]
         },
         {
           "source": "Assignment 1/Homework 1/leap.c",
           "destination": "courses/cs2303/assignments/a1/homework/leap.c",
           "sourceBlob": "6bae30cc6b6e066042a3214374b3b86945778966",
-          "sha256": "ca38b2820a1c0baeabad6533863b5685adddcca7a32900b87706b2ab90313bb6"
+          "sha256": "eac28ea8d443270cc34d9fb6c3db9b47f92c3c9a07b7b063beee3ba6122f348b",
+          "changes": [
+            "Author name and email replaced with the ScribleSean handle"
+          ]
         },
         {
           "source": "Assignment 1/Homework 1/makefile",
@@ -591,15 +600,19 @@
           "source": "Assignment 1/Homework 1/num.c",
           "destination": "courses/cs2303/assignments/a1/homework/num.c",
           "sourceBlob": "cd1cff67cbb0c60a0b20d3b0f923d42064367ae1",
-          "sha256": "3dfa2dcce0621518c59294e05515fc66be837ccce2c0f50704d823e4b6cc0221"
+          "sha256": "c93493b96074ca2bb4ac1025abdcf5cdecdb2702773224c650779379cfa24a94",
+          "changes": [
+            "Author name and email replaced with the ScribleSean handle"
+          ]
         },
         {
           "source": "Assignment 1/Homework 1/readme.txt",
           "destination": "courses/cs2303/assignments/a1/homework/readme.txt",
           "sourceBlob": "76fd702ae45847e3902c3c8aff1e200624a78024",
-          "sha256": "f114498b8474433c26a6372c3c2ff6749271a9104cd79907b6ee64d1b50fbf9c",
+          "sha256": "633f8dce00ca5672d2a5351d534291132288a4fd5846b91e61f682c6c043ce00",
           "changes": [
-            "Local home paths and VM username replaced"
+            "Local home paths and VM username replaced",
+            "Author name and email replaced with the ScribleSean handle"
           ]
         },
         {
@@ -708,7 +721,10 @@
           "source": "Assignment 3/Homework 3/ctest.c",
           "destination": "courses/cs2303/assignments/a3/homework/ctest.c",
           "sourceBlob": "99fca49a6aa59b1fa68961fe98b6ee19fab4195f",
-          "sha256": "0640d35cf0859bbe15ddc29feba449b85c22a3bfeeb73614ea917a87e6017b81"
+          "sha256": "101668ba28c93daa04d948cd47379d876e49bd14ca09db01a6abc65e3573341d",
+          "changes": [
+            "Author name and email replaced with the ScribleSean handle"
+          ]
         },
         {
           "source": "Assignment 3/Homework 3/makefile",
@@ -723,7 +739,10 @@
           "source": "Assignment 3/Homework 3/mystring.c",
           "destination": "courses/cs2303/assignments/a3/homework/mystring.c",
           "sourceBlob": "4005ad9f6d00c3ba8b63830594662aa4898b850c",
-          "sha256": "b5eb778b67a17312e6c8cd15dbfb7e07fa28f182aeb33523a67ae23e7846d361"
+          "sha256": "375562de0a5c16a642262224c2b36413f70bb33d774c0d8004cebe1952245862",
+          "changes": [
+            "Author name and email replaced with the ScribleSean handle"
+          ]
         },
         {
           "source": "Assignment 3/Homework 3/mystring.h",
@@ -735,22 +754,29 @@
           "source": "Assignment 3/Homework 3/readme.txt",
           "destination": "courses/cs2303/assignments/a3/homework/readme.txt",
           "sourceBlob": "fc04668158c8f7908c9428235d7372101c0322e5",
-          "sha256": "09e326d3bc19ff8bdfab91505bcb6d9d661e9fc21a8978030d5eb2be54e0f5e2",
+          "sha256": "0e84e02fd8ce83301d82ece14cb4b91bb44b50c6ddc582e1d01aacfdc640abae",
           "changes": [
-            "Local home paths and VM username replaced"
+            "Local home paths and VM username replaced",
+            "Author name and email replaced with the ScribleSean handle"
           ]
         },
         {
           "source": "Assignment 3/Homework 3/structure.c",
           "destination": "courses/cs2303/assignments/a3/homework/structure.c",
           "sourceBlob": "9802b091992d984b7cb1c1b227ad174623f95853",
-          "sha256": "6c5710bb41e95ac40936492ce9c934872d5ab197961fe9d66f30f2f4e6dfe1ee"
+          "sha256": "5551c5adc4c07bfe75132d52cb19909d9016014ed2dd10b1573909318f9325e0",
+          "changes": [
+            "Author name and email replaced with the ScribleSean handle"
+          ]
         },
         {
           "source": "Assignment 3/Homework 3/structure.h",
           "destination": "courses/cs2303/assignments/a3/homework/structure.h",
           "sourceBlob": "4ba03e2fc912f17cd414ef51dcdf546f44eaa528",
-          "sha256": "3dfe6de63bfa08c20cd1a3c37ed15f644b9c902af6800ed1c009cee9dc2c216f"
+          "sha256": "e24288ca92dde99c4e1450492299fef731e4c80e763db3d44bd5ae3154b11b0a",
+          "changes": [
+            "Author name and email replaced with the ScribleSean handle"
+          ]
         },
         {
           "source": "Assignment 3/Lab 3/Doxyfile",
@@ -819,31 +845,46 @@
           "source": "Assignment 4/Homework 4/sort.c",
           "destination": "courses/cs2303/assignments/a4/homework/sort.c",
           "sourceBlob": "f0f9e86886987ee302e8730c325edfd1f781225a",
-          "sha256": "c57946e64591bf85ddea09324df440c2a97856c54bab641177baf067938180d0"
+          "sha256": "e106ba8d28f15cc8fa0a2bc2ec9b7695abeb437dc6eb4a998df29bdcc9e838ae",
+          "changes": [
+            "Author name and email replaced with the ScribleSean handle"
+          ]
         },
         {
           "source": "Assignment 4/Homework 4/sort.h",
           "destination": "courses/cs2303/assignments/a4/homework/sort.h",
           "sourceBlob": "785bf56d3a785e504a2f79325c8741ac65c5d047",
-          "sha256": "e256d510e18c4f35be377d0b9b4d0bf2778ff90e120db2f11112243cee0518a2"
+          "sha256": "e5ef97a20ddcdcfeccc8cc35b30406885d9053bddec4a735d865101c57407277",
+          "changes": [
+            "Author name and email replaced with the ScribleSean handle"
+          ]
         },
         {
           "source": "Assignment 4/Homework 4/sorttest.c",
           "destination": "courses/cs2303/assignments/a4/homework/sorttest.c",
           "sourceBlob": "44b736d95635333f792dc956660ed1c7510b5ad8",
-          "sha256": "7bed8a690c1be07ace65a9ceb34ff0e2e65af370c3928b67e26e9ecff40a8b42"
+          "sha256": "e973b4c1d533d0d5184f3fa4253c59963eafd4f6745adc98d26d4a63f8138411",
+          "changes": [
+            "Author name and email replaced with the ScribleSean handle"
+          ]
         },
         {
           "source": "Assignment 4/Homework 4/sorttest2.c",
           "destination": "courses/cs2303/assignments/a4/homework/sorttest2.c",
           "sourceBlob": "2cd175dd79c5f269d14d9c7d24c25cab02d9252e",
-          "sha256": "0b511a83e415bc74e772f8628a3c98fbc9a84f957428b75043b9c44da5fbcc31"
+          "sha256": "035c5d0e49e86776d29e7f574c3fd31b8e873ea17ca014d92f9cd7cfe75c90de",
+          "changes": [
+            "Author name and email replaced with the ScribleSean handle"
+          ]
         },
         {
           "source": "Assignment 4/Homework 4/timesort.c",
           "destination": "courses/cs2303/assignments/a4/homework/timesort.c",
           "sourceBlob": "18af62eff943341f4ab76c5f1a6d6089f49f722d",
-          "sha256": "fcbf1b5765e7ed4a739ee10e9306c3575d89a24583ca289915102893c887cfcf"
+          "sha256": "860d51338ca774b096b2e53b28fd5f7092a94ff2e56d4b9d1a62ed63baa70dd8",
+          "changes": [
+            "Author name and email replaced with the ScribleSean handle"
+          ]
         },
         {
           "source": "Assignment 4/Lab 4/Doxyfile",
@@ -870,9 +911,10 @@
           "source": "Assignment 4/Lab 4/readme.txt",
           "destination": "courses/cs2303/assignments/a4/lab/readme.txt",
           "sourceBlob": "7550157088a66fbd10e108f180328adcff75d582",
-          "sha256": "38e0810e9bba1d58b16c2a7441b4b2ebc685fdcd31f329a69a43540fc52a0273",
+          "sha256": "87067d34c638c970d74ed807bc145d99bce54e0c88ddff1acb4ad19dd4cb5335",
           "changes": [
-            "Local home paths and VM username replaced"
+            "Local home paths and VM username replaced",
+            "Author name and email replaced with the ScribleSean handle"
           ]
         },
         {
@@ -900,34 +942,47 @@
           "source": "Assignment 5/Homework 5/readme.txt",
           "destination": "courses/cs2303/assignments/a5/homework/readme.txt",
           "sourceBlob": "f6106c200be76fec64e867961ff0b07165f12b29",
-          "sha256": "0c721334d3d27473d5e55f30ba4b292e09f689826cf032ad32a8a89db673b82e",
+          "sha256": "4bc41f79bb3060664ff2c5c21b7f87980420f8a6d4eaf458808efa6ad52a0d34",
           "changes": [
-            "Local home paths and VM username replaced"
+            "Local home paths and VM username replaced",
+            "Author name and email replaced with the ScribleSean handle"
           ]
         },
         {
           "source": "Assignment 5/Homework 5/stack.c",
           "destination": "courses/cs2303/assignments/a5/homework/stack.c",
           "sourceBlob": "050746f3abcd94154fd7410cbe636baf20854fb1",
-          "sha256": "ad877bab1ee21b78ff8a455eaff03ec6b5ca5522c37eaaa896a57ae9dbaa9d08"
+          "sha256": "2f2df5ee4483f576fe0b6893144d80c4829537ac8a3e7f8e81e056d1d24014a5",
+          "changes": [
+            "Author name and email replaced with the ScribleSean handle"
+          ]
         },
         {
           "source": "Assignment 5/Homework 5/stack.h",
           "destination": "courses/cs2303/assignments/a5/homework/stack.h",
           "sourceBlob": "88b1a18796db4804e7adedf4abd2c0c0d65202cc",
-          "sha256": "fee838f45120ead8ab148e30de7a6894eb314662b9edea321772ede752c46087"
+          "sha256": "7532398c0349da6f2408efb2073b2f4f589acca46b766b7bce1f033fb33ba2fd",
+          "changes": [
+            "Author name and email replaced with the ScribleSean handle"
+          ]
         },
         {
           "source": "Assignment 5/Homework 5/stacktest.c",
           "destination": "courses/cs2303/assignments/a5/homework/stacktest.c",
           "sourceBlob": "9169f2c8a150a26884e3954deb1e251c6cfeef5f",
-          "sha256": "e4c4417902cd34613c73b8d826c11a08034839afcad2cbefc9f79dea762fb6a8"
+          "sha256": "4645331a43be4348a34e6824aea23de38febe69efa570ea5fcd30a6bd126ba4c",
+          "changes": [
+            "Author name and email replaced with the ScribleSean handle"
+          ]
         },
         {
           "source": "Assignment 5/Homework 5/stacktest2.c",
           "destination": "courses/cs2303/assignments/a5/homework/stacktest2.c",
           "sourceBlob": "96cdd90dad501de732f712b0910208ca487e890d",
-          "sha256": "b9d4700a25897239463ac193f790ee286a8a55aaea53ce4e4ddfafd8a11279ff"
+          "sha256": "c9ca39badb93ba7a9b850dd7bc75150dc9f123000a74f5874ccc922f507067ef",
+          "changes": [
+            "Author name and email replaced with the ScribleSean handle"
+          ]
         },
         {
           "source": "Assignment 5/Lab 5/Doxyfile",
@@ -981,7 +1036,10 @@
           "source": "Assignment 6/Homework 6/fed2cs2303.c",
           "destination": "courses/cs2303/assignments/a6/homework/fed2cs2303.c",
           "sourceBlob": "ffc163f15075746cf1b374811e500e3e129839c5",
-          "sha256": "921d01eb878927446a944cbd6bdf32973f2996dbf4364fc7dc7b483e73168a74"
+          "sha256": "d24e7fe39585789cb59068c06394fbc89cc01741bda777caf63e817696a72148",
+          "changes": [
+            "Author name and email replaced with the ScribleSean handle"
+          ]
         },
         {
           "source": "Assignment 6/Homework 6/free-zipcode-database.csv",
@@ -1002,9 +1060,10 @@
           "source": "Assignment 6/Homework 6/readme.txt",
           "destination": "courses/cs2303/assignments/a6/homework/readme.txt",
           "sourceBlob": "e6a3ee34a9f6348e674faf42e38c09ccbc6c7e93",
-          "sha256": "5ee3e6a71fae25303998af6776daa3ea42a1c2fc3125e28823c70aa3dcd0eb16",
+          "sha256": "55cb855af29e376ab5aab3a03318e87e9e94100ba8745a989ce5e5804b97a761",
           "changes": [
-            "Local home paths and VM username replaced"
+            "Local home paths and VM username replaced",
+            "Author name and email replaced with the ScribleSean handle"
           ]
         },
         {
@@ -1017,13 +1076,19 @@
           "source": "Assignment 6/Homework 6/zipcode.c",
           "destination": "courses/cs2303/assignments/a6/homework/zipcode.c",
           "sourceBlob": "68508d16ca46efd6d62ebc43519cd335fbaac969",
-          "sha256": "30df516e1f20b77a9403d0df85bc8b42eb0cea0c8d56db105dcfb658ecf61b73"
+          "sha256": "8e0820e04668ea028679e79ca6b08f2fc08941ae5344e074f3ac93b4773e3e94",
+          "changes": [
+            "Author name and email replaced with the ScribleSean handle"
+          ]
         },
         {
           "source": "Assignment 6/Homework 6/zipfed.cpp",
           "destination": "courses/cs2303/assignments/a6/homework/zipfed.cpp",
           "sourceBlob": "2443e81c1ccad3c9255c21724f9da5108f3fffc7",
-          "sha256": "1a7d488e6c9208a65763f92f660217dae63cc60bf74c88a497756e70a0635926"
+          "sha256": "b5d8315eb283c36c0500d106764332fd209f22c9752f17e8340c1b394ac3b503",
+          "changes": [
+            "Author name and email replaced with the ScribleSean handle"
+          ]
         },
         {
           "source": "Assignment 6/Homework 6/zipfed.hpp",
@@ -2259,19 +2324,28 @@
           "source": "README.md",
           "destination": "courses/cs4241/assignments/a1/README.md",
           "sourceBlob": "9d1d9cfca1c17e1e768422b88a0cb710727f5072",
-          "sha256": "8d2a1f4b1b913472ba2e519051a00617f9f9e43b08d880cd0cfc74729f026777"
+          "sha256": "b82e5edcf0fe03e7fda71df1f0c111f58899e5ac1f58df0914c7c8fe85d99bd4",
+          "changes": [
+            "Author name and email replaced with the ScribleSean handle"
+          ]
         },
         {
           "source": "index.html",
           "destination": "courses/cs4241/assignments/a1/index.html",
           "sourceBlob": "130368ef502a68593c1188f85db7441317e9b52d",
-          "sha256": "ecbb81cf4f41489eabbf1d0d58c1b8a374cd112d065c2266a9353ce7c8e9d27a"
+          "sha256": "69538e438151673b5c898c596dafd7e77f6bad6f577df521d8193f3abb7f6dbf",
+          "changes": [
+            "Author name and email replaced with the ScribleSean handle"
+          ]
         },
         {
           "source": "package.json",
           "destination": "courses/cs4241/assignments/a1/package.json",
           "sourceBlob": "05042e1ccbe2c37631981ac5ab24043f8640eece",
-          "sha256": "37a0d8f2dea5c2ed598a6b4cb7ac2b08c279b63b8a80a567e9a861e4b01d15fd"
+          "sha256": "f58db2d8506fa2bc0d10ace9c7c7ea11c420d24a08711a2a7612bd6a83ae24ee",
+          "changes": [
+            "Author name and email replaced with the ScribleSean handle"
+          ]
         },
         {
           "source": "server.js",
@@ -2350,7 +2424,10 @@
           "source": "package.json",
           "destination": "courses/cs4241/assignments/a3/package.json",
           "sourceBlob": "3a3baec46b8006c47d49063c393e656687051811",
-          "sha256": "844ccd4b25bdac87191d2e88d791a333e444acfe0f5a6f29241c25fd33bec910"
+          "sha256": "da558ee7f9a87fb4d9747476dfce65484a18d7ebfa50507aac7a6655a0852819",
+          "changes": [
+            "Author name and email replaced with the ScribleSean handle"
+          ]
         },
         {
           "source": "server.js",
@@ -2448,7 +2525,10 @@
           "source": "package.json",
           "destination": "courses/cs4241/assignments/a4/package.json",
           "sourceBlob": "4f0e0a29144e8d71d37d23d30215f36da344a41f",
-          "sha256": "c9cdf9ad7fc7f07222b083ac733b0f031f9fe4a5b69f7574649566572a33fc74"
+          "sha256": "092a76bcc5311c1fddfc0d9c258bfa6a41848b2d7cdd761a423c76ad2f09b5f5",
+          "changes": [
+            "Author name and email replaced with the ScribleSean handle"
+          ]
         },
         {
           "source": "server.js",

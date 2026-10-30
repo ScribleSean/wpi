@@ -1,7 +1,7 @@
 /** stack.h
  * Header file for stack data structure implementation
  *
- * @author Blake Nelson, Sean Arackal
+ * @author Blake Nelson, ScribleSean
  *
  */
 #ifndef STACK_H

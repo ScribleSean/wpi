@@ -1,5 +1,5 @@
 /** timesort.c
- * @author Sean Arackal
+ * @author ScribleSean
  */
 
 #include <stdio.h>

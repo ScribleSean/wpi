@@ -3,7 +3,7 @@
 
 
 /* Simple program to check if inputted number is a leap year or not
- * Created by Sean Arackal, sarackal
+ * Created by ScribleSean
  * 
  * Usage:
  *   ./leap a_number

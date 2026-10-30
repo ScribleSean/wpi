@@ -1,4 +1,4 @@
-Sean Arackal
+ScribleSean
 CS2303 HW 5
 
 

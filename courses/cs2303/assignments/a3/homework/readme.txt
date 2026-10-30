@@ -42,7 +42,7 @@ a1: HiHelloHelloHello, a
 Before dup, array a2 = 0x7ffc6ac3b052, contents = Hello
 After dup, pointer p2 =  0x55ad9fff86b0, contents = Hello
 Printing persons
-Name is Sean Arackal
+Name is ScribleSean
 Birth year is 2004
 Salary is 100000
 Name is Brian Jin

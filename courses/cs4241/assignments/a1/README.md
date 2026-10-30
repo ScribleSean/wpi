@@ -1,4 +1,4 @@
-Sean Arackal
+ScribleSean
 
 https://a1-scriblesean.glitch.me/
 

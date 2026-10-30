@@ -1,5 +1,5 @@
 /** mystring.c
- * @author Sean Arackal, Mike Ciaraldi, Blake Nelson
+ * @author ScribleSean, Mike Ciaraldi, Blake Nelson
  * Custom versions of some of the C-style string functions
 */
 

@@ -4,7 +4,7 @@
 
 
 /* Very simple program to calculate the gpa from a list of inputted numbers.
- * Created by Sean Arackal, sarackal
+ * Created by ScribleSean
  * 
  * Usage:
  *   ./grades a_list_of_numbers

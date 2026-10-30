@@ -1,11 +1,11 @@
 ﻿Homework 1
-Sean Arackal (sarackal@wpi.edu)
+ScribleSean
 
 
 num.c
 
 /* Very simple program to demo reading a number from the command line.
- * Created by Sean Arackal, sarackal
+ * Created by ScribleSean
  * 
  * Usage:
  *   ./num some_number
@@ -34,7 +34,7 @@ The number you entered was: -100
 grades.c
 
 /* Very simple program to calculate the gpa from a list of inputted numbers.
- * Created by Sean Arackal, sarackal
+ * Created by ScribleSean
  * 
  * Usage:
  *   ./grades a_list_of_numbers
@@ -98,7 +98,7 @@ Cumulative GPA from the given grades is: 10.500000
 leap.c
 
 /* Simple program to check if inputted number is a leap year or not
- * Created by Sean Arackal, sarackal
+ * Created by ScribleSean
  * 
  * Usage:
  *   ./leap a_number

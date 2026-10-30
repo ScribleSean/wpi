@@ -1,6 +1,6 @@
 /** sorttest.c
  * file that makes and sorts an array from the command line
- * @author Sean Arackal
+ * @author ScribleSean
  */
 #include <stdio.h>
 #include <stdlib.h>

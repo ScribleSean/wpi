@@ -1,7 +1,7 @@
 /** stacktest.c
 * short program to demonstrate use of stack
 *
-* @author Blake Nelson, Sean Arackal
+* @author Blake Nelson, ScribleSean
 */
 
 #include <stdio.h>

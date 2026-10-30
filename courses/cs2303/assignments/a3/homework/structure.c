@@ -1,5 +1,5 @@
 /** structure.c
- * @author Sean Arackal
+ * @author ScribleSean
  * class for creating structures
 */
 

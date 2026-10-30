@@ -1,6 +1,6 @@
 Lab 4
 CS2303
-Sean Arackal
+ScribleSean
 CX04
 
 using the evidence from:

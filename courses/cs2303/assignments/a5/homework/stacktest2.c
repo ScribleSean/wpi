@@ -1,6 +1,6 @@
 /** stacktest2.c
 * reverse the order of characters in a string using a stack
-* @author Sean Arackal
+* @author ScribleSean
 */
 
 #include <stdio.h>

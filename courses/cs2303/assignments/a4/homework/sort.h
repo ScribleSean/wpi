@@ -1,6 +1,6 @@
 /** sort.h
  * file to sort function prototypes for sort.c
- * @author Sean Arackal
+ * @author ScribleSean
  */
 
 #ifndef SORT_H

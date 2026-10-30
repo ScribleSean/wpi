@@ -26,7 +26,7 @@ The Webware database exercises have known authentication and authorization limit
 
 ## History and attribution
 
-The September 2026 consolidation imports cleaned snapshots from 14 source repositories. Original authorship comments and applicable assignment material are retained. Original commit histories remain in the source repositories; the consolidation does not invent new development history or imply sole authorship of group work.
+The September 2026 consolidation imports cleaned snapshots from 14 source repositories. Authorship comments use the ScribleSean handle; applicable assignment material is retained. Original commit histories remain in the source repositories; the consolidation does not invent new development history or imply sole authorship of group work.
 
 [Import provenance](docs/import-manifest.json) records every source revision, copied file, checksum, omission, and migration edit. Local environment files, editor state, backups, compiled executables, and generated documentation were excluded. The NBA dataset and screen recording are left in their original repository; the court implementation does not load that dataset. Existing AI-assistance disclosures are retained.
 

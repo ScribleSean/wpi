@@ -1,5 +1,5 @@
 /** structure.h
- * @author Sean Arackal
+ * @author ScribleSean
  * Structer header function prototypes
 */
 #ifndef STRUCTURE_H		// Remember guard

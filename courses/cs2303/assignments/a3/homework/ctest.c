@@ -9,7 +9,7 @@
 
 /** ctest.c
  * Program to demonstrate character arrays and dynamically-allocated memory.
- * @author Sean Arackal, Mike Ciaraldi, Blake Nelson
+ * @author ScribleSean, Mike Ciaraldi, Blake Nelson
  */
 
 const int MAX_CHARS = 20;       // Maximum number of characters in array
@@ -83,7 +83,7 @@ int main()
 
   //struct Person creation and printing
 
-  Person* person1 = make_person("Sean Arackal", 2004, 100000);
+  Person* person1 = make_person("ScribleSean", 2004, 100000);
   Person* person2 = make_person("Brian Jin", 2004, 200000);
   Person* person3 = genRandomPerson();
   printf("Printing persons\n");

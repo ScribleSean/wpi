@@ -1,6 +1,6 @@
 /** Functions supporting manipulation and management of zip code
  *
- * @author Blake Nelson, Sean Arackal
+ * @author Blake Nelson, ScribleSean
  */
 
  #include <stdio.h>

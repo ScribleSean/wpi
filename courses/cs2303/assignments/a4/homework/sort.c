@@ -1,6 +1,6 @@
 /** sort.c
  * file for functions to create, sort and print arrays
- * @author Sean Arackal
+ * @author ScribleSean
  */
 
 #include <stdio.h>

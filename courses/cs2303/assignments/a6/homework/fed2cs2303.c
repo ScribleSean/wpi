@@ -1,7 +1,7 @@
 /** Program to read in public zip code information and store as needed
  * for cs2301 assignment needs.
  *
- * @author Blake Nelson, Sean Arackal
+ * @author Blake Nelson, ScribleSean
  *
  */
 

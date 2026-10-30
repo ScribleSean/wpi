@@ -2,7 +2,7 @@
  * Functions to support Stack implementation. Each stack element is a
  * pointer to void. This allows any type of object to be stored on the stack
  *
- * @author Blake Nelson, Sean Arackal
+ * @author Blake Nelson, ScribleSean
  */
 
 #include <stddef.h>

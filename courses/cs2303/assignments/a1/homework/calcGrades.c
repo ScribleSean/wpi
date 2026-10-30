@@ -3,7 +3,7 @@
 
 
 /* Seperate source file with a function for grades.c
- * Created by Sean Arackal, sarackal
+ * Created by ScribleSean
  */
 
 int calcGrades(int numOfInts, int grades[])
