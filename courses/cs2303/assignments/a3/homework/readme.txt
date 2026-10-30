@@ -16,12 +16,12 @@ use ./ctest to run the program
 
 
 sample output:
-sarackal@CS2303-VirtualBox:~/cs2303_hws/cs2303_hw3$ make
+user@CS2303-VirtualBox:~/cs2303_hws/cs2303_hw3$ make
 gcc -c ctest.c
 gcc -c mystring.c
 gcc -c structure.c
 gcc ctest.o mystring.o structure.o -o ctest
-sarackal@CS2303-VirtualBox:~/cs2303_hws/cs2303_hw3$ ./ctest
+user@CS2303-VirtualBox:~/cs2303_hws/cs2303_hw3$ ./ctest
 Arrays:   a1: 0x7ffc6ac3afd0, a2: 0x7ffc6ac3b052, a3: 0x7ffc6ac3afb0
 Pointers: p1: 0x55ad9eac400c, p2: (nil)
 
@@ -73,10 +73,10 @@ Salary is 104857
 Name is MZHUNUKXHJ
 Birth year is 1939
 Salary is 183806
-sarackal@CS2303-VirtualBox:~/cs2303_hws/cs2303_hw3$ make clean
+user@CS2303-VirtualBox:~/cs2303_hws/cs2303_hw3$ make clean
 rm -f *.o
 rm -f ctest mystring structure
-sarackal@CS2303-VirtualBox:~/cs2303_hws/cs2303_hw3$
+user@CS2303-VirtualBox:~/cs2303_hws/cs2303_hw3$
 
 Functions:
 char* mystrdup(const char* source); //dupes string

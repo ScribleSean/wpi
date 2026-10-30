@@ -11,7 +11,7 @@ print_arrays.o: print_arrays.c print_arrays.h
 	
 docs:
 	doxygen
-	cp -p -r /home/sarackal/cs2303_labs/cs2303_lab02/html/* /home/sarackal/public_html/cs2303_lab02
+	cp -p -r html/* $(HOME)/public_html/cs2303_lab02
 	
 clean:
 	rm -f *.o

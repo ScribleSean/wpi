@@ -26,7 +26,7 @@ at3.o: at3.c print_arrays.h array_sort.h
 	
 docs:
 	doxygen
-	cp -p -r /home/sarackal/cs2303_hws/cs2303_hw2/html/* /home/sarackal/public_html/cs2303_hw2
+	cp -p -r html/* $(HOME)/public_html/cs2303_hw2
 	
 clean:
 	rm -f *.o

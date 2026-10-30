@@ -12,7 +12,7 @@ structure.o: structure.c structure.h
 
 docs:
 	doxygen
-	cp -p -r /home/sarackal/cs2303_hws/cs2303_hw3/html/* /home/sarackal/public_html/cs2303_hw3
+	cp -p -r html/* $(HOME)/public_html/cs2303_hw3
 
 clean:
 	rm -f *.o

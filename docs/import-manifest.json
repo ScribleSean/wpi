@@ -10,39 +10,64 @@
       "files": [
         {
           "source": "kratman-a-arackal-s-hw1.rkt",
-          "destination": "courses/cs1101/assignments/hw1/kratman-a-arackal-s-hw1.rkt",
+          "destination": "courses/cs1101/assignments/hw1/hw1.rkt",
           "sourceBlob": "470fd4c5f9d440385ab686ce65724bedb7b05430",
-          "sha256": "47efbe1575019403dc7b75bde7752ddd464aecc98e18f20543ecc74b585f2e69"
+          "sha256": "11a2f9b572bcfca0fae02f533058e78509f640433360de8cd1b43f2738d1929f",
+          "changes": [
+            "Partner name and usernames redacted",
+            "Renamed from kratman-a-arackal-s-hw1.rkt"
+          ]
         },
         {
           "source": "kratman-a-arackal-s-hw2.rkt",
-          "destination": "courses/cs1101/assignments/hw2/kratman-a-arackal-s-hw2.rkt",
+          "destination": "courses/cs1101/assignments/hw2/hw2.rkt",
           "sourceBlob": "a191da0fd8dce5e5dd6b9b6156557f32c14055aa",
-          "sha256": "4a29e4be50d3c71703a177ebfe766a7937f19b6c30747f95ac966da42b55f032"
+          "sha256": "6d8784198bf46544d27f4bc110864b38db3f79a9dd30abfa09f75e6059b4e5c2",
+          "changes": [
+            "Partner name and usernames redacted",
+            "Renamed from kratman-a-arackal-s-hw2.rkt"
+          ]
         },
         {
           "source": "kratman-a-arackal-s-hw3.rkt",
-          "destination": "courses/cs1101/assignments/hw3/kratman-a-arackal-s-hw3.rkt",
+          "destination": "courses/cs1101/assignments/hw3/hw3.rkt",
           "sourceBlob": "2fc7b4b776b5e71b28538cc9493abe0d1c844602",
-          "sha256": "49d9b1d0995fd5716d6cc5ad20bed7fb9199675a4fe918e4714a3dfadbb72385"
+          "sha256": "e3b612f15010655681322511a88362e8a6962be7d67498870cac2a5b7b4a8e32",
+          "changes": [
+            "Partner name and usernames redacted",
+            "Renamed from kratman-a-arackal-s-hw3.rkt"
+          ]
         },
         {
           "source": "kratman-a-arackal-s-hw4.rkt",
-          "destination": "courses/cs1101/assignments/hw4/kratman-a-arackal-s-hw4.rkt",
+          "destination": "courses/cs1101/assignments/hw4/hw4.rkt",
           "sourceBlob": "774ba71aa2c02bed0de5753a6039b630de926689",
-          "sha256": "e927d79fc051fe88062d8a0de0b72b4d95400bb198e025fd9ce0599732880ea1"
+          "sha256": "8ca161acdfb69776199a71e601bd6e08b0536ce542d256043cd6cf85a51e196d",
+          "changes": [
+            "Partner name and usernames redacted",
+            "Renamed from kratman-a-arackal-s-hw4.rkt",
+            "Student emails replaced with example.com placeholders"
+          ]
         },
         {
           "source": "kratman-a-arackal-s-hw5.rkt",
-          "destination": "courses/cs1101/assignments/hw5/kratman-a-arackal-s-hw5.rkt",
+          "destination": "courses/cs1101/assignments/hw5/hw5.rkt",
           "sourceBlob": "0f57d005e145e50800547134472dee88d17d1d48",
-          "sha256": "2ee3b06aa6835d67197215865ec9e36c3b129954b2d9de7defe9922a3ea8f2a2"
+          "sha256": "3130e27827953838ab15ed1b0d2e646e0ac63843b3f7622c23fc8282c8f6ba7e",
+          "changes": [
+            "Partner name and usernames redacted",
+            "Renamed from kratman-a-arackal-s-hw5.rkt"
+          ]
         },
         {
           "source": "kratman-a-arackal-s-hw6.rkt",
-          "destination": "courses/cs1101/assignments/hw6/kratman-a-arackal-s-hw6.rkt",
+          "destination": "courses/cs1101/assignments/hw6/hw6.rkt",
           "sourceBlob": "058fd8ebb61b8f561550f28f0299a7fe5778c3fe",
-          "sha256": "670569fc778ccd17ceb1c5da120987b2ed6a5240e6883d1b29bb8a3cdbd0a9e7"
+          "sha256": "b655641736d566e75ebf04004152bb47a340fe5928460e5bed5490a25bf2d49c",
+          "changes": [
+            "Partner name and usernames redacted",
+            "Renamed from kratman-a-arackal-s-hw6.rkt"
+          ]
         }
       ],
       "omitted": [
@@ -103,7 +128,10 @@
           "source": "Homework 1/Examples.java",
           "destination": "courses/cs2102/assignments/hw1/Examples.java",
           "sourceBlob": "de15cfbc789c419f81b57af8839f2b3cc7e7e73b",
-          "sha256": "2a4211de62f7797e1c081024e453fce951f29b2cfbffe5a04bb5b1612cc06d7a"
+          "sha256": "e768820917c92c82f008c48875e39617617e5cfdbb795c7fe20fe250069cd62d",
+          "changes": [
+            "Partner name and emails redacted"
+          ]
         },
         {
           "source": "Homework 1/IChallenge.java",
@@ -151,7 +179,10 @@
           "source": "Homework 2/Examples.java",
           "destination": "courses/cs2102/assignments/hw2/Examples.java",
           "sourceBlob": "9079f430e07dcb59a22ed464b819ba4a71b07a0f",
-          "sha256": "1f215a9b4bd3b58be67a71e48bcb3a90d0686c893e29c6ad26d6955385df9a78"
+          "sha256": "db9658caacf8e02d3666f1b93af6ea1dba22ae8e94a24d24a44fb8c876009d63",
+          "changes": [
+            "Partner name and emails redacted"
+          ]
         },
         {
           "source": "Homework 2/IChallenge.java",
@@ -566,7 +597,10 @@
           "source": "Assignment 1/Homework 1/readme.txt",
           "destination": "courses/cs2303/assignments/a1/homework/readme.txt",
           "sourceBlob": "76fd702ae45847e3902c3c8aff1e200624a78024",
-          "sha256": "4076810bfd350c0d75a6302367f189586424b954760370faba83168096fc8e6c"
+          "sha256": "f114498b8474433c26a6372c3c2ff6749271a9104cd79907b6ee64d1b50fbf9c",
+          "changes": [
+            "Local home paths and VM username replaced"
+          ]
         },
         {
           "source": "Assignment 1/Lab 1/lab1.c",
@@ -614,7 +648,10 @@
           "source": "Assignment 2/Homework 2/makefile",
           "destination": "courses/cs2303/assignments/a2/homework/makefile",
           "sourceBlob": "23849e4d0de7c508838b99e7295e553427a86db1",
-          "sha256": "167ecdc3f65a4545528f09892bc42124ee2f12f7a76a8028057d869135594565"
+          "sha256": "28169bee187901e59c46523d3eb2f51fbc7615395db4f2dcc2811fcea4a1fbf1",
+          "changes": [
+            "Local home paths and VM username replaced"
+          ]
         },
         {
           "source": "Assignment 2/Homework 2/print_arrays.c",
@@ -644,7 +681,10 @@
           "source": "Assignment 2/Lab 2/makefile",
           "destination": "courses/cs2303/assignments/a2/lab/makefile",
           "sourceBlob": "1425eb9e6f0c61b42dfaad02e927f7e99bfb54ea",
-          "sha256": "c79c23665d021a30ed96d08cb05b7a1ae0462a0d4bc0ab9d88540183f1c31b9f"
+          "sha256": "1415b1ae3dbb4dde45ed9b009cab53f3eca2946f169bf58de1ab0393cad5f115",
+          "changes": [
+            "Local home paths and VM username replaced"
+          ]
         },
         {
           "source": "Assignment 2/Lab 2/print_arrays.c",
@@ -674,7 +714,10 @@
           "source": "Assignment 3/Homework 3/makefile",
           "destination": "courses/cs2303/assignments/a3/homework/makefile",
           "sourceBlob": "6be69427bcc0ee5d7009236951f20784eb32f94e",
-          "sha256": "6a8f9a21fefdafa9275705fde45f744e699af9b87df430c94dc506c1a7768b8d"
+          "sha256": "7bbd7f06891a823e4ce1b3bb2863c7fd2fc63c9faea94e2c99878ab2f7bcf148",
+          "changes": [
+            "Local home paths and VM username replaced"
+          ]
         },
         {
           "source": "Assignment 3/Homework 3/mystring.c",
@@ -692,7 +735,10 @@
           "source": "Assignment 3/Homework 3/readme.txt",
           "destination": "courses/cs2303/assignments/a3/homework/readme.txt",
           "sourceBlob": "fc04668158c8f7908c9428235d7372101c0322e5",
-          "sha256": "0bd2f69c395a54382fabffdcaf5ff93c94c4aae1534c585699e9cdd1871b0ca5"
+          "sha256": "09e326d3bc19ff8bdfab91505bcb6d9d661e9fc21a8978030d5eb2be54e0f5e2",
+          "changes": [
+            "Local home paths and VM username replaced"
+          ]
         },
         {
           "source": "Assignment 3/Homework 3/structure.c",
@@ -722,7 +768,10 @@
           "source": "Assignment 3/Lab 3/makefile",
           "destination": "courses/cs2303/assignments/a3/lab/makefile",
           "sourceBlob": "a32dff7e752907700bc66c5bef793836ad242551",
-          "sha256": "8a3fb6e14246f1479902c4fdb3798f3bdcc5e3cc140aad665a9b9a118f74fb3f"
+          "sha256": "b9aeb4a6fdb154d18386f6f1f7269c4751395a5a5d97ba053fdd1ef93f6d90bb",
+          "changes": [
+            "Local home paths and VM username replaced"
+          ]
         },
         {
           "source": "Assignment 3/Lab 3/mystring.c",
@@ -752,13 +801,19 @@
           "source": "Assignment 4/Homework 4/makefile",
           "destination": "courses/cs2303/assignments/a4/homework/makefile",
           "sourceBlob": "229df684cab8b771fea1ce063378d87676bd5c02",
-          "sha256": "39bf0787030d5f1cfe2fc23c8256d890839d4b4bb31a68f1013e8206fdd820df"
+          "sha256": "f338c261c32c14fb24dfb98e6a40b7be08222502be9e853cb1bbf082bd4d8906",
+          "changes": [
+            "Local home paths and VM username replaced"
+          ]
         },
         {
           "source": "Assignment 4/Homework 4/readme.txt",
           "destination": "courses/cs2303/assignments/a4/homework/readme.txt",
           "sourceBlob": "d746f6615aa65153b201dec36850e5816fd7b6e1",
-          "sha256": "539d88066cfc92ca3954d6e3c40f0117400b85424fdc854114239be93b14ca59"
+          "sha256": "9c79d7d827feaa89b38915f34bbb4ba4a1d6d0f1bcafb53b7070c999eae981be",
+          "changes": [
+            "Local home paths and VM username replaced"
+          ]
         },
         {
           "source": "Assignment 4/Homework 4/sort.c",
@@ -806,13 +861,19 @@
           "source": "Assignment 4/Lab 4/makefile",
           "destination": "courses/cs2303/assignments/a4/lab/makefile",
           "sourceBlob": "d342b1a1a2fca626143a4aab6cac788394265301",
-          "sha256": "ad9d3df58456068c9525e3da5d09efd9119561c5c9eee8a582a730b234895e8c"
+          "sha256": "a8c0d19e62a993732bd7b6b3f5c27705509831eb253c74abb4fda411a45f8432",
+          "changes": [
+            "Local home paths and VM username replaced"
+          ]
         },
         {
           "source": "Assignment 4/Lab 4/readme.txt",
           "destination": "courses/cs2303/assignments/a4/lab/readme.txt",
           "sourceBlob": "7550157088a66fbd10e108f180328adcff75d582",
-          "sha256": "bc89b4be8513bf90e4abf12aba04d8ae7dc58e8a92f28ba45a33da1f2864333b"
+          "sha256": "38e0810e9bba1d58b16c2a7441b4b2ebc685fdcd31f329a69a43540fc52a0273",
+          "changes": [
+            "Local home paths and VM username replaced"
+          ]
         },
         {
           "source": "Assignment 5/Homework 5/Doxyfile",
@@ -830,13 +891,19 @@
           "source": "Assignment 5/Homework 5/makefile",
           "destination": "courses/cs2303/assignments/a5/homework/makefile",
           "sourceBlob": "46eae8f149c008348ff20d3ee968d7cf6b86ac6b",
-          "sha256": "251eaa040a8d3e841f41704e3fae6ae8e33ab66cd7c80a24d5106317d94bc6f1"
+          "sha256": "a565e291bfc677b725235571bae2ed653f2999fe3d7d587684cdc2175fb72733",
+          "changes": [
+            "Local home paths and VM username replaced"
+          ]
         },
         {
           "source": "Assignment 5/Homework 5/readme.txt",
           "destination": "courses/cs2303/assignments/a5/homework/readme.txt",
           "sourceBlob": "f6106c200be76fec64e867961ff0b07165f12b29",
-          "sha256": "d62739b5671dddbd26e4ad93e22f138d4896d2e35b68da173b3c71335cf1c5b1"
+          "sha256": "0c721334d3d27473d5e55f30ba4b292e09f689826cf032ad32a8a89db673b82e",
+          "changes": [
+            "Local home paths and VM username replaced"
+          ]
         },
         {
           "source": "Assignment 5/Homework 5/stack.c",
@@ -872,13 +939,19 @@
           "source": "Assignment 5/Lab 5/makefile",
           "destination": "courses/cs2303/assignments/a5/lab/makefile",
           "sourceBlob": "4dd725ba27afc5aa15cc9cadc78ddd8f2db8cd41",
-          "sha256": "25604ff50d244621801904bdebbf5d952ee9b87ce35a325c6c955dd42f1ab219"
+          "sha256": "ed3c1739ec9b80dc2529538b345ea13cc36f3bad3391002c33c7f4e8732df00e",
+          "changes": [
+            "Local home paths and VM username replaced"
+          ]
         },
         {
           "source": "Assignment 5/Lab 5/readme.txt",
           "destination": "courses/cs2303/assignments/a5/lab/readme.txt",
           "sourceBlob": "af538fa289c3bdec7687512891417e7e34250aeb",
-          "sha256": "35bb714484ca75535248fd33dd15637b5f33d55b6e68830c438b882ba74782cb"
+          "sha256": "1e9bfe3fb95cc29e2573da961658d5b8bd06c86c6d4e8b608eee005ed597cab4",
+          "changes": [
+            "Local home paths and VM username replaced"
+          ]
         },
         {
           "source": "Assignment 5/Lab 5/stack.c",
@@ -920,13 +993,19 @@
           "source": "Assignment 6/Homework 6/makefile",
           "destination": "courses/cs2303/assignments/a6/homework/makefile",
           "sourceBlob": "172f4111b7c9ea422d7f0f21d65dfe3d82b13e88",
-          "sha256": "e9865a33d61cb0a631fb0460bc4e3c5b9d08330c3655095d8289e6de3e9b65da"
+          "sha256": "ae168b6072be32aa108466ef4f6c0611267114c3b1f093f49619ad284954d216",
+          "changes": [
+            "Local home paths and VM username replaced"
+          ]
         },
         {
           "source": "Assignment 6/Homework 6/readme.txt",
           "destination": "courses/cs2303/assignments/a6/homework/readme.txt",
           "sourceBlob": "e6a3ee34a9f6348e674faf42e38c09ccbc6c7e93",
-          "sha256": "46dd124eb7ccf122f38f2160065a7c03d5cb1e13c023475d43cb414e9cd96b11"
+          "sha256": "5ee3e6a71fae25303998af6776daa3ea42a1c2fc3125e28823c70aa3dcd0eb16",
+          "changes": [
+            "Local home paths and VM username replaced"
+          ]
         },
         {
           "source": "Assignment 6/Homework 6/your_output.csv",
@@ -974,7 +1053,10 @@
           "source": "Assignment 6/Lab 6/makefile",
           "destination": "courses/cs2303/assignments/a6/lab/makefile",
           "sourceBlob": "47a34a559d34f1b0343fd363d361736c469cfb1f",
-          "sha256": "2793347ae4aefe44c86c08cbe2a1a50e4f96183c377d04464628780cfc396e3e"
+          "sha256": "7c688f8b62164b3f42a18ae178f8022ffefc7d96f4a109b70a61deddf6ad1451",
+          "changes": [
+            "Local home paths and VM username replaced"
+          ]
         },
         {
           "source": "Assignment 6/Lab 6/your_output.csv",

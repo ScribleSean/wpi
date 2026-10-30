@@ -29,7 +29,7 @@ stack.o: stack.c stack.h
 
 docs:
 	doxygen
-	cp -p /home/sarackal/cs2303_hws/cs2303_hw5/html/* /home/sarackal/public_html/cs2303_hw5
+	cp -p html/* $(HOME)/public_html/cs2303_hw5
 
 clean:
 	rm -f *.o stacktest stacktest_dbg stacktest2 stacktest2_dbg

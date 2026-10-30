@@ -9,7 +9,7 @@ mystring.o: mystring.c mystring.h
 	
 docs: 
 	doxygen
-	cp -p -r /home/sarackal/cs2303_labs/cs2303_lab03/html/* /home/sarackal/public_html/cs2303_lab03
+	cp -p -r html/* $(HOME)/public_html/cs2303_lab03
 
 clean: 
 	rm -f mystring.o ctest.o ctest

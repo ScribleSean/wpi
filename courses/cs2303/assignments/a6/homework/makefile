@@ -21,7 +21,7 @@ zipcode.o: zipcode.c zipfed.hpp
 
 docs:
 	doxygen
-	cp -p /home/sarackal/cs2303_hws/cs2303_hw6/html/* /home/sarackal/public_html/cs2303_hw6
+	cp -p html/* $(HOME)/public_html/cs2303_hw6
 
 clean:
 	rm -r *.o fed2cs2303 zipcode

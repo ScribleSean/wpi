@@ -1,8 +1,8 @@
 ;; The first three lines of this file were inserted by DrRacket. They record metadata
 ;; about the language level of this file in a form that our tools can easily process.
-#reader(lib "htdp-advanced-reader.ss" "lang")((modname kratman-a-arackal-s-hw6) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #t #t none #f () #t)))
-;; Names: Abigail Kratman & Sean Arackal
-;; WPI Usernames: aekratman & sarackal
+#reader(lib "htdp-advanced-reader.ss" "lang")((modname hw6) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #t #t none #f () #t)))
+;; Partner: (redacted)
+;; WPI Usernames: (redacted)
 ;; Homework #6
 
 

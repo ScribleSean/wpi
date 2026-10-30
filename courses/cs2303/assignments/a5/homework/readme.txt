@@ -23,32 +23,32 @@ Check doxygen output for more details on the functions used in the programs
 
 Example Runs:
 
-sarackal@CS2303-VirtualBox:~/cs2303_hws/cs2303_hw5$ ./stacktest
+user@CS2303-VirtualBox:~/cs2303_hws/cs2303_hw5$ ./stacktest
 Enter exactly one argument on the command line!
 
-sarackal@CS2303-VirtualBox:~/cs2303_hws/cs2303_hw5$ ./stacktest -1
+user@CS2303-VirtualBox:~/cs2303_hws/cs2303_hw5$ ./stacktest -1
 -1 was entered but max elements must be greater than or equal to 0!
 
-sarackal@CS2303-VirtualBox:~/cs2303_hws/cs2303_hw5$ ./stacktest 3 < input.txt
+user@CS2303-VirtualBox:~/cs2303_hws/cs2303_hw5$ ./stacktest 3 < input.txt
 third line
 This is the second line
 This is a line
 
-sarackal@CS2303-VirtualBox:~/cs2303_hws/cs2303_hw5$ ./stacktest 5 < input.txt
+user@CS2303-VirtualBox:~/cs2303_hws/cs2303_hw5$ ./stacktest 5 < input.txt
 Fifth and final line
 fourth
 third line
 This is the second line
 This is a line
 
-sarackal@CS2303-VirtualBox:~/cs2303_hws/cs2303_hw5$ ./stacktest2 5 < input.txt
+user@CS2303-VirtualBox:~/cs2303_hws/cs2303_hw5$ ./stacktest2 5 < input.txt
 enil lanif dna htfiF
 htruof
 enil driht
 enil dnoces eht si sihT
 enil a si sihT
 
-sarackal@CS2303-VirtualBox:~/cs2303_hws/cs2303_hw5$ ./stacktest2 10 < input.txt
+user@CS2303-VirtualBox:~/cs2303_hws/cs2303_hw5$ ./stacktest2 10 < input.txt
 enil lanif dna htfiF
 htruof
 enil driht

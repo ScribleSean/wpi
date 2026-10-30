@@ -1,5 +1,5 @@
-//Abbey Kratman and Sean Arackal
-//aekratman@wpi.edu and sarackal@wpi.edu
+//Partner: (redacted)
+//Emails: (redacted)
 
 import static org.junit.Assert.*;
 import org.junit.Test;

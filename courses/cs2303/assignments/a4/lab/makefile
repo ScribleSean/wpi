@@ -11,4 +11,4 @@ clean:
 
 docs:
 	doxygen
-	cp -p /home/sarackal/cs2303_labs/cs2303_lab04/html/* /home/sarackal/public_html/cs2303_lab04
+	cp -p html/* $(HOME)/public_html/cs2303_lab04

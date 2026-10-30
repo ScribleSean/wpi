@@ -28,7 +28,7 @@ that the stack grows down in memory.
 Somplete Console run:
 
 (gdb) run 5
-Starting program: /home/sarackal/cs2303_labs/cs2303_lab04/dtest 5
+Starting program: /home/user/cs2303_labs/cs2303_lab04/dtest 5
 [Thread debugging using libthread_db enabled]
 Using host libthread_db library "/lib/x86_64-linux-gnu/libthread_db.so.1".
 Starting program dtest.

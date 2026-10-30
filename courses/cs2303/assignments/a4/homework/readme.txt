@@ -25,13 +25,13 @@ sample tests:
 
 sorttest:
 
-sarackal@CS2303-VirtualBox:~/cs2303_hws/cs2303_hw4$ ./sorttest
+user@CS2303-VirtualBox:~/cs2303_hws/cs2303_hw4$ ./sorttest
 Must enter at least 2 numbers on the command line! Exiting.
 
-sarackal@CS2303-VirtualBox:~/cs2303_hws/cs2303_hw4$ ./sorttest 1
+user@CS2303-VirtualBox:~/cs2303_hws/cs2303_hw4$ ./sorttest 1
 Must enter at least 2 numbers on the command line! Exiting.
 
-sarackal@CS2303-VirtualBox:~/cs2303_hws/cs2303_hw4$ ./sorttest 1 2 3
+user@CS2303-VirtualBox:~/cs2303_hws/cs2303_hw4$ ./sorttest 1 2 3
 Unsorted array:
 1
 2
@@ -48,13 +48,13 @@ Time spent sorting: Seconds: 0, Microseconds: 0
 
 sorttest2:
 
-sarackal@CS2303-VirtualBox:~/cs2303_hws/cs2303_hw4$ ./sorttest2
+user@CS2303-VirtualBox:~/cs2303_hws/cs2303_hw4$ ./sorttest2
 Must enter exactly two arguments on the command line!
 
-sarackal@CS2303-VirtualBox:~/cs2303_hws/cs2303_hw4$ ./sorttest2 1 1
+user@CS2303-VirtualBox:~/cs2303_hws/cs2303_hw4$ ./sorttest2 1 1
 Enter only "sort_descending" or "alt_sort_descending" after the first argument on the command line!
 
-sarackal@CS2303-VirtualBox:~/cs2303_hws/cs2303_hw4$ ./sorttest2 10 alt_sort_descending
+user@CS2303-VirtualBox:~/cs2303_hws/cs2303_hw4$ ./sorttest2 10 alt_sort_descending
 Unsorted array:
 1069196319
 1625680943

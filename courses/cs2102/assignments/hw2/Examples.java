@@ -4,8 +4,8 @@ import java.util.LinkedList;
 import static org.junit.Assert.*;
 import org.junit.Test;
 
-//Abbey Kratman and Sean Arackal
-//aekratman@wpi.edu and sarackal@wpi.edu
+//Partner: (redacted)
+//Emails: (redacted)
 
 public class Examples {
 	

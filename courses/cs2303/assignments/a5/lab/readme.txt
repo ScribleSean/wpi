@@ -1,4 +1,4 @@
-sarackal@CS2303-VirtualBox:~/cs2303_labs/cs2303_lab05$ ./stacktest
+user@CS2303-VirtualBox:~/cs2303_labs/cs2303_lab05$ ./stacktest
 
 popped element "fifth"
 popped element "fourth"
@@ -8,7 +8,7 @@ popped element "first"
 
 
 
-sarackal@CS2303-VirtualBox:~/cs2303_labs/cs2303_lab05$ ./stacktest_dbg
+user@CS2303-VirtualBox:~/cs2303_labs/cs2303_lab05$ ./stacktest_dbg
 
 sizeof(test_data)) == 40
 pushing element "first"
@@ -27,4 +27,4 @@ popped element "third"
 popped element "second"
 popped element "first"
 
-http://127.0.0.1/~sarackal/cs2303_lab05/ <-- doxygen output
+http://127.0.0.1/~user/cs2303_lab05/ <-- doxygen output

@@ -23,4 +23,4 @@ clean:
 
 docs:
 	doxygen
-	cp -rp /home/sarackal/cs2303_hws/cs2303_hw4/html/* /home/sarackal/public_html/cs2303_hw4
+	cp -rp html/* $(HOME)/public_html/cs2303_hw4

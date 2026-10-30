@@ -22,9 +22,9 @@ Check doxygen output for more details on the functions used in the programs
 
 Example Runs:
 
-sarackal@CS2303-VirtualBox:~/cs2303_hws/cs2303_hw6$ cat your_output.csv
-sarackal@CS2303-VirtualBox:~/cs2303_hws/cs2303_hw6$ ./fed2cs2303 free-zipcode-database.csv your_output.csv
-sarackal@CS2303-VirtualBox:~/cs2303_hws/cs2303_hw6$ cat your_output.csv
+user@CS2303-VirtualBox:~/cs2303_hws/cs2303_hw6$ cat your_output.csv
+user@CS2303-VirtualBox:~/cs2303_hws/cs2303_hw6$ ./fed2cs2303 free-zipcode-database.csv your_output.csv
+user@CS2303-VirtualBox:~/cs2303_hws/cs2303_hw6$ cat your_output.csv
 02636,STANDARD,CENTERVILLE,MA,41.639999,-70.339996
 02239,UNIQUE,COM/ENERGY SERVICES,MA,42.360001,-71.099998
 02239,UNIQUE,CAMBRIDGE,MA,42.360001,-71.099998
@@ -33,7 +33,7 @@ sarackal@CS2303-VirtualBox:~/cs2303_hws/cs2303_hw6$ cat your_output.csv
 02207,UNIQUE,BOSTON,MA,42.349998,-71.050003
 ...
 
-sarackal@CS2303-VirtualBox:~/cs2303_hws/cs2303_hw6$ ./zipcode your_output.csv
+user@CS2303-VirtualBox:~/cs2303_hws/cs2303_hw6$ ./zipcode your_output.csv
 Enter city names line by line: (CTRL+D to stop)
 _ bOstOn
 _

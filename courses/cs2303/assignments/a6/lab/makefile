@@ -15,7 +15,7 @@ zipfilter.o: zipfed.hpp
 	
 docs:
 	doxygen
-	cp -p /home/sarackal/cs2303_labs/cs2303_lab06/html/* /home/sarackal/public_html/cs2303_lab06
+	cp -p html/* $(HOME)/public_html/cs2303_lab06
 	
 clean:
 	rm -r *.o fed2cs2303
